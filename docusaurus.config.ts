@@ -84,7 +84,8 @@ const config: Config = {
       title: 'NRS Help Centre',
       logo: {
         alt: 'NotRealSmart Agency',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
+        style: { height: '28px' },
       },
       items: [
         {
