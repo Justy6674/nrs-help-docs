@@ -96,9 +96,8 @@ const config: Config = {
         },
         {
           href: 'https://www.notrealsmart.com.au/agency',
-          label: 'Back to Agency',
+          label: 'Open Agency',
           position: 'right',
-          target: '_self',
         },
       ],
     },
