@@ -5,10 +5,10 @@ Welcome to the NotRealSmart Agency help centre. NRS is your AI-powered marketing
 ## Quick Links
 
 - [Getting Started](getting-started/what-is-notrealsmart.md) — Set up your agency in 5 minutes
-- [Talking to Your Director](talking-to-director/what-director-does.md) — How to ask for what you need
-- [Creating Content](creating-content/creating-a-post.md) — Posts, carousels, videos, and more
-- [Publishing & Scheduling](publishing/scheduling-posts.md) — Get content out to the world
-- [Staying Compliant](compliance/ahpra-basics.md) — AHPRA, TGA, and advertising rules
+- [Talking to Your Director](talking-to-director/how-conversations-work.md) — How to ask for what you need
+- [Creating Content](creating-content/write-a-social-post.md) — Posts, carousels, videos, and more
+- [Publishing & Scheduling](publishing/schedule-a-post.md) — Get content out to the world
+- [Staying Compliant](compliance/ahpra-rules.md) — AHPRA, TGA, and advertising rules
 
 ## Need Help?
 

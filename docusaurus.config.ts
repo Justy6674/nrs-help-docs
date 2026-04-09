@@ -24,6 +24,27 @@ const config: Config = {
     locales: ['en-AU'],
   },
 
+  // Plugins
+  plugins: [
+    ['docusaurus-plugin-llms', {
+      generateLLMsTxt: true,
+      generateLLMsFullTxt: true,
+    }],
+  ],
+
+  // Search
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        docsRouteBasePath: '/',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -42,7 +63,19 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/nrs-social-card.png',
+    image: 'img/favicon.png',
+    metadata: [
+      { name: 'og:type', content: 'website' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'theme-color', content: '#1a1a2e' },
+    ],
+    announcementBar: {
+      id: 'beta_notice',
+      content: 'This help centre is actively growing — new articles added weekly. <a href="https://www.notrealsmart.com.au/agency">Open your agency</a>',
+      backgroundColor: '#f0f0f0',
+      textColor: '#333',
+      isCloseable: true,
+    },
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
@@ -51,7 +84,7 @@ const config: Config = {
       title: 'NRS Help Centre',
       logo: {
         alt: 'NotRealSmart Agency',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
