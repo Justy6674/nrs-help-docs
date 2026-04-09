@@ -95,14 +95,10 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://www.notrealsmart.com.au',
-          label: 'Back to NRS',
-          position: 'right',
-        },
-        {
           href: 'https://www.notrealsmart.com.au/agency',
-          label: 'Open Agency',
+          label: 'Back to Agency',
           position: 'right',
+          target: '_self',
         },
       ],
     },
@@ -128,7 +124,7 @@ const config: Config = {
         {
           title: 'Connect',
           items: [
-            { label: 'NotRealSmart Agency', href: 'https://www.notrealsmart.com.au' },
+            { label: 'NotRealSmart Agency', href: 'https://www.notrealsmart.com.au/agency' },
             { label: 'MCP Server', href: 'https://www.notrealsmart.com.au/api/mcp' },
           ],
         },
