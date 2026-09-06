@@ -70,11 +70,20 @@ const config: Config = {
       { name: 'theme-color', content: '#1a1a2e' },
     ],
     announcementBar: {
-      id: 'beta_notice',
-      content: 'This help centre is actively growing — new articles added weekly. <a href="https://www.notrealsmart.com.au/agency">Open your agency</a>',
-      backgroundColor: '#f0f0f0',
-      textColor: '#333',
-      isCloseable: true,
+      // The previous banner claimed "actively growing — new articles added
+      // weekly". That stopped being true in August 2026 and was still on a
+      // public page a month later. A false claim in a banner is worse than no
+      // banner, and on a consumer-facing Australian site it is an exposure.
+      //
+      // Not closeable: the reader needs to know these articles describe a
+      // product that no longer exists, and a dismissed banner does not tell
+      // them that on the next page.
+      id: 'v1_notice',
+      content:
+        'These articles describe an earlier version of NotRealSmart and are being rewritten. <a href="https://www.notrealsmart.com.au/console">Open your console</a>',
+      backgroundColor: '#fff4e5',
+      textColor: '#663c00',
+      isCloseable: false,
     },
     colorMode: {
       defaultMode: 'light',
@@ -95,8 +104,8 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://www.notrealsmart.com.au/agency',
-          label: 'Open Agency',
+          href: 'https://www.notrealsmart.com.au/console',
+          label: 'Open console',
           position: 'right',
         },
       ],
@@ -117,14 +126,12 @@ const config: Config = {
           items: [
             { label: 'Creating Content', to: '/creating-content/write-a-social-post' },
             { label: 'Publishing', to: '/publishing/schedule-a-post' },
-            { label: 'Compliance', to: '/compliance/ahpra-basics' },
           ],
         },
         {
           title: 'Connect',
           items: [
-            { label: 'NotRealSmart Agency', href: 'https://www.notrealsmart.com.au/agency' },
-            { label: 'MCP Server', href: 'https://www.notrealsmart.com.au/api/mcp' },
+            { label: 'Not Real Smart', href: 'https://www.notrealsmart.com.au' },
           ],
         },
       ],
