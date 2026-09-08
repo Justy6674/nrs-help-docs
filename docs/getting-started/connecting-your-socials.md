@@ -1,29 +1,29 @@
-# Connecting Your Social Media
-*Link Facebook, Instagram, LinkedIn, TikTok, and YouTube*
-
-To publish posts directly to your social media accounts, your agency uses a self-hosted publishing tool called Mixpost. It connects to your platforms securely so the Director can schedule and publish on your behalf.
-
-## Currently supported platforms
-
-1. Facebook Pages
-
-2. Instagram Business
-
-3. LinkedIn (personal and company)
-
-4. YouTube
-
-5. TikTok (coming soon)
-
-## How it works
-
-When you create a brand, your agency checks which social platforms are already connected. You will see a status like "Socials: Instagram, Facebook, LinkedIn (connected)" in your chat. If platforms are missing, the Director will let you know and guide you through connecting them.
-
-> **Tip:** Social media connections are managed through the publishing tool. If you need to reconnect a platform (for example, after changing your Instagram password), ask your Director for help.
-
-## What if I do not have social media yet?
-
-That is perfectly fine. Your agency can still create content, write blog posts, design graphics, run audits, and plan strategy. When you are ready to start posting, connect your platforms and the agency will handle publishing.
-
 ---
-Tags: social, facebook, instagram, linkedin, tiktok, youtube, connect, mixpost, publish, platform
+title: "Connect your social accounts"
+description: "Connect the intended profiles and check their current access."
+sidebar_position: 4
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/components/nrs/ConnectAccounts.tsx", "src/app/console/settings/accounts/connect.ts", "src/app/console/settings/accounts/page.tsx"]
+feature_ids: ["nrs.getting-started"]
+source_urls: []
+---
+
+# Connect your social accounts
+
+Open **Settings → Accounts** and choose the intended business. Use the connection controls for the network you need, then complete that network's authorisation. You must have permission to manage the account being connected.
+
+## Check the result
+
+1. Return to NRS after authorisation.
+2. Confirm the displayed profile name and platform.
+3. Check its connection or health status.
+4. Open Composer and confirm that the correct account is available to select.
+
+Connecting an account is separate from selecting it for a post or report. It also does not mean every format, inbox function or metric is supported. Options depend on the platform, account permissions and the business's configured publishing connection.
+
+NRS normally uses Zernio for these connections. The client continues to work in NRS; a business may use a different configured engine. Do not enter unrelated credentials into a chat or copy another business's account identifiers.
+
+If an account is absent or expired, follow [reconnecting accounts](../troubleshooting/reconnecting-socials.md). A connection label is not evidence that a particular post was published: check its delivery result separately.

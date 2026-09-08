@@ -1,41 +1,29 @@
-# Upload & Repurpose Video
-*Turn one video into content for six platforms automatically*
-
-Got a video from a client testimonial, a webinar, or a behind-the-scenes shoot? Upload it to NotRealSmart and your Director will transcribe it and generate platform-specific captions for six different social media platforms.
-
-## How to upload
-
-You can upload videos in two ways:
-
-1. Drag and drop your video file into the Media tab in the Creative Studio
-
-2. Or paste a video directly into the chat input
-
-> **Tip:** You can upload multiple videos at once. Each one is processed independently.
-
-## What happens after upload
-
-The system automatically:
-
-1. Transcribes the audio (converts speech to text) using AI
-
-2. Generates six platform-specific captions — one each for YouTube, TikTok, Instagram, Facebook, LinkedIn, and X (Twitter)
-
-3. Each caption is written in the style that works best on that platform
-
-## Repurposing content
-
-You can also ask your Director to repurpose any video into other formats:
-
-1. /process — transcribe and generate captions for an uploaded video
-
-2. /repurpose — take existing content and adapt it for different platforms or formats
-
-3. Or just say "Turn this video into a blog post and 5 social media posts"
-
-## The content machine
-
-This is the full pipeline: you upload a video, it gets transcribed, captions are generated, and you can schedule them straight to your connected social accounts. One video can give you a week of content across all your platforms.
-
 ---
-Tags: upload, video, repurpose, transcribe, caption, media, content, platform, audio
+title: "Upload and repurpose media"
+description: "Keep the source, edit deliberately and attach a checked version."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/components/nrs/MediaDesk.tsx", "src/components/nrs/MediaEditor.tsx", "docs/designs/nrs-video-editor.md", "src/components/nrs/Composer.tsx", "src/app/console/composer/actions.ts", "src/lib/nrs/publish-gate.ts"]
+feature_ids: ["nrs.video-and-design"]
+source_urls: []
+---
+
+# Upload and repurpose media
+
+Open **Media** and choose the intended business before uploading. An upload without a business may remain **Unfiled** until you deliberately file it. Check the upload result and inspect the asset.
+
+## Turn the source into a usable post
+
+1. Keep the original intact.
+2. Open the supported edit or analysis tools for the asset.
+3. Review transcript or analysis results against the actual recording.
+4. Make the intended edits and wait for a successful rendered version.
+5. Watch the output, including captions, audio, overlays and ending.
+6. Attach the correct version to a Composer draft for the chosen business.
+
+An upload does not automatically create six approved captions or publish anything. Platform variants, account formats and claims still require review.
+
+For health recordings, use approved source material. Do not upload patient consultations into the marketing workflow. A public speaker's words also need checking before they become promotional copy. [Multi-scene editing](multi-scene-videos.md) explains the version and render steps.

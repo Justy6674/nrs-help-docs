@@ -1,41 +1,26 @@
-# Brand DNA
-*The personality rules that guide everything your agency creates*
-
-Your Brand DNA is a set of personality rules that tell your agency who you are, how you sound, and what you stand for. Think of it as your brand's fingerprint — it shapes every piece of content, every social post, and every email your Director creates.
-
-## What is in your Brand DNA
-
-Your Brand DNA captures:
-
-1. Your brand voice — are you formal, casual, witty, authoritative, or warm?
-
-2. Your core values — what matters most to your business (quality, innovation, care, etc.)
-
-3. Your audience — who you are talking to and what they care about
-
-4. Your tone boundaries — things you would never say or styles you avoid
-
-5. Your differentiators — what makes you different from competitors
-
-## How it guides content
-
-Every agent in your marketing team reads your Brand DNA before creating anything. A social media post for a playful streetwear brand will sound completely different from one for a professional medical clinic — even if the topic is the same. Your Brand DNA ensures that consistency happens automatically.
-
-> **Tip:** The more detailed your Brand DNA, the more consistent your content will be. A simple "professional and friendly" is a good start, but "professional yet approachable, uses plain language instead of medical jargon, always empathetic and never condescending" gives much better results.
-
-## How to set it up
-
-Your Brand DNA builds up naturally through conversations with your Director. When you describe your business, share preferences, or give feedback on content ("this sounds too formal" or "I love this tone"), the Director updates your DNA. You can also set it up directly:
-
-1. Say "Set my brand voice to warm, professional, and approachable"
-
-2. Say "Update my brand DNA" and describe your personality in detail
-
-3. Visit your brand profile page where DNA attributes are displayed visually
-
-## The Marketing DNA Bar
-
-In your chat interface, you will see a visual DNA bar that summarises your brand's personality at a glance. This shows the key attributes your Director is currently working with. If anything looks wrong, just tell your Director to update it.
-
 ---
-Tags: brand, dna, voice, personality, identity, values, tone, style, consistency
+title: "Your saved business context"
+description: "Keep facts, assets and rules attached to the right business."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/components/nrs/BrandKitForm.tsx", "src/app/console/settings/brand-kit/actions.ts"]
+feature_ids: ["nrs.your-brand"]
+source_urls: []
+---
+
+# Your saved business context
+
+The brand kit is the maintained record of how a business should be represented. It includes identity, writing guidance, contact details and relevant constraints. It is not an automatic memory of everything anyone has said.
+
+Open **Settings → Brand kit** for the business. Check the legal name, public name, service area, website and booking link against current approved information. Add brand colours, fonts and useful voice guidance. Save, then check the retained values.
+
+## Keep facts and preferences separate
+
+A preferred tone is a preference. A price, registration title, service eligibility or product specification is a factual claim that needs an authoritative source and an owner. Do not let a style example silently become a business fact.
+
+When information changes, update the maintained record and review reusable templates affected by it. Old drafts may still contain the previous wording. An assistant loading the new kit does not retroactively correct published material.
+
+For several businesses, check the selected business before every edit. [Multiple businesses](../account-and-billing/multiple-brands.md) explains the boundaries.

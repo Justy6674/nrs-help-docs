@@ -1,45 +1,29 @@
-# Roles & Permissions
-*Understand what Admins and Viewers can do*
-
-NotRealSmart has three roles: Owner, Admin, and Viewer. Each one has different levels of access to your agency.
-
-## Owner
-
-That is you — the person who created the account. You have full control over everything: brands, team members, billing, settings, and all content. There is only one owner per account.
-
-## Admin
-
-Admins can do almost everything the owner can:
-
-1. Chat with the Director and create content
-
-2. Schedule and publish posts
-
-3. View and manage the content calendar
-
-4. Access the Creative Studio and Command Centre
-
-5. Save and edit outputs in the content library
-
-6. Upload media and manage brand profiles
-
-> **Tip:** Admins are ideal for trusted team members who actively manage your marketing — social media managers, marketing coordinators, or business partners. They cannot access billing or payment settings.
-
-## Viewer
-
-Viewers have read-only access:
-
-1. View existing content, posts, and outputs
-
-2. See the content calendar and scheduled posts
-
-3. Read conversation history
-
-4. They cannot create new content, schedule posts, or change settings
-
-## Changing someone's role
-
-The owner can change any team member's role at any time from the Team page. Click on the team member, select the new role, and save. The change takes effect immediately — no need for them to log out and back in.
-
 ---
-Tags: role, permission, admin, viewer, owner, access, security, team, read only
+title: "Roles and permissions"
+description: "Know who can write, approve and manage a business."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/components/nrs/TeamList.tsx", "src/lib/nrs/types.ts", "src/lib/nrs/portal/queries.ts"]
+feature_ids: ["nrs.team-and-sharing"]
+source_urls: []
+---
+
+# Roles and permissions
+
+Console roles apply to the businesses a person is authorised to access. Open **Settings → Team** to review the actual membership.
+
+| Role | Intended responsibility |
+|---|---|
+| Owner | Full business management, including removal |
+| Approver | Write and approve posts; manage business membership |
+| Editor | Write and edit posts; cannot approve posts |
+| Author | Write posts and submit them for review |
+
+Access to one business does not grant access to another. An account connection or a shared link is not a substitute for membership.
+
+Client portal roles are separate from these console roles. **Client owner** and **client staff** access the permitted client workspace; they do not become agency staff merely by receiving a report.
+
+Choose the least access that fits the job. Review memberships when someone changes role or leaves. For health material, professional responsibility and the agreed named reviewer still matter: a software permission is not a clinical qualification or a legal delegation.

@@ -1,21 +1,26 @@
-# How Conversations Work
-*Chat naturally — your Director remembers everything*
-
-Talking to your Director is like talking to a real marketing agency lead. You speak naturally, explain what you need, and they handle the rest.
-
-## One conversation at a time
-
-Each conversation is saved and you can come back to it later. Your Director remembers what you discussed, what was created, and what decisions were made — not just in this conversation, but across all your conversations.
-
-## Behind the scenes
-
-When you ask for something, the Director figures out who should handle it. A blog post goes to the content specialist. An SEO question goes to the search scientist. A compliance check goes to the regulatory expert. You never need to pick a department — the Director does it automatically.
-
-> **Tip:** For complex requests, the Director may call a "meeting" — bringing together multiple specialists to work on your request in parallel. You will see their individual contributions in the response.
-
-## Images and screenshots
-
-You can paste images directly into the chat (Cmd+V on Mac, Ctrl+V on Windows) or drag and drop them. The Director can see and analyse images — useful for reviewing designs, competitor screenshots, or ad mockups.
-
 ---
-Tags: conversation, chat, message, memory, remember, image, paste, screenshot, drag, drop
+title: "How Eve helps in NRS"
+description: "Use embedded assistance while keeping control of the work."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md", "src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+feature_ids: ["nrs.eve"]
+source_urls: []
+---
+
+# How Eve helps in NRS
+
+Eve assists inside the NRS desk. She can propose changes through the jobs and tools available for the selected business. Business context comes from saved settings and authorised records; do not assume the assistant remembers every conversation or knows every client.
+
+## A useful request
+
+Give the task, intended audience, approved facts and output you want. For example: “Shorten this caption for the selected account. Keep the service name and booking link exactly as supplied.”
+
+Inspect the proposed result before applying it. Check names, facts, tone and any added claims. A proposal has not necessarily changed the post. Saving a draft, approving work and publishing are separate actions.
+
+**Settings → Agents** controls the business's configured AI provider. A broken or unavailable connection should be shown as a failure; it is not permission to silently use a different provider.
+
+This article keeps the old conversation link working, but the Director-and-departments interface has been retired. Start from the actual task in Composer, Media or Reports. For sensitive health copy, read [health review](../health-and-abe/health-advertising-review.md) before accepting a suggestion.

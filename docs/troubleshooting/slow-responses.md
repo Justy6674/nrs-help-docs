@@ -1,39 +1,26 @@
-# Slow or Missing Responses
-*Why the Director sometimes takes longer — and what to do about it*
-
-## Why some responses take longer
-
-Most messages get a reply within a few seconds. But some requests involve real work behind the scenes. When you ask for a marketing audit, your Director assembles up to six specialist agents who each run their own analysis in parallel. When you ask for a competitor deep scan, the agent visits and analyses an entire website. These things genuinely take time.
-
-## What is normal
-
-Here is a rough guide to expected wait times:
-
-1. Simple questions and chat — 2 to 5 seconds.
-
-2. Writing a blog post or social caption — 5 to 15 seconds.
-
-3. Running a website scan — 10 to 30 seconds.
-
-4. A full marketing audit (6 departments) — 1 to 3 minutes.
-
-5. A competitor deep scan — 30 seconds to 2 minutes.
-
-## If nothing appears at all
-
-If you have been waiting more than 3 minutes with no response:
-
-1. Check your internet connection.
-
-2. Refresh the page — your conversation is saved, so you will not lose anything.
-
-3. Try sending the message again. Sometimes a request can time out if it is especially complex.
-
-> **Tip:** If a complex request keeps timing out, try breaking it into smaller parts. Instead of "Do a full audit and write me a content plan," try the audit first, then ask for the content plan in a follow-up message.
-
-## Peak times
-
-Like any online service, response times can be slightly slower during peak usage periods. If you notice consistent slowness, it is worth trying again in a few minutes.
-
 ---
-Tags: slow, response, waiting, timeout, missing, not responding, loading, speed, delay
+title: "When a task is taking longer"
+description: "Distinguish background work, unavailable access and an uncertain send."
+sidebar_position: 3
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/lib/nrs/reporting/runner.ts", "src/app/console/reports/[business]/analysis/ReportingSettingsForm.tsx", "src/lib/nrs/scan/report-queries.ts", "src/components/nrs/MediaDesk.tsx", "src/components/nrs/MediaEditor.tsx", "docs/designs/nrs-video-editor.md", "src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+feature_ids: ["nrs.troubleshooting"]
+source_urls: []
+---
+
+# When a task is taking longer
+
+Some tasks involve a source read, an AI response, media rendering or a publishing provider. Read the status of the existing task before deciding what to do next.
+
+**Report preparation:** open the run to see collection progress, evidence gaps and the last recorded failure. A held report needs the stated problem resolved; waiting alone will not grant missing access.
+
+**Media:** inspect the current render or upload. Do not attach an editing preview as if it were a finished playable asset.
+
+**AI:** a timeout or provider failure should appear explicitly. Keep the saved source and use the available retry path. A configured provider does not silently become another provider.
+
+**Sending:** an unknown outcome needs reconciliation. Do not start a second send because the page did not return promptly.
+
+NRS does not promise a universal completion time for every tool or external network. If progress has stopped, send NRS the business, task reference and safe error. [Common issues](common-issues.md) helps identify which part needs attention.

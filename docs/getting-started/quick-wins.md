@@ -1,27 +1,26 @@
-# 5 Quick Wins in Your First Hour
-*Get real results fast with these five things*
-
-Here are five things you can do right now that will make an immediate difference to your marketing:
-
-## 1. Run a marketing audit
-
-Type /audit in the chat. Your Director will pull in six specialist departments to analyse your website, content, SEO, social media, competitors, and compliance. You will get a comprehensive report with priorities.
-
-## 2. Fill your content calendar
-
-Type /fill in the chat. Your Director will generate two weeks of social media posts, tailored to your brand voice and audience. Review them, approve the ones you like, and they will be scheduled automatically.
-
-## 3. Write your first blog post
-
-Type /blog and describe the topic. Your content specialist will write a full SEO-optimised article with headings, meta description, and a call to action.
-
-## 4. Check your compliance
-
-If you are in healthcare, type /check to have the compliance specialist review your website for AHPRA and TGA advertising violations. This alone could save you from fines up to $120,000.
-
-## 5. Scan your competitors
-
-Type /deepscan followed by a competitor's website URL. Your intelligence analyst will produce a detailed comparison of their messaging, SEO strategy, content approach, and pricing.
-
 ---
-Tags: quick, first, start, beginner, tutorial, easy, tips, audit, calendar, blog
+title: "A useful first hour"
+description: "Complete a small piece of work and check its result."
+sidebar_position: 5
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md", "src/components/nrs/Composer.tsx", "src/app/console/composer/actions.ts", "src/lib/nrs/publish-gate.ts"]
+feature_ids: ["nrs.getting-started"]
+source_urls: []
+---
+
+# A useful first hour
+
+Pick one real outcome and finish it before filling a calendar or connecting more tools.
+
+## Three starting points
+
+**Make the business accurate.** Check the [brand kit](setting-up-your-brand.md), booking link and selected social profiles. Correct an old link or an incorrect name before reusing it in content.
+
+**Prepare one publishable draft.** Open Composer, select one account, use verified facts and attach an approved asset. Save the draft, review the platform preview and ask the authorised reviewer to check it. [Write a social post](../creating-content/write-a-social-post.md) walks through the steps.
+
+**Find the next improvement.** Agree the website, locations and questions for a [full report](../reports/prepare-a-full-report.md). Missing access should appear as a limitation, not an invented score.
+
+Write down what completed the task: a saved revision, a reviewer decision, or a dated source supporting an action. An AI answer, a queued job and a published result are different stages. The aim is a useful piece of finished work, not a large pile of unreviewed output.

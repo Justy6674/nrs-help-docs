@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "source": "NotRealSmartAgency-V2/src/lib/nrs/offers/catalogue.ts",
+  "sourceSha256": "588c92c0b282dbce0807a64611a9203b4cc4f276a6bcae0257bc97c30cfcf699",
+  "verifiedAt": "2026-09-08",
+  "sections": [
+    {
+      "id": "start",
+      "label": "Start here",
+      "note": "Every engagement opens with one of these. Nothing else gets quoted until the business has actually been looked at."
+    },
+    {
+      "id": "words",
+      "label": "Words & content",
+      "note": "Written by a person, researched against primary sources, Australian English. No bulk AI volume."
+    },
+    {
+      "id": "social",
+      "label": "Social & publishing",
+      "note": "Runs on the NRS console. Managed for you, or licence the desk and run it yourself."
+    },
+    {
+      "id": "search",
+      "label": "Search — Google and AI",
+      "note": "Two jobs now: ranking in Google, and being findable by ChatGPT, Claude and Perplexity."
+    },
+    {
+      "id": "web",
+      "label": "Web & build",
+      "note": "Built by the people who ran it. Downscale is the reference — a live clinic, not a portfolio piece."
+    },
+    {
+      "id": "automation",
+      "label": "Automation & integrations",
+      "note": "Only after the process has been looked at. Automating a broken process makes it break faster."
+    },
+    {
+      "id": "brand",
+      "label": "Brand & design"
+    },
+    {
+      "id": "paid",
+      "label": "Paid media",
+      "note": "We will tell you if you are not ready to advertise — usually the site or follow-up is the problem, not the budget."
+    },
+    {
+      "id": "compliance",
+      "label": "Compliance, governance & safety",
+      "note": "The part almost nobody else can deliver: a nurse practitioner who has built and operated compliant systems inside AHPRA-regulated businesses."
+    },
+    {
+      "id": "care",
+      "label": "Care plans",
+      "note": "Ongoing. Cancel with 30 days notice, no lock-in contract."
+    },
+    {
+      "id": "programmes",
+      "label": "Full-scale programmes",
+      "note": "Scoped and fixed-price before anything starts. The ones that change a business rather than improve a page."
+    },
+    {
+      "id": "guides",
+      "label": "Digital guides",
+      "note": "Buy once, download immediately. Written from primary sources and dated — this area moves."
+    }
+  ],
+  "services": [
+    {
+      "sku": "NRS-001",
+      "sectionId": "start",
+      "name": "Business Reality Check",
+      "model": "free",
+      "amount": 0
+    },
+    {
+      "sku": "NRS-002",
+      "sectionId": "start",
+      "name": "Full Business Analysis — half day",
+      "model": "fixed",
+      "amount": 900
+    },
+    {
+      "sku": "NRS-003",
+      "sectionId": "start",
+      "name": "Full Business Analysis + written plan",
+      "model": "fixed",
+      "amount": 2400
+    },
+    {
+      "sku": "NRS-004",
+      "sectionId": "start",
+      "name": "AI readiness & obligations review",
+      "model": "fixed",
+      "amount": 1800,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-005",
+      "sectionId": "start",
+      "name": "Second opinion on a quote",
+      "model": "fixed",
+      "amount": 350
+    },
+    {
+      "sku": "NRS-090",
+      "sectionId": "start",
+      "name": "AI Starter Pack",
+      "model": "fixed",
+      "amount": 495
+    },
+    {
+      "sku": "NRS-091",
+      "sectionId": "start",
+      "name": "AI Tool Stack Setup",
+      "model": "fixed",
+      "amount": 650
+    },
+    {
+      "sku": "NRS-092",
+      "sectionId": "start",
+      "name": "First Automation Build",
+      "model": "fixed",
+      "amount": 850
+    },
+    {
+      "sku": "NRS-093",
+      "sectionId": "start",
+      "name": "Solo Founder Sprint",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-094",
+      "sectionId": "start",
+      "name": "AI Content System",
+      "model": "fixed",
+      "amount": 980
+    },
+    {
+      "sku": "NRS-095",
+      "sectionId": "start",
+      "name": "Compliance Quick-Check",
+      "model": "fixed",
+      "amount": 450,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-100",
+      "sectionId": "start",
+      "name": "Business Scan — site, Google, AI-findability and compliance report with fixes",
+      "model": "fixed",
+      "amount": 650
+    },
+    {
+      "sku": "NRS-006",
+      "sectionId": "words",
+      "name": "Blog post — standard",
+      "model": "fixed",
+      "amount": 320
+    },
+    {
+      "sku": "NRS-007",
+      "sectionId": "words",
+      "name": "Blog post — researched",
+      "model": "fixed",
+      "amount": 580
+    },
+    {
+      "sku": "NRS-008",
+      "sectionId": "words",
+      "name": "Pillar page",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-009",
+      "sectionId": "words",
+      "name": "Blog subscription — 4 per month",
+      "model": "monthly",
+      "amount": 1100,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-010",
+      "sectionId": "words",
+      "name": "Blog subscription — 8 per month",
+      "model": "monthly",
+      "amount": 2000,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-011",
+      "sectionId": "words",
+      "name": "Service page copy",
+      "model": "fixed",
+      "amount": 420
+    },
+    {
+      "sku": "NRS-012",
+      "sectionId": "words",
+      "name": "Homepage copy",
+      "model": "fixed",
+      "amount": 850
+    },
+    {
+      "sku": "NRS-013",
+      "sectionId": "words",
+      "name": "Full site copy — up to 8 pages",
+      "model": "fixed",
+      "amount": 2800
+    },
+    {
+      "sku": "NRS-014",
+      "sectionId": "words",
+      "name": "Email sequence — 5 emails",
+      "model": "fixed",
+      "amount": 980
+    },
+    {
+      "sku": "NRS-015",
+      "sectionId": "words",
+      "name": "Monthly newsletter",
+      "model": "monthly",
+      "amount": 340,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-016",
+      "sectionId": "words",
+      "name": "Case study",
+      "model": "fixed",
+      "amount": 650
+    },
+    {
+      "sku": "NRS-017",
+      "sectionId": "words",
+      "name": "Downloadable guide or whitepaper",
+      "model": "fixed",
+      "amount": 1800
+    },
+    {
+      "sku": "NRS-018",
+      "sectionId": "words",
+      "name": "Brand voice guide",
+      "model": "fixed",
+      "amount": 1400
+    },
+    {
+      "sku": "NRS-019",
+      "sectionId": "words",
+      "name": "Video script + shot list",
+      "model": "fixed",
+      "amount": 380
+    },
+    {
+      "sku": "NRS-020",
+      "sectionId": "social",
+      "name": "Social content pack — 12 posts",
+      "model": "fixed",
+      "amount": 680
+    },
+    {
+      "sku": "NRS-021",
+      "sectionId": "social",
+      "name": "Social content pack — 20 posts",
+      "model": "fixed",
+      "amount": 1150
+    },
+    {
+      "sku": "NRS-022",
+      "sectionId": "social",
+      "name": "Managed publishing — 1 business",
+      "model": "monthly",
+      "amount": 780,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-023",
+      "sectionId": "social",
+      "name": "Managed publishing — up to 5 businesses",
+      "model": "monthly",
+      "amount": 2400,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-024",
+      "sectionId": "social",
+      "name": "90-day content calendar",
+      "model": "fixed",
+      "amount": 900
+    },
+    {
+      "sku": "NRS-025",
+      "sectionId": "social",
+      "name": "Short-form video pack — 5 edited",
+      "model": "fixed",
+      "amount": 750
+    },
+    {
+      "sku": "NRS-026",
+      "sectionId": "social",
+      "name": "Carousel pack — 5",
+      "model": "fixed",
+      "amount": 520
+    },
+    {
+      "sku": "NRS-027",
+      "sectionId": "social",
+      "name": "Console setup + team training",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-028",
+      "sectionId": "social",
+      "name": "Console licence — self-serve",
+      "model": "monthly",
+      "amount": 89,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-105",
+      "sectionId": "social",
+      "name": "Extra Business Scan for console subscribers",
+      "model": "fixed",
+      "amount": 95
+    },
+    {
+      "sku": "NRS-029",
+      "sectionId": "search",
+      "name": "Technical SEO audit",
+      "model": "fixed",
+      "amount": 950
+    },
+    {
+      "sku": "NRS-030",
+      "sectionId": "search",
+      "name": "Keyword & topic cluster strategy",
+      "model": "fixed",
+      "amount": 780
+    },
+    {
+      "sku": "NRS-031",
+      "sectionId": "search",
+      "name": "Google Business Profile build",
+      "model": "fixed",
+      "amount": 450
+    },
+    {
+      "sku": "NRS-032",
+      "sectionId": "search",
+      "name": "Location page",
+      "model": "fixed",
+      "amount": 380
+    },
+    {
+      "sku": "NRS-033",
+      "sectionId": "search",
+      "name": "AI search readiness audit",
+      "model": "fixed",
+      "amount": 850,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-034",
+      "sectionId": "search",
+      "name": "Structured data + llms.txt build",
+      "model": "fixed",
+      "amount": 650
+    },
+    {
+      "sku": "NRS-035",
+      "sectionId": "search",
+      "name": "Monthly search care",
+      "model": "monthly",
+      "amount": 890,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-101",
+      "sectionId": "search",
+      "name": "Competitor analysis — up to three competitors, side by side",
+      "model": "fixed",
+      "amount": 780
+    },
+    {
+      "sku": "NRS-102",
+      "sectionId": "search",
+      "name": "Reviews & reputation setup",
+      "model": "fixed",
+      "amount": 890
+    },
+    {
+      "sku": "NRS-104",
+      "sectionId": "search",
+      "name": "Google analysis bundle — Search Console, GA4, Business Profile, Merchant Centre",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-036",
+      "sectionId": "web",
+      "name": "Landing page",
+      "model": "fixed",
+      "amount": 1800
+    },
+    {
+      "sku": "NRS-037",
+      "sectionId": "web",
+      "name": "Small business website — up to 5 pages",
+      "model": "fixed",
+      "amount": 5500
+    },
+    {
+      "sku": "NRS-038",
+      "sectionId": "web",
+      "name": "Business website — up to 12 pages + CMS",
+      "model": "fixed",
+      "amount": 9800
+    },
+    {
+      "sku": "NRS-039",
+      "sectionId": "web",
+      "name": "Booking system — basic integration",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-040",
+      "sectionId": "web",
+      "name": "Booking system — custom",
+      "model": "fixed",
+      "amount": 4500
+    },
+    {
+      "sku": "NRS-041",
+      "sectionId": "web",
+      "name": "Payment gateway integration",
+      "model": "fixed",
+      "amount": 1900
+    },
+    {
+      "sku": "NRS-042",
+      "sectionId": "web",
+      "name": "Client or patient portal",
+      "model": "from",
+      "amount": 12000
+    },
+    {
+      "sku": "NRS-043",
+      "sectionId": "web",
+      "name": "Custom web application",
+      "model": "from",
+      "amount": 18000
+    },
+    {
+      "sku": "NRS-044",
+      "sectionId": "web",
+      "name": "Site migration or rebuild",
+      "model": "from",
+      "amount": 4000
+    },
+    {
+      "sku": "NRS-045",
+      "sectionId": "web",
+      "name": "Speed & Core Web Vitals fix",
+      "model": "fixed",
+      "amount": 1100
+    },
+    {
+      "sku": "NRS-046",
+      "sectionId": "web",
+      "name": "Accessibility pass — WCAG 2.2 AA",
+      "model": "fixed",
+      "amount": 1400
+    },
+    {
+      "sku": "NRS-047",
+      "sectionId": "automation",
+      "name": "Xero integration",
+      "model": "fixed",
+      "amount": 2400
+    },
+    {
+      "sku": "NRS-048",
+      "sectionId": "automation",
+      "name": "AI receptionist / after-hours capture",
+      "model": "fixed",
+      "amount": 3200
+    },
+    {
+      "sku": "NRS-049",
+      "sectionId": "automation",
+      "name": "Missed call to text follow-up",
+      "model": "fixed",
+      "amount": 980
+    },
+    {
+      "sku": "NRS-050",
+      "sectionId": "automation",
+      "name": "Lead routing & CRM wiring",
+      "model": "fixed",
+      "amount": 1600
+    },
+    {
+      "sku": "NRS-051",
+      "sectionId": "automation",
+      "name": "Automated reminders & recalls",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-052",
+      "sectionId": "automation",
+      "name": "Secure document intake",
+      "model": "fixed",
+      "amount": 2200
+    },
+    {
+      "sku": "NRS-053",
+      "sectionId": "automation",
+      "name": "Internal knowledge assistant",
+      "model": "from",
+      "amount": 4800
+    },
+    {
+      "sku": "NRS-054",
+      "sectionId": "automation",
+      "name": "Meta & Google platform integration",
+      "model": "fixed",
+      "amount": 1400
+    },
+    {
+      "sku": "NRS-055",
+      "sectionId": "automation",
+      "name": "Custom API integration",
+      "model": "from",
+      "amount": 2800
+    },
+    {
+      "sku": "NRS-103",
+      "sectionId": "automation",
+      "name": "Telegram or WhatsApp business bot",
+      "model": "fixed",
+      "amount": 1900
+    },
+    {
+      "sku": "NRS-106",
+      "sectionId": "automation",
+      "name": "AI agent, tier 3 — agent with tools",
+      "model": "from",
+      "amount": 6500
+    },
+    {
+      "sku": "NRS-056",
+      "sectionId": "brand",
+      "name": "Logo & core identity",
+      "model": "fixed",
+      "amount": 1900
+    },
+    {
+      "sku": "NRS-057",
+      "sectionId": "brand",
+      "name": "Full brand kit",
+      "model": "fixed",
+      "amount": 3600
+    },
+    {
+      "sku": "NRS-058",
+      "sectionId": "brand",
+      "name": "Design system / component library",
+      "model": "from",
+      "amount": 4500
+    },
+    {
+      "sku": "NRS-059",
+      "sectionId": "brand",
+      "name": "Print & collateral pack",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-060",
+      "sectionId": "brand",
+      "name": "Pitch or investor deck",
+      "model": "fixed",
+      "amount": 1600
+    },
+    {
+      "sku": "NRS-061",
+      "sectionId": "paid",
+      "name": "Meta ads — setup + first campaign",
+      "model": "fixed",
+      "amount": 1400
+    },
+    {
+      "sku": "NRS-062",
+      "sectionId": "paid",
+      "name": "Google Ads — setup + first campaign",
+      "model": "fixed",
+      "amount": 1600
+    },
+    {
+      "sku": "NRS-063",
+      "sectionId": "paid",
+      "name": "Ad creative pack — 3 variations",
+      "model": "fixed",
+      "amount": 680
+    },
+    {
+      "sku": "NRS-064",
+      "sectionId": "paid",
+      "name": "Tracking & measurement setup",
+      "model": "fixed",
+      "amount": 1200
+    },
+    {
+      "sku": "NRS-065",
+      "sectionId": "paid",
+      "name": "Monthly ad management",
+      "model": "monthly",
+      "amount": 1100,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-066",
+      "sectionId": "paid",
+      "name": "Paid media audit",
+      "model": "fixed",
+      "amount": 750
+    },
+    {
+      "sku": "NRS-067",
+      "sectionId": "compliance",
+      "name": "AI use policy for your business",
+      "model": "fixed",
+      "amount": 1200,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-068",
+      "sectionId": "compliance",
+      "name": "Approved-tool register + staff guidance",
+      "model": "fixed",
+      "amount": 850,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-069",
+      "sectionId": "compliance",
+      "name": "Consent & engagement letter wording",
+      "model": "fixed",
+      "amount": 980,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-070",
+      "sectionId": "compliance",
+      "name": "TPB AI obligations review",
+      "model": "fixed",
+      "amount": 1600,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-071",
+      "sectionId": "compliance",
+      "name": "AHPRA / TGA advertising review",
+      "model": "fixed",
+      "amount": 1400,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-072",
+      "sectionId": "compliance",
+      "name": "Privacy Act / APP workflow review",
+      "model": "fixed",
+      "amount": 1800,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-073",
+      "sectionId": "compliance",
+      "name": "Health practice AI governance pack",
+      "model": "fixed",
+      "amount": 3400,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-074",
+      "sectionId": "compliance",
+      "name": "Staff AI training — half day",
+      "model": "fixed",
+      "amount": 1800,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-075",
+      "sectionId": "compliance",
+      "name": "Staff AI training — full day",
+      "model": "fixed",
+      "amount": 3200,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-076",
+      "sectionId": "compliance",
+      "name": "Documented AI review process",
+      "model": "fixed",
+      "amount": 1600,
+      "specialist": true
+    },
+    {
+      "sku": "NRS-077",
+      "sectionId": "care",
+      "name": "Essentials",
+      "model": "monthly",
+      "amount": 650,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-078",
+      "sectionId": "care",
+      "name": "Growth",
+      "model": "monthly",
+      "amount": 1800,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-079",
+      "sectionId": "care",
+      "name": "Partner",
+      "model": "monthly",
+      "amount": 3900,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-080",
+      "sectionId": "care",
+      "name": "Advisory day",
+      "model": "fixed",
+      "amount": 2600
+    },
+    {
+      "sku": "NRS-081",
+      "sectionId": "care",
+      "name": "Advisory hour",
+      "model": "fixed",
+      "amount": 420
+    },
+    {
+      "sku": "NRS-108",
+      "sectionId": "care",
+      "name": "Competitor change alerts",
+      "model": "monthly",
+      "amount": 120,
+      "monthly": true
+    },
+    {
+      "sku": "NRS-082",
+      "sectionId": "programmes",
+      "name": "Capability Sprint",
+      "model": "from",
+      "amount": 8500
+    },
+    {
+      "sku": "NRS-083",
+      "sectionId": "programmes",
+      "name": "Digital foundation",
+      "model": "from",
+      "amount": 14500
+    },
+    {
+      "sku": "NRS-084",
+      "sectionId": "programmes",
+      "name": "Practice transformation",
+      "model": "from",
+      "amount": 28000
+    },
+    {
+      "sku": "NRS-085",
+      "sectionId": "programmes",
+      "name": "Multi-site or multi-brand rollout",
+      "model": "poa",
+      "amount": null
+    },
+    {
+      "sku": "NRS-107",
+      "sectionId": "programmes",
+      "name": "AI agent, tier 4 — multi-agent operation",
+      "model": "from",
+      "amount": 14000
+    },
+    {
+      "sku": "NRS-086",
+      "sectionId": "guides",
+      "name": "AI for Australian accounting practices",
+      "model": "fixed",
+      "amount": 79
+    },
+    {
+      "sku": "NRS-087",
+      "sectionId": "guides",
+      "name": "AI in the clinic",
+      "model": "fixed",
+      "amount": 79
+    },
+    {
+      "sku": "NRS-088",
+      "sectionId": "guides",
+      "name": "The small business AI decision guide",
+      "model": "fixed",
+      "amount": 49
+    },
+    {
+      "sku": "NRS-089",
+      "sectionId": "guides",
+      "name": "All three, bundled",
+      "model": "fixed",
+      "amount": 149
+    },
+    {
+      "sku": "NRS-096",
+      "sectionId": "guides",
+      "name": "AI for Solo Health Practitioners",
+      "model": "fixed",
+      "amount": 79
+    },
+    {
+      "sku": "NRS-097",
+      "sectionId": "guides",
+      "name": "AI for E-commerce Startups",
+      "model": "fixed",
+      "amount": 79
+    },
+    {
+      "sku": "NRS-098",
+      "sectionId": "guides",
+      "name": "AI for Consultants & Coaches",
+      "model": "fixed",
+      "amount": 79
+    },
+    {
+      "sku": "NRS-099",
+      "sectionId": "guides",
+      "name": "AI for Trades Businesses",
+      "model": "fixed",
+      "amount": 79
+    }
+  ]
+}

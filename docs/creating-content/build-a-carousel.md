@@ -1,25 +1,26 @@
-# Build a Carousel
-*Create multi-slide posts with branded templates*
-
-The Carousel Builder lets you create branded multi-slide posts for Instagram, LinkedIn, and Facebook. Choose from 6 slide templates, customise text and colours, then export as images ready to publish.
-
-## How to use it
-
-1. Go to Creative Studio and click the Create tab
-
-2. Click "Build a Carousel"
-
-3. Choose a platform size (Instagram 1:1, Story 9:16, LinkedIn, etc.)
-
-4. Add slides using the template buttons (Intro, Content, Quote, Stat, CTA, Image)
-
-5. Edit each slide — click to change title, body text, and background
-
-6. Reorder slides by dragging them in the sidebar
-
-7. Click Export to save all slides as images to your media library
-
-> **Tip:** Your brand colours are automatically applied to every slide. The Director can also build carousels for you — just say "make me a carousel about our top products."
-
 ---
-Tags: carousel, slides, multi-image, instagram, linkedin, template, builder
+title: "Prepare a carousel"
+description: "Build a sequence that remains understandable on each selected network."
+sidebar_position: 7
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/components/nrs/Composer.tsx", "src/app/console/composer/actions.ts", "src/lib/nrs/publish-gate.ts", "src/components/nrs/MediaDesk.tsx", "src/components/nrs/MediaEditor.tsx", "docs/designs/nrs-video-editor.md"]
+feature_ids: ["nrs.creating-content"]
+source_urls: []
+---
+
+# Prepare a carousel
+
+Plan the sequence before attaching the images: a clear opening, one point per slide, supporting information and an appropriate next step. Keep essential wording readable on a phone.
+
+1. Prepare approved slide assets with a consistent size and visual style.
+2. Upload or select them in the correct business's Media library.
+3. Open Composer and select the intended accounts.
+4. Add the assets in the intended sequence and check the account's available format options.
+5. Review the preview, captions, alt text and platform limits before saving.
+
+Formats and limits vary by selected account. A collection of images is not automatically a supported carousel on every network. NRS must have the relevant posting capability for the account.
+
+The earlier six-template Creative Studio walkthrough is retired. If your brief requires a dedicated design or export step that is not available in the desk, agree that deliverable with NRS. For health content, review every slide, including small-print qualifications, as part of the complete advertisement.

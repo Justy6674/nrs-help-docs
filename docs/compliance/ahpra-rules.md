@@ -1,35 +1,22 @@
-# AHPRA Advertising Rules
-*What health practitioners cannot say in marketing — and why it matters*
-
-## What is AHPRA?
-
-AHPRA (the Australian Health Practitioner Regulation Agency) regulates how health practitioners advertise their services. If you are a doctor, nurse, physiotherapist, dentist, psychologist, or any registered health practitioner, these rules apply to everything you publish — social media, websites, brochures, and more.
-
-> **Warning:** Penalties for breaching AHPRA advertising rules can be up to $60,000 for individuals and $120,000 for businesses per offence. These are serious fines.
-
-## The big rules
-
-Here are the most important things you cannot do in health advertising:
-
-1. No testimonials — you cannot use patient reviews, success stories, or "I lost 20kg" quotes in your marketing.
-
-2. No before-and-after photos — even real ones. These are considered misleading by AHPRA.
-
-3. No guarantees of outcomes — you cannot say "we will fix your back pain" or "guaranteed results".
-
-4. No claims of superiority — you cannot say "best clinic in Melbourne" or "number one rated".
-
-5. No creating unreasonable expectations — keep it realistic and honest.
-
-## What you can say
-
-You can describe your services, your qualifications, your opening hours, and general information about conditions you treat. You can say things like "we offer physiotherapy for back pain" — just not "we cure back pain."
-
-> **Tip:** When in doubt, describe what you do rather than what will happen. "We provide weight management consultations" is fine. "Lose 10kg in 4 weeks" is not.
-
-## How NotRealSmart helps
-
-Your Director and the Guardian Agent know these rules inside out. When they write content for a health brand, they automatically avoid AHPRA violations. If something borderline slips through, the compliance checker will flag it before it goes live.
-
 ---
-Tags: ahpra, health, practitioner, advertising, rules, testimonials, before after, penalties, healthcare
+title: "Ahpra and regulated health service advertising"
+description: "Use the applicable advertising guidance and review the whole message."
+sidebar_position: 2
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "reference"
+review_owner: "Bec and Justin"
+source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
+feature_ids: ["nrs.compliance"]
+source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public"]
+---
+
+# Ahpra and regulated health service advertising
+
+Ahpra and the National Boards' advertising guidance concerns regulated health services. Review the actual advertiser, service, audience and message, including linked material and images. Other obligations may apply at the same time.
+
+The review should consider misleading claims, evidence, expectations of benefit, unnecessary use and the treatment of testimonials. A statement about clinical outcomes is different from a comment solely about communication or customer service. Do not treat every positive comment or every before-and-after image as the same legal category.
+
+NRS helps identify wording and organise review; it does not determine registration, grant professional authority or certify an advertisement. Have the responsible reviewer check the relevant current guidance and retain the decision with the work.
+
+Start with [Ahpra's advertising guidelines](https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Advertising-guidelines.aspx) and [summary of requirements](https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx). For specific examples, see [testimonials and images](../health-and-abe/testimonials-and-images.md). Source review: 8 September 2026.

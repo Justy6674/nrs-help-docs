@@ -1,27 +1,26 @@
-# What is NotRealSmart Agency?
-*Your own AI marketing team — 14 specialists, 1 conversation*
-
-NotRealSmart is your own AI marketing agency. The name says it all — Not Real (Artificial) Smart (Intelligence). It is AI, said differently.
-
-Instead of hiring a marketing agency or doing everything yourself, you talk to one person — the Director. Behind the scenes, 13 specialist agents handle the work: content writing, SEO, paid ads, email campaigns, video scripts, brand identity, competitor analysis, compliance checking, and more.
-
-## Who built it?
-
-Black Health Intelligence Pty Ltd — an Australian company running 10 businesses across health clinics, telehealth, skincare, and fragrance. We built NotRealSmart because we needed it ourselves. It specialises in healthcare marketing (with built-in AHPRA and TGA compliance), but works for any business.
-
-## How is it different from ChatGPT?
-
-Five key differences:
-
-1. Brand memory — every agent knows your brand voice, audience, and past work across sessions.
-
-2. Compliance — every output is checked against Australian health advertising rules.
-
-3. Departments — 14 independent specialist agents, not a generalist.
-
-4. Meeting room — complex requests get input from multiple specialists working in parallel.
-
-5. Action bar — save, email, create to-dos, export, and compare reports with one click.
-
 ---
-Tags: what is, about, introduction, overview, ai, agency, marketing, chatgpt, difference
+title: "What is Not Real Smart?"
+description: "Understand the agency, the NRS desk and the assistance behind it."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "service"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md"]
+feature_ids: ["nrs.getting-started"]
+source_urls: []
+---
+
+# What is Not Real Smart?
+
+Not Real Smart is the business Bec and Justin run to help Australian organisations improve their work, marketing and systems. We start with the people, the problem and the outcome. Sometimes the right answer is a clearer process; sometimes it is implementation, training, software or carefully scoped AI.
+
+The **agency** provides human-led services. The **NRS desk** is the workspace used to organise businesses, content, accounts, approvals, media and reporting. **Eve** is assistance inside that desk. **Abe AI** is the related healthcare governance and operations work, with a narrow regulatory-reference connection in NRS.
+
+## Where to start
+
+- Looking for help with your business? Read [how we work](../about/how-we-work.md) and the [service catalogue](../services/index.md).
+- Already a client? Use the workspace invitation from NRS. Client portal access and agency staff access are different.
+- Working in the desk? Start with [your first workspace](your-first-conversation.md), then your brand and connected accounts.
+
+The catalogue describes work we can scope with you. It does not mean every service is an automatic button or that the standalone software product is already for sale. [Current availability](../about/what-is-available.md) explains that distinction.

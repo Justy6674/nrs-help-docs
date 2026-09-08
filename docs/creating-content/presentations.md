@@ -1,35 +1,26 @@
-# Create Presentations
-*Generate slide decks for pitches, meetings, and proposals*
-
-Need a slide deck for a pitch, a team meeting, or a client presentation? Your Director can create structured presentations with content for each slide.
-
-## How to ask
-
-Use the /slides shortcut or describe what you need:
-
-1. /slides followed by the topic — for example, /slides quarterly marketing review
-
-2. Or just say "Create a 10-slide presentation about our new product launch"
-
-3. You can specify the number of slides, the audience, and the purpose
-
-> **Tip:** Tell your Director who the presentation is for. A pitch deck for investors looks very different from a team update or a client proposal.
-
-## What you get back
-
-Each slide includes a title, bullet points or key messages, and speaker notes explaining what to say when presenting. The structure follows proven presentation frameworks — starting with the problem, presenting your solution, showing evidence, and ending with a clear ask or next step.
-
-## Customising your deck
-
-After the first draft, you can ask for changes:
-
-1. "Add a slide about our pricing"
-
-2. "Make slide 3 more visual — suggest a chart"
-
-3. "Shorten the introduction"
-
-4. "Add competitor comparison data"
-
 ---
-Tags: presentation, slides, deck, pitch, meeting, proposal, keynote, powerpoint
+title: "Prepare a presentation"
+description: "Brief a deck around the decision the audience needs to make."
+sidebar_position: 5
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "service"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md"]
+feature_ids: ["nrs.creating-content"]
+source_urls: []
+---
+
+# Prepare a presentation
+
+Tell NRS who will read or hear the presentation and what decision it supports. A sales conversation, staff workshop and board briefing need different levels of detail.
+
+## A useful brief
+
+Supply the audience, purpose, delivery format, approximate duration, approved brand assets and evidence. Mark any numbers that are estimates. Provide the real source for charts and quoted statements.
+
+Review the story before polishing every slide. Check that the opening explains the problem, the middle supports the proposed action and the ending makes the next step clear. Review speaker notes separately from text shown on screen.
+
+Agree the deliverable format and editable source with the engagement. A `/slides` conversation or a promise of automatic PowerPoint export is not the current NRS workflow. Presentation work may be human-delivered using suitable tools.
+
+Before sharing, check the exported file itself: fonts, chart labels, links and confidentiality. For healthcare audiences, distinguish governance or marketing material from patient-specific clinical advice.

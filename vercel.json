@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/markdown-page",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}

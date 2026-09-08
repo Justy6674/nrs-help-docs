@@ -1,27 +1,28 @@
-# Your First Conversation
-*Start chatting with your Director in under a minute*
-
-When you first log in, your Director is ready to talk. You do not need to configure anything — just start typing.
-
-## What to say first
-
-The Director will introduce itself and ask about your business. You can say something like:
-
-1. "I run a physiotherapy clinic in Melbourne"
-
-2. "I sell handmade candles online"
-
-3. "I'm launching a new app for pet owners"
-
-> **Tip:** The more you share, the better your Director understands your brand. It remembers everything across sessions.
-
-## What happens next
-
-Your Director will scan your website (if you provide one), check your social media presence, and start building your marketing profile. It will suggest what to work on first — usually getting your brand voice set up and creating your first piece of content.
-
-## You can ask for anything
-
-Write me a blog post. Create a social media calendar. Run a marketing audit. Design an Instagram post. Check my website for compliance issues. The Director handles it all — or delegates to the right specialist behind the scenes.
-
 ---
-Tags: first, start, begin, chat, conversation, onboarding, new user, login
+title: "Your first NRS workspace"
+description: "Find the right workspace and prepare a useful first task."
+sidebar_position: 2
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md", "src/app/portal/page.tsx", "src/app/console/layout.tsx"]
+feature_ids: ["nrs.getting-started"]
+source_urls: []
+---
+
+# Your first NRS workspace
+
+Use the invitation or sign-in link supplied for your work. Agency staff use the console; invited clients use the client portal. Seeing a client report does not automatically give someone publishing or team-management access.
+
+## Before your first task
+
+1. Confirm the business name. Keep its accounts, assets and approvals together.
+2. Open **Settings → Brand kit** and check the website, booking link, voice and business details.
+3. Open **Settings → Accounts** to check the actual connected profiles.
+4. Agree who writes, who reviews and who is allowed to release work.
+5. Start one concrete task: a saved post draft, a reviewed asset or a scoped report.
+
+For example: “Prepare a post about this service using these approved facts, for this account, with Bec reviewing.” A useful request includes the audience, source material, desired result and any deadline.
+
+The current desk does not depend on a first conversation with an all-knowing Director. Saved business settings and explicit account selection are the working context. If a workspace is missing, ask NRS to check your access rather than creating a second business.

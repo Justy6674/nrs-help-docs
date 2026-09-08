@@ -1,37 +1,26 @@
-# Content Pillars
-*The core topics your brand talks about — and why they matter*
-
-Content pillars are the three to five main topics your brand consistently talks about. They keep your marketing focused and stop you from posting random content that does not connect to your business goals.
-
-## Why pillars matter
-
-Without content pillars, most businesses end up posting whatever comes to mind — a mix of promotions, random tips, and news that does not build towards anything. Pillars give your content a structure. Your audience learns what to expect from you, search engines understand what you are about, and your Director knows what kind of content to create.
-
-## Examples
-
-Here is what pillars might look like for different businesses:
-
-1. Weight loss clinic: weight management tips, healthy recipes, success stories, telehealth convenience, seasonal wellness
-
-2. Skincare brand: ingredient education, skin routines, product spotlights, behind the scenes, customer transformations
-
-3. SaaS startup: product updates, industry insights, customer stories, how-to guides, company culture
-
-## Setting your pillars
-
-Use the /pillars command to define or update your content pillars. Your Director will suggest pillars based on what it knows about your business, or you can define them yourself:
-
-1. Type /pillars to see your current pillars or start setting them up
-
-2. Or just say "My content pillars should be: education, behind the scenes, product launches, and community stories"
-
-3. Your Director will confirm and start using them when creating content
-
-> **Tip:** Start with 3-5 pillars. Too few and your content gets repetitive. Too many and it loses focus. You can always adjust them later.
-
-## How pillars are used
-
-When your Director fills your content calendar with the /fill command, it balances posts across your pillars. When it writes a blog or social post, it aligns with one of your pillars. Over time, you will see a consistent, strategic mix of content rather than a random collection of posts.
-
 ---
-Tags: pillars, content, topics, strategy, focus, themes, categories, planning
+title: "Choose useful content themes"
+description: "Plan repeatable topics around customer needs and approved evidence."
+sidebar_position: 3
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "service"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md", "src/components/nrs/BrandKitForm.tsx"]
+feature_ids: ["nrs.your-brand"]
+source_urls: []
+---
+
+# Choose useful content themes
+
+Content themes help a business avoid repeating the same sales message. Start from the questions people ask, the service journey and the evidence you can show.
+
+Possible themes include how a service works, preparing for an appointment or purchase, practical business updates, staff roles, product details and answers to common questions. Choose themes that fit the actual business rather than a fixed list for every client.
+
+## Turn a theme into a plan
+
+For each theme, identify the audience question, approved source, suitable format and reviewer. Use the calendar to balance the resulting drafts across the period. Review whether the material is useful, not simply whether every day has a post.
+
+For health work, do not make clinical “success stories” a default pillar. Patient experiences, outcomes and imagery need the contextual review explained in [testimonials and images](../health-and-abe/testimonials-and-images.md). A neutral service explanation can often answer the customer's question without making a treatment promise.
+
+Themes are a planning tool; they do not authorise automatic generation or publication.

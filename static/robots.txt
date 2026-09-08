@@ -1,13 +1,5 @@
-# This help centre documents NotRealSmart V1 — an AI Director you talked to in
-# chat, with departments behind it. That product was retired in August 2026 and
-# rebuilt as a publisher console and consultancy. Almost every article here
-# describes features that no longer exist.
-#
-# Until the content is rewritten, it must not be indexed. For a business
-# advertising to Australian consumers, live pages describing a product that
-# cannot be bought are a misleading-conduct exposure, not merely stale docs.
-#
-# Remove this file when the rewrite lands (MASTER-PLAN N5) — not before.
-
+# The current help centre is the canonical public documentation.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://help.notrealsmart.com.au/sitemap.xml

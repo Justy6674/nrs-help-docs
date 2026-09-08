@@ -1,35 +1,26 @@
-# Managing Multiple Brands
-*Run marketing for several businesses from one account*
-
-If you own or manage more than one business, NotRealSmart lets you run them all from a single account. Each brand gets its own identity, memory, content library, and compliance settings — but you switch between them with one click.
-
-## How multi-brand works
-
-Each brand you add is completely separate:
-
-1. Its own brand voice, colours, and personality.
-
-2. Its own content library and output history.
-
-3. Its own social media connections.
-
-4. Its own compliance profile (e.g. AHPRA rules for your clinic, standard rules for your candle shop).
-
-5. Its own agent memory — what your Director learns about Brand A does not leak into Brand B.
-
-## Switching between brands
-
-Your brands appear in the left sidebar. Click a brand to switch to it. When you switch, your Director and all agents instantly load that brand's context. Your conversation history is per-brand, so you can pick up where you left off.
-
-> **Tip:** You can also tell your Director to work across brands: "Promote TeleScribe to my Downscale patients" — it knows both brands and can create cross-promotional content.
-
-## Cross-brand promotion
-
-If your brands are related (like a weight loss clinic and a skincare line), your Director can spot opportunities to cross-promote. It sees all your brands and can suggest partnerships, referral flows, and content that benefits multiple businesses at once.
-
-## Adding a new brand
-
-Click "Add Brand" in the sidebar. Give it a name and a website (if you have one). Your Director will scan the website, learn about the business, and start building the brand profile automatically. You can also fill in details by chatting — just tell the Director about your business.
-
 ---
-Tags: multiple brands, multi-brand, several businesses, switch, cross-promotion, add brand, sidebar
+title: "Work across multiple businesses"
+description: "Keep each business’s identity, accounts and authority distinct."
+sidebar_position: 3
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md", "src/components/nrs/ComposerBusinessSwitcher.tsx", "src/components/nrs/MediaDesk.tsx"]
+feature_ids: ["nrs.account-and-billing"]
+source_urls: []
+---
+
+# Work across multiple businesses
+
+NRS supports the businesses your account is authorised to access. Each has its own saved context, connected accounts, content, media and review responsibilities. There is no fixed five-business product limit.
+
+Before opening a task or applying a change, check the selected business. In Composer, verify **Posting as** and the target accounts. In Media, confirm where the asset is filed. In reporting, check the client and selected websites.
+
+## Adding or changing access
+
+Ask the authorised workspace manager to create or attach the correct business and invite the right people. Do not create a duplicate because an existing business is missing from your view; it may be an access problem.
+
+Cross-business work requires explicit scope. Access to two brands does not authorise using one client's assets, private results or customer list for another. Review bulk work item by item.
+
+The agency configures client workspaces within NRS rather than maintaining a separate software fork for every client. [Roles and permissions](../team-and-sharing/roles-and-permissions.md) explains who can act within each workspace.

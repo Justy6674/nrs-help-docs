@@ -1,47 +1,24 @@
-# Sync to Google or Apple Calendar
-*See your content schedule alongside your regular calendar*
-
-You can subscribe to your NotRealSmart content calendar from Google Calendar, Apple Calendar, or any app that supports iCal feeds. This lets you see your upcoming posts alongside your meetings and personal events.
-
-## What you need
-
-To sync your calendar, you need an API key. This is a special code that lets the calendar app access your schedule securely.
-
-1. Go to your Settings page in NotRealSmart
-
-2. Find the API Keys section and create a new key
-
-3. Copy the calendar subscription link that appears — it includes your key automatically
-
-## Adding to Google Calendar
-
-In Google Calendar:
-
-1. Click the "+" next to "Other calendars" in the left sidebar
-
-2. Choose "From URL"
-
-3. Paste your NotRealSmart calendar link
-
-4. Click "Add calendar"
-
-> **Tip:** Google Calendar refreshes external calendars every few hours, so newly scheduled posts may take a little while to appear.
-
-## Adding to Apple Calendar
-
-On your Mac or iPhone:
-
-1. Open the Calendar app
-
-2. Go to File > New Calendar Subscription (on Mac) or Settings > Calendar > Accounts > Add Account > Other > Add Subscribed Calendar (on iPhone)
-
-3. Paste your NotRealSmart calendar link
-
-4. Choose how often it should refresh
-
-## What you see
-
-Each scheduled post appears as a calendar event with the platform name and a preview of the caption. Published posts are also shown so you have a complete history of your social media activity.
-
 ---
-Tags: calendar, sync, google, apple, ical, subscribe, feed, external, integration
+title: "External calendars and the NRS schedule"
+description: "Use the recorded NRS schedule when an external calendar feed is not available."
+sidebar_position: 5
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/app/console/calendar/page.tsx", "src/app/console/settings/queue-slots/page.tsx"]
+feature_ids: ["nrs.publishing"]
+source_urls: []
+---
+
+# External calendars and the NRS schedule
+
+An external Google or Apple calendar subscription is not an established current NRS feature. The earlier instructions for copying an API-key calendar link should not be used.
+
+Use **Calendar** and **Posts** in NRS to inspect scheduled content and delivery state. If you also keep a campaign plan in another calendar, record the link to the NRS item and make clear which system owns the actual publishing time.
+
+Changing a meeting or reminder in an external calendar does not reschedule a post. Make publishing changes through the available NRS controls and verify the resulting record.
+
+If a calendar integration is part of your engagement, agree its direction, permissions, refresh behaviour and failure handling with NRS first. Treat any integration as unconfirmed until the exact workflow has been tested.
+
+For recurring reports, use [report automation](../reports/automate-client-reports.md). Its weekly or monthly schedule is distinct from both a personal calendar and the social publishing queue.

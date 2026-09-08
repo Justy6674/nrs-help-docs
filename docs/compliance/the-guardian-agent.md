@@ -1,33 +1,28 @@
-# The Guardian Agent
-*Your invisible compliance reviewer that checks every output*
-
-The Guardian Agent is a specialist AI that reviews every piece of content created by your agency. It works silently in the background — you never need to interact with it directly. Think of it as a compliance officer sitting behind every agent, double-checking their work.
-
-## What it checks
-
-The Guardian reviews content against multiple rules:
-
-1. AHPRA advertising guidelines (for health practitioner brands).
-
-2. TGA advertising rules (for brands selling therapeutic products).
-
-3. Your Brand DNA — the voice, tone, and values you have set for your brand.
-
-4. General Australian consumer law (misleading claims, false guarantees).
-
-5. Platform-specific rules (what Instagram, TikTok, or Facebook allow in ads).
-
-## How it reports issues
-
-When the Guardian finds a problem, it adds a flag to the output. You will see a small warning label on the content. Click it to see what was flagged and why. The Director will also mention compliance issues in conversation if they are significant.
-
-> **Tip:** The Guardian errs on the side of caution. Sometimes it flags things that are borderline. You can always ask the Director "Is this actually a problem?" and get a plain-language explanation.
-
-## Can I override it?
-
-Yes. The Guardian is an adviser, not a gatekeeper. If you believe the content is compliant and the flag is a false alarm, you can proceed. However, for AHPRA and TGA matters, we strongly recommend taking the warnings seriously — the fines are real and substantial.
-
-> **Warning:** Overriding a compliance flag means you take responsibility for the content. NotRealSmart cannot be held liable for content you publish after dismissing a warning.
-
 ---
-Tags: guardian, agent, compliance, reviewer, automatic, brand dna, override, flags
+title: "Who is responsible for health review?"
+description: "Replace the retired Guardian promise with a clear review responsibility."
+sidebar_position: 4
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
+feature_ids: ["nrs.compliance"]
+source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public"]
+---
+
+# Who is responsible for health review?
+
+There is no current all-seeing Guardian agent that approves every NRS output. Responsibility remains with the people creating, reviewing and releasing the work, supported by the configured checks.
+
+## What each part contributes
+
+- The business supplies accurate service information and appropriate source material.
+- NRS checks supported text and media signals and records findings.
+- Abe's narrow integration may retrieve generic regulatory reference context.
+- The responsible human reviewer checks applicability, the actual claim and the full document or advertisement.
+- The release gate reruns blocking checks before publication.
+
+An AI opinion, a retrieved paragraph or an unchecked checkbox is not a legal determination. There is no general “dismiss everything and accept liability” instruction in this help centre.
+
+If a finding appears wrong, retain the quoted wording and explain the context for review. Do not change the business's profile to evade the gate. [What Abe does](../health-and-abe/what-abe-does.md) explains the current integration and its limits.

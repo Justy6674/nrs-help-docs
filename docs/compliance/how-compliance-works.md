@@ -1,35 +1,22 @@
-# How Compliance Checking Works
-*Every piece of content is automatically checked before it goes out*
-
-NotRealSmart has built-in compliance checking that reviews every piece of content your agents create. If you run a health business in Australia, this is especially important — but it helps any business avoid risky marketing claims.
-
-## What gets checked
-
-Every output — blog posts, social media captions, ad copy, email campaigns, video scripts — is reviewed automatically before it is saved. You do not need to turn anything on or remember to check. It just happens.
-
-## What the checker looks for
-
-The compliance checker scans for issues like:
-
-1. Health claims that are not supported by evidence.
-
-2. Testimonials or before-and-after images that could breach AHPRA rules.
-
-3. Therapeutic claims about products that could breach TGA rules.
-
-4. Misleading guarantees or promises of outcomes.
-
-5. Missing disclaimers where they are required.
-
-## What happens when something is flagged
-
-If the checker finds a problem, it will flag it with a warning. The content is still saved, but the flag tells you what needs attention. Your Director will explain the issue in plain language and suggest how to fix it.
-
-> **Tip:** Compliance flags are there to protect you, not to block you. They are warnings, not hard blocks.
-
-## Not just healthcare
-
-Even if you do not run a health business, the checker catches common issues like misleading claims, unsubstantiated guarantees, and language that could get you in trouble with the ACCC (Australian Competition and Consumer Commission).
-
 ---
-Tags: compliance, checking, automatic, review, content, safety, healthcare, flagged
+title: "How NRS checks content"
+description: "Understand automated screening, human review and the release gate."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
+feature_ids: ["nrs.compliance"]
+source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public"]
+---
+
+# How NRS checks content
+
+NRS runs deterministic checks against the selected business's content and rules. Composer shows findings while work is prepared; the server checks again when release is requested. Unresolved blocking findings prevent release. A general administrator override is not the documented workflow.
+
+A checker can miss an issue or flag acceptable wording. Read the actual sentence, context, image and destination. Correct the work or refer the finding for appropriate review. A rewrite suggestion does not itself clear a flag or establish legal acceptability.
+
+For healthcare, the responsible person reviews the finding and supporting evidence for that client. Retrieving a generic rule through Abe is separate from that human decision. In reports, unreviewed healthcare findings remain held rather than becoming client conclusions simply because a source was retrieved.
+
+Use [health advertising review](../health-and-abe/health-advertising-review.md) for the review process, [Ahpra](ahpra-rules.md) for regulated service advertising and [TGA](tga-rules.md) for therapeutic goods. No scan score or clean automated result is a compliance certificate.

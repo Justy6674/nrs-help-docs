@@ -1,0 +1,32 @@
+name: Help content and build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # Monday morning in Queensland. Surfaces expired source reviews even without edits.
+    - cron: '17 22 * * 0'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: help-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  help-quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # prebuild checks the catalogue, article freshness, regression tests and types.
+      # The Docusaurus build then checks every internal link and anchor.
+      - run: npm run build

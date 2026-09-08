@@ -1,35 +1,26 @@
-# Auto-Fill Your Calendar
-*Generate two weeks of social media posts in one go*
-
-The /fill command is one of the most powerful shortcuts in NotRealSmart. It tells your Director to create a full two weeks of social media posts, tailored to your brand, audience, and connected platforms.
-
-## How it works
-
-When you type /fill, your Director:
-
-1. Looks at your brand profile — your voice, audience, and content pillars (the main topics your brand talks about)
-
-2. Checks which social platforms you have connected
-
-3. Reviews what you have already scheduled to avoid repeating topics
-
-4. Creates a balanced mix of content across your platforms
-
-5. Schedules each post at the optimal time for that platform
-
-## What you get
-
-You will receive a batch of posts spread across the next 14 days. The mix typically includes educational content, promotional posts, engagement questions, behind-the-scenes ideas, and seasonal or timely topics. Each post is written in your brand voice.
-
-> **Tip:** If you want to guide the content, add context. For example: "/fill — focus on our new summer collection and the upcoming sale" or "/fill — mostly educational content about skin health".
-
-## Reviewing and editing
-
-Auto-filled posts start as drafts. You can review them in your content calendar, approve the ones you like, edit the ones that need tweaking, and remove any that do not feel right. Nothing publishes until it reaches its scheduled time and you have not removed it.
-
-## Running it again
-
-You can use /fill as often as you like. Each time, it takes into account what is already on your calendar so you do not end up with duplicate topics. Many business owners run it every two weeks to keep their calendar full.
-
 ---
-Tags: fill, auto, calendar, generate, bulk, batch, two weeks, schedule, content
+title: "Prepare content in batches"
+description: "Use a reviewed batch instead of promising an automatically filled calendar."
+sidebar_position: 3
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/app/console/bulk/page.tsx", "src/components/nrs/BulkComposer.tsx", "src/app/console/bulk/actions.ts"]
+feature_ids: ["nrs.publishing"]
+source_urls: []
+---
+
+# Prepare content in batches
+
+Batch work is useful when several posts share a campaign, event or source asset. First agree the topics, target businesses, accounts, reviewers and timing.
+
+Use **Bulk composer** where it supports the task. Check every business and resulting draft individually: a shared idea may need different facts, voices and permissions for different clients. A healthcare client's version needs its own health review.
+
+## Review the batch
+
+Look for duplicate messages, invented details, wrong links and inappropriate account selection. Check that each item has a usable asset and a clear reason to exist. Save and approve the work before authorising its release.
+
+The old `/fill` command is not the current scheduling workflow. NRS does not promise to discover an optimal time or publish an entire campaign merely because a calendar has gaps.
+
+Use [Calendar](content-calendar.md) to inspect the retained schedule and [queue slots](schedule-a-post.md) for the timing controls available to the business. A batch draft, a scheduled batch and successful deliveries are separate results.

@@ -1,47 +1,26 @@
-# Make a Photo Talk
-*Upload a headshot and bring it to life with a script*
-
-The talking photo feature lets you take a still headshot and animate it so it looks like the person is speaking. This is a quick way to create personal video content using just a photo and a script.
-
-## How it works
-
-The process is simple:
-
-1. Upload a clear, front-facing headshot photo
-
-2. Provide a script — what the person should say
-
-3. The AI animates the face to match the audio, creating a short video
-
-> **Tip:** Use a high-quality photo with good lighting and a neutral expression. The person should be looking straight at the camera with their face clearly visible.
-
-## When to use it
-
-Talking photos are great for:
-
-1. Quick social media updates from the business owner
-
-2. Welcome messages on your website
-
-3. Personalised greetings for email campaigns
-
-4. Short announcements when you do not have time to film
-
-## Creating your talking photo
-
-Ask your Director to set it up: "Upload a talking photo" or "Create a talking photo from this headshot". Once your photo is uploaded and registered, you can reuse it for any future video — just provide a new script each time.
-
-## Quality tips
-
-For the most realistic results:
-
-1. Use a photo with even, natural lighting — no harsh shadows
-
-2. Make sure the face is centred and not cropped at the chin or forehead
-
-3. Avoid photos with sunglasses, hats, or anything covering the face
-
-4. A plain or simple background works best
-
 ---
-Tags: talking photo, headshot, animate, face, video, personal, avatar, photo
+title: "Synthetic presenters and talking photos"
+description: "Agree consent, representation and the actual production capability."
+sidebar_position: 4
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md", "src/components/nrs/MediaDesk.tsx", "src/components/nrs/MediaEditor.tsx", "docs/designs/nrs-video-editor.md"]
+feature_ids: ["nrs.video-and-design"]
+source_urls: []
+---
+
+# Synthetic presenters and talking photos
+
+A talking photo or synthetic presenter is not a confirmed self-service feature in the current NRS desk. If it is useful for your project, agree the production method and review steps with NRS before supplying likeness or voice material.
+
+## What the brief needs
+
+Identify whose likeness or voice is being used, their permission, the script, intended audience and where the result will appear. Decide how the audience will understand that the presentation is synthetic.
+
+Review the complete output for mispronounced names, misleading facial or body changes and invented visual details. Do not present a synthetic character as a real patient's experience or a clinician's endorsement.
+
+A signed-off script and permission to use a photograph are separate from approval of the generated result. Keep both with the project record.
+
+For the current in-app workflow, start with [uploading approved media](upload-and-repurpose.md). A production enquiry does not enrol a face or voice into a reusable model automatically.

@@ -1,35 +1,26 @@
-# API Keys
-*A password for connecting other apps to your agency*
-
-## What is an API key?
-
-An API key is like a special password that lets other apps connect to your NotRealSmart agency. You use it when connecting tools like VS Code, Claude Code, or any other app that supports MCP connections. You do not need an API key if you use Claude Desktop or Claude Mobile — those use the login flow instead.
-
-## Creating an API key
-
-You can create as many keys as you need. It is a good idea to create one per app, so you can revoke access to a single app without affecting others.
-
-1. Log in to NotRealSmart at notrealsmart.com.au.
-
-2. Go to Settings (click your profile picture, then Settings).
-
-3. Scroll to the "API Keys" section.
-
-4. Click "Create New Key".
-
-5. Give it a descriptive name (e.g. "My laptop Claude Code" or "VS Code at work").
-
-6. Copy the key immediately — it starts with nrs_sk_ and is only shown once.
-
-> **Warning:** Treat your API key like a password. Do not share it publicly or paste it into websites you do not trust.
-
-## Revoking a key
-
-If you think a key has been compromised, or you simply do not need it any more, you can revoke it instantly. Go to Settings, find the key in the list, and click "Revoke". Any app using that key will be disconnected immediately.
-
-## How many keys can I have?
-
-There is no limit. Create as many as you need for different apps and devices. Each key works independently, so revoking one does not affect the others.
-
 ---
-Tags: api key, password, connect, security, settings, revoke, nrs_sk
+title: "External AI access keys"
+description: "Issue a scoped key for an approved external AI connection."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+feature_ids: ["nrs.connecting-devices"]
+source_urls: []
+---
+
+# External AI access keys
+
+Where external AI access is enabled, an authorised manager uses **Settings → Agents → External AI** to create a named connection for one business. Choose only the permissions that connection needs and set an appropriate expiry.
+
+The token is shown once when created. Store it in the approved client's secret settings. It is not an ordinary user password and should not be pasted into a chat, public document or support screenshot.
+
+## What the permissions mean
+
+Read access permits supported reads. Proposal, write and send permissions govern additional operations; the normal business authorisation and approval checks still apply. A key does not bypass compliance or grant access to every business.
+
+Revoke a key when it is no longer needed or may be exposed. Confirm which tool used it before issuing a replacement. Revoking one connection should not require sharing another person's key.
+
+The current scoped endpoint is `/api/nrs/mcp`. Old `/api/mcp` and `nrs_sk_` onboarding instructions are retired. External-client compatibility still needs an accepted setup for that client.

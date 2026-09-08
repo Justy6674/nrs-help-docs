@@ -1,37 +1,24 @@
-# Use From the Terminal
-*Connect your agency to Claude Code for command-line access*
-
-Claude Code is a command-line tool for developers. If you use the terminal (also called the command line), you can connect your NotRealSmart agency so Claude Code can use your marketing tools directly.
-
-> **Tip:** This article is for technical users. If you are not comfortable with the terminal, use Claude Desktop or the web app instead.
-
-## Get an API key
-
-You will need an API key from your NotRealSmart account.
-
-1. Log in to NotRealSmart at notrealsmart.com.au.
-
-2. Go to Settings and create a new API key.
-
-3. Copy the key (starts with nrs_sk_).
-
-## Configure the MCP connection
-
-Add your NotRealSmart server to your Claude Code MCP configuration file. The file is usually at ~/.mcp.json in your home directory.
-
-1. Open ~/.mcp.json in any text editor.
-
-2. Add an entry for NotRealSmart with the URL https://www.notrealsmart.com.au/api/mcp and your API key as the Bearer token.
-
-3. Save the file and restart Claude Code.
-
-## Example configuration
-
-Your MCP config entry should look something like this: a "notrealsmart" key with the server URL and an authorization header containing "Bearer nrs_sk_your_key_here". Check the Claude Code documentation for the exact format, as it may vary between versions.
-
-## Using it
-
-Once configured, you can tell Claude Code to use your NotRealSmart tools. For example: "Use NotRealSmart to write a blog post for Downscale about weight loss tips" or "Check my Downscale analytics via NotRealSmart." Claude Code will call your agency tools automatically.
-
 ---
-Tags: terminal, command line, claude code, cli, developer, mcp, technical, config
+title: "Using a terminal AI client"
+description: "Understand the supported access boundary before connecting another AI client."
+sidebar_position: 1
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+feature_ids: ["nrs.connecting-devices"]
+source_urls: []
+---
+
+# Using a terminal AI client
+
+This is an optional technical integration, not a requirement for using NRS.
+
+Ask the workspace manager to issue an external-AI key for the intended business and minimum required permissions. The current NRS endpoint is `https://www.notrealsmart.com.au/api/nrs/mcp`, using an `Authorization` bearer token with the supported HTTP MCP transport.
+
+Configure the client using its current official instructions. Keep the key in the client's protected settings rather than a shared project file or command history. Do not reuse the retired `/api/mcp` instructions.
+
+Verify a read-only call first. Check the business and returned scope, then test proposals before enabling consequential actions. NRS still checks permissions, approval and release requirements when tools execute.
+
+If a call fails, retain the safe error and operation details without exposing the token. A connected terminal client does not become an unrestricted agency operator. Use [key management](api-keys.md) to revoke or replace its access.

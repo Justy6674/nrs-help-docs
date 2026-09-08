@@ -1,41 +1,24 @@
-# Email Reports to Yourself
-*Send any content or report straight to your inbox*
-
-Sometimes you want a copy of something in your email — a blog post to review on your phone, a report to forward to a colleague, or a content plan to reference later. The "Email Me" button sends any message from your Director directly to your registered email address.
-
-## How to use it
-
-It is a one-click action:
-
-1. Find the message you want to email
-
-2. Click the "Email Me" button in the action bar below the message
-
-3. Check your inbox — the email arrives within a few seconds
-
-## What you receive
-
-The email includes the full content of the message, formatted for easy reading. It also includes the brand name and the date, so you can quickly find it in your inbox later.
-
-> **Tip:** This is a great way to build a paper trail of your marketing work. Email yourself weekly reports, content calendars, and audit results so you always have a record outside of the platform.
-
-## Sending to others
-
-The "Email Me" button sends to your own email address. If you want to send content to someone else, use the "Send to..." button instead (for team members), or email the report to yourself and forward it.
-
-## Common uses
-
-Business owners most commonly email themselves:
-
-1. Weekly content calendars to review over coffee
-
-2. Marketing audit reports to discuss with their team
-
-3. Blog articles to proofread before publishing
-
-4. Competitor analysis reports to reference during planning sessions
-
-5. Monthly analytics summaries for their records
-
 ---
-Tags: email, report, send, inbox, export, forward, copy, self, pdf, download, print
+title: "Email an approved report"
+description: "Send the saved report through its deliberate approval step."
+sidebar_position: 4
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/lib/nrs/reporting/runner.ts", "src/app/console/reports/[business]/analysis/ReportingSettingsForm.tsx", "src/lib/nrs/scan/report-queries.ts", "src/lib/nrs/scan/report-delivery.ts"]
+feature_ids: ["nrs.team-and-sharing"]
+source_urls: []
+---
+
+# Email an approved report
+
+Open the client's full report preview from the reporting run. Review the narrative, references, findings and any offer appendix. Confirm the intended recipient selection before using the delivery controls.
+
+The send step freezes the exact report version and email payload. After delivery is claimed, that version cannot be edited into a different message. Prepare a new revision or report through the appropriate workflow if the content needs changing.
+
+The email may include a PDF where one is available and within attachment limits. The approved report remains available in the permitted client portal; a PDF can be generated from the same frozen HTML. Missing an attachment does not by itself mean no report exists.
+
+Check the recorded delivery state. If the provider outcome is unknown, use the existing delivery's safe retry or reconciliation path. Creating a second report to force a resend can create a duplicate.
+
+For scheduled delivery, read [automatic reporting](../reports/automate-client-reports.md). Preparing a report automatically and authorising automatic sending are separate choices.

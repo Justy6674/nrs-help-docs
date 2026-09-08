@@ -1,37 +1,26 @@
-# Your Content Calendar
-*See everything that is scheduled at a glance*
-
-Your content calendar shows all your upcoming scheduled posts in one place. It is the easiest way to see what is going out this week, spot gaps in your schedule, and make sure your content mix is balanced.
-
-## Where to find it
-
-You can access your calendar in two ways:
-
-1. Type /calendar in the chat — your Director will show you a summary of the current week
-
-2. Go to the Creative Studio (the second tab in your header) and click the Calendar sub-tab for a full visual view
-
-## Week-at-a-glance
-
-The Creative Studio dashboard includes a "Week at a Glance" section that shows your next seven days of content at the top of the page. This gives you a quick overview without needing to open the full calendar.
-
-## What you see
-
-Each calendar entry shows the platform (Instagram, Facebook, etc.), a preview of the caption, the scheduled date and time, and the current status — draft, scheduled, or published.
-
-## Managing your calendar
-
-From the calendar you can:
-
-1. Click on any post to view the full content
-
-2. Edit the caption or timing before it publishes
-
-3. Delete posts you no longer want
-
-4. Spot empty days and ask your Director to fill them
-
-> **Tip:** If you see gaps in your calendar, just type /fill and your Director will generate content to fill the next two weeks.
-
 ---
-Tags: calendar, schedule, week, plan, overview, studio, upcoming, content
+title: "Use the content calendar"
+description: "See scheduled work and open the item that needs attention."
+sidebar_position: 2
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+source_files: ["src/app/console/calendar/page.tsx", "src/app/console/posts/page.tsx", "src/components/nrs/Composer.tsx", "src/app/console/composer/actions.ts", "src/lib/nrs/publish-gate.ts"]
+feature_ids: ["nrs.publishing"]
+source_urls: []
+---
+
+# Use the content calendar
+
+Open **Calendar** to review the schedule. Confirm the business and the visible date range before interpreting an empty view. A filter or a different week can hide work that still exists.
+
+Use the calendar to spot gaps, repeated topics and competing messages. Open the relevant item to inspect its content and status. Check **Posts** when you need the delivery record or to reopen saved work.
+
+## Before changing the plan
+
+Confirm whether an item is still an editable draft, already scheduled or already published. Do not assume moving an idea in a planning document changes a network's queue. Make the authorised change through the available NRS action and verify its result.
+
+The calendar describes recorded work. It does not create a content strategy or prove that every scheduled post has been published. For a new item, use Composer, review the platform versions and [choose the schedule](schedule-a-post.md).
+
+A recurring client report has its own schedule under the client's reporting settings; it is not a social post in this calendar.

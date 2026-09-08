@@ -1,43 +1,26 @@
-# Landing Page Copy
-*Write page copy that turns visitors into customers*
-
-A landing page is any page on your website designed to get visitors to take a specific action — book a consultation, buy a product, sign up for a free trial. Your Director writes persuasive landing page copy that is designed to convert (that means turning visitors into customers).
-
-## How to ask
-
-Use shortcuts or describe what you need:
-
-1. /pagecopy — write copy for a full landing page
-
-2. /hero — write just the hero section (the big headline and opening text visitors see first)
-
-3. Or just say "Write landing page copy for our new weight loss program"
-
-> **Tip:** Mention the specific action you want visitors to take. "Book a free consultation", "Download the guide", or "Start a free trial" all lead to very different page structures.
-
-## What you get back
-
-A complete landing page structure including:
-
-1. Hero section — a headline, subheadline, and call-to-action button text
-
-2. Problem section — describing the challenge your audience faces
-
-3. Solution section — how your product or service solves it
-
-4. Benefits and features — what makes you different
-
-5. Social proof — where to place testimonials or trust signals
-
-6. Final call to action — the closing push
-
-## Conversion best practices
-
-The website specialist applies proven strategies to maximise conversions. This includes clear headlines, benefit-focused language, strong calls to action, and removing anything that might distract visitors from taking action. You do not need to know the technical details — the agency handles it.
-
-## Healthcare landing pages
-
-If your business is in healthcare, landing page copy is automatically reviewed for compliance. Testimonials, before-and-after claims, and certain promotional language may be flagged and adjusted to meet AHPRA and TGA requirements.
-
 ---
-Tags: landing page, copy, website, conversion, hero, cro, sales page, headline
+title: "Brief a landing page"
+description: "Agree the customer journey and review the page before it goes live."
+sidebar_position: 4
+last_verified: "2026-09-08"
+review_status: "reviewed"
+availability: "service"
+review_owner: "Bec and Justin"
+source_files: ["README.md", "ARCHITECTURE.md"]
+feature_ids: ["nrs.creating-content"]
+source_urls: []
+---
+
+# Brief a landing page
+
+A landing page is a focused website project. Start with the visitor, the problem being solved and the action you want them to take. Identify where that action goes: a real enquiry form, booking flow, checkout or information page.
+
+## What to supply
+
+Provide approved business details, service scope, prices and conditions, brand assets, source evidence and examples of the desired style. Explain who owns the website and who will maintain the page after delivery.
+
+Review copy and design together. A clear headline is not enough if the booking link is wrong or the offer changes halfway through the form. Check mobile layout, accessibility, form confirmation, error handling and the final destination.
+
+For health services, do not introduce clinical success stories, medicine promotion or outcome promises as generic persuasion techniques. Route the complete page and imagery through [health review](../health-and-abe/health-advertising-review.md).
+
+NRS can scope copy, design and implementation through the [service catalogue](../services/index.md). An approved draft is separate from deployment and a tested live customer journey.
