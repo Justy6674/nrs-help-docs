@@ -17,13 +17,13 @@ Bec and Justin start with the problem already in the business: people ask AI too
 
 ## From first conversation to delivery
 
-1. **Understand the problem.** Describe what happens now, who is affected and what a better result would look like. A Reality Check or discovery conversation can help establish scope.
-2. **Agree the work.** Choose the relevant services, deliverables, exclusions and responsibilities. The written quote controls the engagement.
-3. **Prepare access and sources.** Confirm the client workspace, approved accounts, business facts and reviewer. Grant only the access required.
-4. **Build or prepare the result.** This may be process work, training, content, implementation or a software change. Some work is delivered directly by people; some uses the NRS desk.
-5. **Review and verify.** Check the actual deliverable and intended workflow. A draft, test result or queued request is not automatically a finished customer outcome.
-6. **Hand over and follow through.** Agree what is maintained, how issues are raised and whether further reporting or support is included.
+1. **Talk.** What is happening now. Who is stuck. What a better week looks like.
+2. **Quote.** We pick the Rate Book lines that fit. Written quote. You see the work before we start.
+3. **Access.** Only the accounts needed. You stay the owner.
+4. **Do the work.** Copy, search, the site, booking, payments, wiring, advertising review. Bec and Justin do it, or train your staff.
+5. **You check it.** A draft is not finished. You see the actual thing.
+6. **Hand over.** You keep the accounts, the files, and how to run it. Ongoing care is a quote, not assumed.
 
 The [Rate Book](../services/index.md) is the priced list we quote from after a first chat. The public site names four jobs. It is not a shop, and it is not a claim that every line is automated.
 
-We keep named human decisions around publishing, client delivery, consequential changes and health work. Where specialist legal, tax or clinical advice is needed, the engagement must involve an appropriately qualified professional.
+Bec or Justin sign off publishing, client delivery, consequential changes and health work. Where specialist legal, tax or clinical advice is needed, the engagement must involve an appropriately qualified professional.
