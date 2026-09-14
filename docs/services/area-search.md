@@ -43,4 +43,4 @@ Expect clear source links, collection dates and a distinction between observed e
 | [Reviews & reputation setup](service-102.md) | NRS-102 | $890 |
 | [Google analysis bundle — Search Console, GA4, Business Profile, Merchant Centre](service-104.md) | NRS-104 | $1,200 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

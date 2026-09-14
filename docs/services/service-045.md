@@ -36,4 +36,4 @@ Test the actual customer journey on a phone and desktop, including validation, e
 
 ## Next step
 
-[Discuss NRS-045 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [web & build services](area-web.md). [View all 108 services](index.md).
+[Discuss NRS-045 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [web & build services](area-web.md). [Back to the Rate Book](index.md).

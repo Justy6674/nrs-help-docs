@@ -36,4 +36,4 @@ Use the guide alongside current primary sources and the circumstances of your bu
 
 ## Next step
 
-[Discuss NRS-087 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [digital guides services](area-guides.md). [View all 108 services](index.md).
+[Discuss NRS-087 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [digital guides services](area-guides.md). [Back to the Rate Book](index.md).

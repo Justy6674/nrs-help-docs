@@ -40,4 +40,4 @@ Expect clear source links, collection dates and a distinction between observed e
 
 ## Next step
 
-[Discuss NRS-101 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [search — google and ai services](area-search.md). [View all 108 services](index.md).
+[Discuss NRS-101 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [search — google and ai services](area-search.md). [Back to the Rate Book](index.md).

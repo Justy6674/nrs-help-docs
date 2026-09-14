@@ -38,4 +38,4 @@ Check each milestone with the people who use the process. Test integrations, acc
 | [Multi-site or multi-brand rollout](service-085.md) | NRS-085 | Price on application |
 | [AI agent, tier 4 — multi-agent operation](service-107.md) | NRS-107 | From $14,000 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

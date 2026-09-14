@@ -36,4 +36,4 @@ Review completed work against the agreed priorities and actual outcomes. Record 
 
 ## Next step
 
-[Discuss NRS-080 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [care plans services](area-care.md). [View all 108 services](index.md).
+[Discuss NRS-080 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [care plans services](area-care.md). [Back to the Rate Book](index.md).

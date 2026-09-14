@@ -2,7 +2,7 @@
 title: "What is available and what is still developing"
 description: "Distinguish services, configured features and unverified release paths."
 sidebar_position: 3
-last_verified: "2026-09-08"
+last_verified: "2026-09-14"
 review_status: "reviewed"
 availability: "reference"
 review_owner: "Bec and Justin"
@@ -30,4 +30,4 @@ These guides were checked against source and product decisions on **8 September 
 
 If a guide and your workspace differ, record the business, screen and task and [contact NRS](../troubleshooting/contact-support.md). Do not substitute a retired command or a different account to force the result.
 
-The service reference gives scope and commercial distinctions. Your quote and the actual acceptance record determine what is delivered for your engagement.
+The Rate Book gives scope and commercial distinctions after a first chat. The public site names four jobs, not a shop. Your quote and the acceptance record determine what is delivered.

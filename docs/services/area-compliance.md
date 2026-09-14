@@ -43,4 +43,4 @@ Check that findings quote the material at issue, cite the applicable source and 
 | [Staff AI training — full day](service-075.md) | NRS-075 | $3,200 |
 | [Documented AI review process](service-076.md) | NRS-076 | $1,600 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

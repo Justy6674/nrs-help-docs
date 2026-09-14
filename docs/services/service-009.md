@@ -36,4 +36,4 @@ Check names, prices, links, evidence and tone against the original sources. For 
 
 ## Next step
 
-[Discuss NRS-009 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [words & content services](area-words.md). [View all 108 services](index.md).
+[Discuss NRS-009 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [words & content services](area-words.md). [Back to the Rate Book](index.md).

@@ -40,4 +40,4 @@ Preview the exact caption and media for each destination. A saved draft or accep
 
 ## Next step
 
-[Discuss NRS-105 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [social & publishing services](area-social.md). [View all 108 services](index.md).
+[Discuss NRS-105 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [social & publishing services](area-social.md). [Back to the Rate Book](index.md).

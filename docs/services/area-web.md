@@ -44,4 +44,4 @@ Test the actual customer journey on a phone and desktop, including validation, e
 | [Speed & Core Web Vitals fix](service-045.md) | NRS-045 | $1,100 |
 | [Accessibility pass — WCAG 2.2 AA](service-046.md) | NRS-046 | $1,400 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

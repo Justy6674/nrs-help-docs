@@ -39,4 +39,4 @@ Review the advertisement, targeting and landing page together. Platform approval
 | [Monthly ad management](service-065.md) | NRS-065 | $1,100 per month |
 | [Paid media audit](service-066.md) | NRS-066 | $750 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

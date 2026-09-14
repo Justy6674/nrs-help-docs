@@ -14,7 +14,7 @@ sidebar_position: 2
 
 # Start here
 
-Start with the business problem: what takes time, loses enquiries, creates risk or stops the team doing its work. Bec and Justin use discovery to decide what is worth fixing and what can wait.
+Start with the AI shift already in the business: people asking tools about you, staff pasting work into chatbots, and the systems that cannot hold that yet. Bec and Justin decide what to use, what to protect, and what can wait.
 
 ## Before you start
 
@@ -45,4 +45,4 @@ The recommendations should identify evidence, practical next actions, responsibi
 | [Compliance Quick-Check](service-095.md) | NRS-095 | $450 |
 | [Business Scan — site, Google, AI-findability and compliance report with fixes](service-100.md) | NRS-100 | $650 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

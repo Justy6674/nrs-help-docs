@@ -2,7 +2,7 @@
 title: "Bec and Justin"
 description: "The people behind Not Real Smart."
 sidebar_position: 2
-last_verified: "2026-09-08"
+last_verified: "2026-09-14"
 review_status: "reviewed"
 availability: "service"
 review_owner: "Bec and Justin"
@@ -19,6 +19,6 @@ Bec's work centres on discovery, client communication, coordination, process map
 
 Their project work includes Downscale's clinic and web systems, TeleScribe's scribe work, the ScentSell marketplace, EndorseMe's professional workflows and the NRS desk. These are examples of their build experience, not a claim that every part of every product is production-ready or included in an NRS engagement.
 
-The approach is hands-on: understand the work, choose the useful change, build or organise it, and check the actual result. AI can support that process; it does not replace the founders' responsibility for what NRS promises and delivers.
+The problem they take on is the AI shift already in the business: use it where it helps, protect the practice where you must. AI can support that work. It does not replace the founders' responsibility for what NRS promises and delivers.
 
 Read [how we work](how-we-work.md) for the engagement process and [current availability](what-is-available.md) for the distinction between human services and developing software capabilities.

@@ -44,4 +44,4 @@ Test the normal path, duplicate requests, missing data, expired access and parti
 | [Telegram or WhatsApp business bot](service-103.md) | NRS-103 | $1,900 |
 | [AI agent, tier 3 — agent with tools](service-106.md) | NRS-106 | From $6,500 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

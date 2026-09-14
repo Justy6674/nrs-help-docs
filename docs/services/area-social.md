@@ -43,4 +43,4 @@ Preview the exact caption and media for each destination. A saved draft or accep
 | [Console licence — self-serve](service-028.md) | NRS-028 | $89 per month |
 | [Extra Business Scan for console subscribers](service-105.md) | NRS-105 | $95 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

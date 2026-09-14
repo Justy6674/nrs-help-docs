@@ -44,4 +44,4 @@ Keep personal or clinical records in the approved system. Regulatory assistance 
 
 ## Next step
 
-[Discuss NRS-048 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [automation & integrations services](area-automation.md). [View all 108 services](index.md).
+[Discuss NRS-048 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [automation & integrations services](area-automation.md). [Back to the Rate Book](index.md).

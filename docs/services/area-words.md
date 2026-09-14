@@ -47,4 +47,4 @@ Check names, prices, links, evidence and tone against the original sources. For 
 | [Brand voice guide](service-018.md) | NRS-018 | $1,400 |
 | [Video script + shot list](service-019.md) | NRS-019 | $380 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

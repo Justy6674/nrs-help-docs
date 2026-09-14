@@ -2,7 +2,7 @@
 title: "How we work with you"
 description: "Turn a business problem into agreed work and a reviewable result."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-09-14"
 review_status: "reviewed"
 availability: "service"
 review_owner: "Bec and Justin"
@@ -13,7 +13,7 @@ source_urls: []
 
 # How we work with you
 
-Bec and Justin start with the business and the people doing the work. The aim is a useful improvement with clear ownership, rather than adding a tool before the problem is understood.
+Bec and Justin start with the problem already in the business: people ask AI tools about you, and staff already paste work into chatbots. The aim is useful work with clear ownership. We do not add a tool before that is understood.
 
 ## From first conversation to delivery
 
@@ -24,6 +24,6 @@ Bec and Justin start with the business and the people doing the work. The aim is
 5. **Review and verify.** Check the actual deliverable and intended workflow. A draft, test result or queued request is not automatically a finished customer outcome.
 6. **Hand over and follow through.** Agree what is maintained, how issues are raised and whether further reporting or support is included.
 
-Our [108-offer reference](../services/index.md) helps you understand the catalogue. It is not a requirement to buy a bundle or an assertion that every offer is automated.
+The [Rate Book](../services/index.md) is the priced list we quote from after a first chat. The public site names four jobs. It is not a shop, and it is not a claim that every line is automated.
 
 We keep named human decisions around publishing, client delivery, consequential changes and health work. Where specialist legal, tax or clinical advice is needed, the engagement must involve an appropriately qualified professional.

@@ -41,4 +41,4 @@ Use the guide alongside current primary sources and the circumstances of your bu
 | [AI for Consultants & Coaches](service-098.md) | NRS-098 | $79 |
 | [AI for Trades Businesses](service-099.md) | NRS-099 | $79 |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

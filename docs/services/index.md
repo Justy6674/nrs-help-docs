@@ -1,6 +1,6 @@
 ---
-title: "All 108 services"
-description: "Explore every NRS service and its scope, price and review requirements."
+title: "Rate Book"
+description: "The priced Rate Book for quotes after a first chat. Public work is four jobs: be found, systems, AI integration, and structure and governance."
 last_verified: "2026-09-08"
 review_owner: "Bec and Justin"
 review_status: "reviewed"
@@ -12,33 +12,33 @@ slug: "/services"
 sidebar_position: 1
 ---
 
-# All 108 services
+# Rate Book
 
-Not Real Smart combines consulting, marketing and implementation. Bec and Justin start with the business, then agree the work worth doing. This reference covers every offering in the approved catalogue across 12 areas.
+People already ask AI tools about you. Staff already paste work into chatbots. We help you benefit from that shift, and protect the practice where you must.
 
-A listed service is an offering to scope with us. It is not a claim that all 108 options are software features or that every account can buy and run them automatically. See [current availability](../about/what-is-available.md).
+The public site names four jobs: be found, systems, AI integration, and structure and governance. This page is the priced Rate Book we quote from after a first chat. It is not a shop. A listed line is work we can scope. It is not a claim that every option is a software button. See [current availability](../about/what-is-available.md).
 
-## Find the right area
+## Rate Book sections
 
-- [Start here](area-start.md) — 12 options.
-- [Words & content](area-words.md) — 14 options.
-- [Social & publishing](area-social.md) — 10 options.
-- [Search — Google and AI](area-search.md) — 10 options.
-- [Web & build](area-web.md) — 11 options.
-- [Automation & integrations](area-automation.md) — 11 options.
-- [Brand & design](area-brand.md) — 5 options.
-- [Paid media](area-paid.md) — 6 options.
-- [Compliance, governance & safety](area-compliance.md) — 10 options.
-- [Care plans](area-care.md) — 6 options.
-- [Full-scale programmes](area-programmes.md) — 5 options.
-- [Digital guides](area-guides.md) — 8 options.
+- [Start here](area-start.md) — 12 lines.
+- [Words & content](area-words.md) — 14 lines.
+- [Social & publishing](area-social.md) — 10 lines.
+- [Search — Google and AI](area-search.md) — 10 lines.
+- [Web & build](area-web.md) — 11 lines.
+- [Automation & integrations](area-automation.md) — 11 lines.
+- [Brand & design](area-brand.md) — 5 lines.
+- [Paid media](area-paid.md) — 6 lines.
+- [Compliance, governance & safety](area-compliance.md) — 10 lines.
+- [Care plans](area-care.md) — 6 lines.
+- [Full-scale programmes](area-programmes.md) — 5 lines.
+- [Digital guides](area-guides.md) — 8 lines.
 
 ## Prices and scope
 
-All prices are in Australian dollars, excluding GST. Fixed, from, monthly and quoted fees are labelled separately. The written engagement confirms deliverables, revisions, timing, approvals, access, third-party costs and any ongoing charges before work starts. Do not assume an outcome or inclusion that is absent from that scope.
+Amounts here are Australian dollars, excluding GST, for the quote desk. The written engagement confirms deliverables, revisions, timing, approvals, access, third-party costs and any ongoing charges before work starts. Do not assume an outcome that is absent from that scope.
 
-Service names and prices are maintained from the same catalogue as the [public service menu](https://www.notrealsmart.com.au/services). The reference is checked against that catalogue at release.
+Names and amounts stay on the same catalogue as the [public four-job outline](https://www.notrealsmart.com.au/services). The public page does not print these prices.
 
 ## Get started
 
-Use the [Business Reality Check](service-001.md) or [contact Bec and Justin](https://www.notrealsmart.com.au/enquire) with the problem you want to solve. For health work, also read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).
+Use the [Business Reality Check](service-001.md) or [book a chat](https://www.notrealsmart.com.au/enquire). For health work, also read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).

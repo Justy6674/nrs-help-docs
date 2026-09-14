@@ -39,4 +39,4 @@ Review completed work against the agreed priorities and actual outcomes. Record 
 | [Advisory hour](service-081.md) | NRS-081 | $420 |
 | [Competitor change alerts](service-108.md) | NRS-108 | $120 per month |
 
-All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).
+All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

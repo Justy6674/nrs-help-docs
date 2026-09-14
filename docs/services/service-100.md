@@ -40,4 +40,4 @@ The recommendations should identify evidence, practical next actions, responsibi
 
 ## Next step
 
-[Discuss NRS-100 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [start here services](area-start.md). [View all 108 services](index.md).
+[Discuss NRS-100 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [start here services](area-start.md). [Back to the Rate Book](index.md).

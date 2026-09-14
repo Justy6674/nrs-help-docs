@@ -36,4 +36,4 @@ Review the advertisement, targeting and landing page together. Platform approval
 
 ## Next step
 
-[Discuss NRS-063 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [paid media services](area-paid.md). [View all 108 services](index.md).
+[Discuss NRS-063 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [paid media services](area-paid.md). [Back to the Rate Book](index.md).

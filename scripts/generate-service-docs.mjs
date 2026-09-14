@@ -13,7 +13,7 @@ const oaic = 'https://www.oaic.gov.au/privacy/australian-privacy-principles';
 // prices and charging models come solely from the approved catalogue snapshot.
 const areas = {
   start: {
-    intro: 'Start with the business problem: what takes time, loses enquiries, creates risk or stops the team doing its work. Bec and Justin use discovery to decide what is worth fixing and what can wait.',
+    intro: 'Start with the AI shift already in the business: people asking tools about you, staff pasting work into chatbots, and the systems that cannot hold that yet. Bec and Justin decide what to use, what to protect, and what can wait.',
     prepare: 'Bring your website, the systems you use, the people involved, your current bottleneck and examples of work that is difficult. Use fictional or redacted examples where records contain personal or health information.',
     agree: 'Agree which business and workflows are in scope, who is interviewed, whether the outcome is a discussion, an assessment or a written plan, and who owns the next decisions.',
     review: 'The recommendations should identify evidence, practical next actions, responsibilities and dependencies. An initial discussion does not by itself include implementation or ongoing management.',
@@ -125,17 +125,17 @@ function metadata(title, description, extra = {}, health = false) {
 }
 const files = new Map();
 const table = services => '| Service | Reference | Listed fee |\n| --- | --- | --- |\n' + services.map(s => `| [${s.name}](service-${s.sku.slice(4)}.md) | ${s.sku} | ${price(s)} |`).join('\n');
-files.set('index.md', metadata('All 108 services', 'Explore every NRS service and its scope, price and review requirements.', {slug: '/services', sidebar_position: 1}) +
-  '# All 108 services\n\nNot Real Smart combines consulting, marketing and implementation. Bec and Justin start with the business, then agree the work worth doing. This reference covers every offering in the approved catalogue across 12 areas.\n\nA listed service is an offering to scope with us. It is not a claim that all 108 options are software features or that every account can buy and run them automatically. See [current availability](../about/what-is-available.md).\n\n## Find the right area\n\n' +
-  data.sections.map(s => `- [${s.label}](area-${s.id}.md) — ${data.services.filter(i => i.sectionId === s.id).length} options.`).join('\n') +
-  '\n\n## Prices and scope\n\nAll prices are in Australian dollars, excluding GST. Fixed, from, monthly and quoted fees are labelled separately. The written engagement confirms deliverables, revisions, timing, approvals, access, third-party costs and any ongoing charges before work starts. Do not assume an outcome or inclusion that is absent from that scope.\n\nService names and prices are maintained from the same catalogue as the [public service menu](https://www.notrealsmart.com.au/services). The reference is checked against that catalogue at release.\n\n## Get started\n\nUse the [Business Reality Check](service-001.md) or [contact Bec and Justin](https://www.notrealsmart.com.au/enquire) with the problem you want to solve. For health work, also read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).\n');
+files.set('index.md', metadata('Rate Book', 'The priced Rate Book for quotes after a first chat. Public work is four jobs: be found, systems, AI integration, and structure and governance.', {slug: '/services', sidebar_position: 1}) +
+  '# Rate Book\n\nPeople already ask AI tools about you. Staff already paste work into chatbots. We help you benefit from that shift, and protect the practice where you must.\n\nThe public site names four jobs: be found, systems, AI integration, and structure and governance. This page is the priced Rate Book we quote from after a first chat. It is not a shop. A listed line is work we can scope. It is not a claim that every option is a software button. See [current availability](../about/what-is-available.md).\n\n## Rate Book sections\n\n' +
+  data.sections.map(s => `- [${s.label}](area-${s.id}.md) — ${data.services.filter(i => i.sectionId === s.id).length} lines.`).join('\n') +
+  '\n\n## Prices and scope\n\nAmounts here are Australian dollars, excluding GST, for the quote desk. The written engagement confirms deliverables, revisions, timing, approvals, access, third-party costs and any ongoing charges before work starts. Do not assume an outcome that is absent from that scope.\n\nNames and amounts stay on the same catalogue as the [public four-job outline](https://www.notrealsmart.com.au/services). The public page does not print these prices.\n\n## Get started\n\nUse the [Business Reality Check](service-001.md) or [book a chat](https://www.notrealsmart.com.au/enquire). For health work, also read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).\n');
 
 for (const section of data.sections) {
   const a = areas[section.id];
   if (!a) throw new Error('Missing reviewed area copy: ' + section.id);
   const services = data.services.filter(s => s.sectionId === section.id);
   files.set(`area-${section.id}.md`, metadata(section.label, `Choosing and scoping NRS ${section.label.toLowerCase()} services.`, {service_section: section.id, sidebar_position: data.sections.indexOf(section) + 2}, section.id === 'compliance') +
-    `# ${section.label}\n\n${a.intro}\n\n## Before you start\n\n${a.prepare}\n\n## Agree the work\n\n${a.agree}\n\n## Review the result\n\n${a.review}\n\n## Options and fees\n\n${table(services)}\n\nAll listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to all services](index.md).\n`);
+    `# ${section.label}\n\n${a.intro}\n\n## Before you start\n\n${a.prepare}\n\n## Agree the work\n\n${a.agree}\n\n## Review the result\n\n${a.review}\n\n## Options and fees\n\n${table(services)}\n\nAll listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).\n`);
 }
 for (const s of data.services) {
   const a = areas[s.sectionId];
@@ -149,7 +149,7 @@ for (const s of data.services) {
     (special[s.sku] ? `## What to know\n\n${special[s.sku]}\n\n` : '') +
     `## Prepare for the conversation\n\n${a.prepare}\n\n## Confirm the scope\n\n${a.agree}\n\n## Review and accept\n\n${a.review}\n\n` +
     (health ? `## Health and professional responsibilities\n\nKeep personal or clinical records in the approved system. Regulatory assistance needs a responsible person to review the actual facts and current sources. [Ahpra advertising guidance](${ahpra}), [TGA prescription advertising guidance](${tga}) and the [Australian Privacy Principles](${oaic}) are reference points; their applicability depends on the work. Read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).\n\n` : '') +
-    `## Next step\n\n[Discuss ${s.sku} with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [${data.sections.find(x => x.id === s.sectionId).label.toLowerCase()} services](area-${s.sectionId}.md). [View all 108 services](index.md).\n`);
+    `## Next step\n\n[Discuss ${s.sku} with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [${data.sections.find(x => x.id === s.sectionId).label.toLowerCase()} services](area-${s.sectionId}.md). [Back to the Rate Book](index.md).\n`);
 }
 if (data.services.length !== 108 || new Set(data.services.map(s => s.sku)).size !== 108) throw new Error('Expected 108 unique approved services; review generator when catalogue changes.');
 const out = resolve(root, 'docs/services');

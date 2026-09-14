@@ -36,4 +36,4 @@ Review legibility at real sizes, mobile layouts, contrast and reproduction. Chec
 
 ## Next step
 
-[Discuss NRS-056 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [brand & design services](area-brand.md). [View all 108 services](index.md).
+[Discuss NRS-056 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [brand & design services](area-brand.md). [Back to the Rate Book](index.md).
