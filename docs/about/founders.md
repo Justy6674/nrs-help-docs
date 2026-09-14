@@ -13,11 +13,9 @@ source_urls: []
 
 # Bec and Justin
 
-Bec and Justin are the cofounders of Not Real Smart. The quote names who does what. AI can draft. They review before it goes out.
+Bec and Justin are the cofounders of Not Real Smart. Their work comes from building and operating businesses and the systems those businesses need: practical service delivery, health, products and day-to-day operations.
 
-Bec: first conversations and discovery, client communication, coordination, process mapping, staff training and walkthroughs, approvals on publishing we run for you, and checking the change works for the people who use it.
-
-Justin is a nurse practitioner. His agency work is product and systems, sites, booking, payments and wiring, Ahpra and TGA advertising review, the Business Scan, and AI tool setup you are allowed to use.
+Bec's work centres on discovery, client communication, coordination, process mapping and training. Justin's work centres on the clinical context, product decisions and practical system building. The engagement names who is responsible for a particular deliverable and who must review it.
 
 Their project work includes Downscale's clinic and web systems, TeleScribe's scribe work, the ScentSell marketplace, EndorseMe's professional workflows and the NRS desk. These are examples of their build experience, not a claim that every part of every product is production-ready or included in an NRS engagement.
 
