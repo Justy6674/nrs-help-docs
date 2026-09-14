@@ -1,7 +1,7 @@
 ---
 title: "Rate Book"
 description: "The priced Rate Book for quotes after a first chat. Public work is four jobs: be found, systems, AI integration, and structure and governance."
-last_verified: "2026-09-08"
+last_verified: "2026-09-14"
 review_owner: "Bec and Justin"
 review_status: "reviewed"
 availability: "service"
@@ -14,7 +14,7 @@ sidebar_position: 1
 
 # Rate Book
 
-People already ask AI tools about you. Staff already paste work into chatbots. We help you benefit from that shift, and protect the practice where you must.
+We do search, systems, AI readiness, and Ahpra review for Australian clinics and small businesses.
 
 The public site names four jobs: be found, systems, AI integration, and structure and governance. This page is the priced Rate Book we quote from after a first chat. It is not a shop. A listed line is work we can scope. It is not a claim that every option is a software button. See [current availability](../about/what-is-available.md).
 

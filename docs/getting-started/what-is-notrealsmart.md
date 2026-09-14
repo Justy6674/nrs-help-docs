@@ -13,9 +13,9 @@ source_urls: []
 
 # What is Not Real Smart?
 
-Not Real Smart is the agency Bec and Justin run. People already ask AI tools about you. Staff already paste work into chatbots. We help you use that, and protect the practice where you must.
+Not Real Smart is the agency Bec and Justin run. They do search, systems, AI readiness, and Ahpra review for Australian clinics and small businesses.
 
-The **agency** does the work by hand. The **NRS desk** holds the plan, quote, publish and report. A person still signs.
+The **agency** does the work by hand. The **NRS desk** holds the plan, quote, publish and report. Bec or Justin sign off.
 
 ## Where to start
 

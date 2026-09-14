@@ -13,12 +13,12 @@ source_urls: []
 
 # Bec and Justin
 
-Bec and Justin are the cofounders of Not Real Smart. Their work comes from building and operating businesses and the systems those businesses need: practical service delivery, health, products and day-to-day operations.
+Bec and Justin are the cofounders of Not Real Smart. They do search, systems, AI readiness, and Ahpra review for Australian clinics and small businesses.
 
-Bec's work centres on discovery, client communication, coordination, process mapping and training. Justin's work centres on the clinical context, product decisions and practical system building. The engagement names who is responsible for a particular deliverable and who must review it.
+Bec does first conversations and discovery, client communication, coordination, process mapping, and staff training. Justin is a nurse practitioner. He does product and systems, site and payment wiring, Ahpra and TGA advertising review, and AI readiness.
 
-Their project work includes Downscale's clinic and web systems, TeleScribe's scribe work, the ScentSell marketplace, EndorseMe's professional workflows and the NRS desk. These are examples of their build experience, not a claim that every part of every product is production-ready or included in an NRS engagement.
+Work they have already run includes Downscale clinic systems, TeleScribe, ScentSell, EndorseMe and the NRS desk. A quote does not include every product they have touched.
 
-The problem they take on is the AI shift already in the business: use it where it helps, protect the practice where you must. AI can support that work. It does not replace the founders' responsibility for what NRS promises and delivers.
+AI can draft. Bec or Justin review before work goes out.
 
 Read [how we work](how-we-work.md) for the engagement process and [current availability](what-is-available.md) for the distinction between human services and developing software capabilities.
