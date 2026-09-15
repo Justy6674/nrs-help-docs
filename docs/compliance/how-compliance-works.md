@@ -2,11 +2,11 @@
 title: "How NRS checks content"
 description: "Understand automated screening, human review and the release gate."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-09-15"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
+source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/publish-gate-policy.ts", "src/app/console/settings/accounts/actions.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
 feature_ids: ["nrs.compliance"]
 source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public"]
 ---
@@ -14,6 +14,8 @@ source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-gu
 # How NRS checks content
 
 NRS runs deterministic checks against the selected business's content and rules. Composer shows findings while work is prepared; the server checks again when release is requested. Unresolved blocking findings prevent release. A general administrator override is not the documented workflow.
+
+Every business needs its healthcare advertising setting saved, on or off, before anything can be released. If a business has no setting, the setting cannot be read, or it holds a value NRS does not recognise, release stops with a message pointing to **Brand kit**. Open Brand kit, choose the setting and save. Turning healthcare advertising on is limited to a person labelled Admin. The same stop applies when the image and video checks for a post cannot be read, and the release check uses the most recent image or video check.
 
 A checker can miss an issue or flag acceptable wording. Read the actual sentence, context, image and destination. Correct the work or refer the finding for appropriate review. A rewrite suggestion does not itself clear a flag or establish legal acceptability.
 

@@ -2,11 +2,11 @@
 title: "Schedule a post"
 description: "Choose a queue slot or a specific time and verify the result."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-09-15"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/components/nrs/Composer.tsx", "src/app/console/composer/actions.ts", "src/lib/nrs/publish-gate.ts", "src/app/console/settings/queue-slots/page.tsx"]
+source_files: ["src/components/nrs/Composer.tsx", "src/app/console/composer/actions.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/publish-gate-policy.ts", "src/app/console/settings/queue-slots/page.tsx"]
 feature_ids: ["nrs.publishing"]
 source_urls: []
 ---
@@ -14,6 +14,8 @@ source_urls: []
 # Schedule a post
 
 Open the intended draft in Composer. Confirm the business, accounts, platform versions and media. Resolve blocking release checks and complete the required human review.
+
+If release stops with a message about the healthcare advertising setting, open **Brand kit** for that business, choose on or off and save, then try again. See [how NRS checks content](../compliance/how-compliance-works.md).
 
 ## Choose the time
 
