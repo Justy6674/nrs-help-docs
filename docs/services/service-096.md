@@ -2,7 +2,7 @@
 title: "AI for Solo Health Practitioners"
 description: "NRS-096: listed fee, scope questions and review requirements."
 last_verified: "2026-09-08"
-review_owner: "Bec and Justin"
+review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "limited"
 feature_ids: ["nrs.services"]

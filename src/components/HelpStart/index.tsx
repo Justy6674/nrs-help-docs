@@ -31,9 +31,9 @@ export default function HelpStart() {
       </nav>
       <section className="nrs-help-human">
         <p className="nrs-help-eyebrow">People behind the work</p>
-        <h2>Meet Bec and Justin.</h2>
-        <p>Bec and Justin run the agency. The desk holds the work. Each guide says what is live.</p>
-        <Link to="/about/founders">Meet Bec and Justin <span aria-hidden="true">→</span></Link>
+        <h2>About the agency.</h2>
+        <p>An Australian agency for health practices and small businesses. Each guide says what is live.</p>
+        <Link to="/about/founders">About Not Real Smart <span aria-hidden="true">→</span></Link>
       </section>
     </div>
   );

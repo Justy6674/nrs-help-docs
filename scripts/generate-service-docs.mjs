@@ -116,7 +116,7 @@ function price(service) {
 }
 function metadata(title, description, extra = {}, health = false) {
   const fields = {
-    title, description, last_verified: data.verifiedAt, review_owner: 'Bec and Justin',
+    title, description, last_verified: data.verifiedAt, review_owner: 'Not Real Smart',
     review_status: 'reviewed', availability: 'service', feature_ids: ['nrs.services'],
     source_files: ['src/lib/nrs/offers/catalogue.ts', 'docs/offers/rate-book-v1.md'],
     source_urls: health ? [ahpra, tga, oaic] : [], ...extra,
@@ -125,8 +125,8 @@ function metadata(title, description, extra = {}, health = false) {
 }
 const files = new Map();
 const table = services => '| Service | Reference | Listed fee |\n| --- | --- | --- |\n' + services.map(s => `| [${s.name}](service-${s.sku.slice(4)}.md) | ${s.sku} | ${price(s)} |`).join('\n');
-files.set('index.md', metadata('Rate Book', 'The priced Rate Book for quotes after a first chat. Public work is four jobs: be found, systems, AI integration, and structure and governance.', {slug: '/services', sidebar_position: 1}) +
-  '# Rate Book\n\nPeople already ask AI tools about you. Staff already paste work into chatbots. We help you benefit from that shift, and protect the practice where you must.\n\nThe public site names four jobs: be found, systems, AI integration, and structure and governance. This page is the priced Rate Book we quote from after a first chat. It is not a shop. A listed line is work we can scope. It is not a claim that every option is a software button. See [current availability](../about/what-is-available.md).\n\n## Rate Book sections\n\n' +
+files.set('index.md', metadata('Rate Book', 'The priced list we quote from after a first chat.', {slug: '/services', sidebar_position: 1}) +
+  '# Rate Book\n\nNot Real Smart is an Australian agency for health practices and small businesses. Every service is listed at [notrealsmart.com.au/services](https://www.notrealsmart.com.au/services).\n\nThis page is the priced list we quote from after a first chat. It is not a shop. A listed line is work we can scope. It is not a claim that every option is a software button. See [current availability](../about/what-is-available.md).\n\n## Rate Book sections\n\n' +
   data.sections.map(s => `- [${s.label}](area-${s.id}.md) — ${data.services.filter(i => i.sectionId === s.id).length} lines.`).join('\n') +
   '\n\n## Prices and scope\n\nAmounts here are Australian dollars, excluding GST, for the quote desk. The written engagement confirms deliverables, revisions, timing, approvals, access, third-party costs and any ongoing charges before work starts. Do not assume an outcome that is absent from that scope.\n\nNames and amounts stay on the same catalogue as the [public four-job outline](https://www.notrealsmart.com.au/services). The public page does not print these prices.\n\n## Get started\n\nUse the [Business Reality Check](service-001.md) or [book a chat](https://www.notrealsmart.com.au/enquire). For health work, also read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).\n');
 

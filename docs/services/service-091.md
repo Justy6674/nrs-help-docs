@@ -2,7 +2,7 @@
 title: "AI Tool Stack Setup"
 description: "NRS-091: listed fee, scope questions and review requirements."
 last_verified: "2026-09-08"
-review_owner: "Bec and Justin"
+review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"
 feature_ids: ["nrs.services"]

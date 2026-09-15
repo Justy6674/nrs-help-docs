@@ -2,7 +2,7 @@
 title: "Social content pack — 12 posts"
 description: "NRS-020: listed fee, scope questions and review requirements."
 last_verified: "2026-09-08"
-review_owner: "Bec and Justin"
+review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"
 feature_ids: ["nrs.services"]

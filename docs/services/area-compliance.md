@@ -2,7 +2,7 @@
 title: "Compliance, governance & safety"
 description: "Choosing and scoping NRS compliance, governance & safety services."
 last_verified: "2026-09-08"
-review_owner: "Bec and Justin"
+review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"
 feature_ids: ["nrs.services"]
