@@ -16,7 +16,7 @@ slug: /faq
 
 ## How do we start?
 
-Book a 15-minute chat from [notrealsmart.com.au](https://www.notrealsmart.com.au/enquire), or email office@notrealsmart.com.au. If we can help, you get a written quote. If we can't, we tell you.
+Book a 15-minute chat from [notrealsmart.com.au](https://www.notrealsmart.com.au/enquire), or email office@notrealsmart.com.au. If we can help, a written quote follows the chat. If we can't, we say so.
 
 ## Do you publish prices?
 

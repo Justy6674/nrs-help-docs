@@ -15,11 +15,11 @@ source_urls: []
 
 Not Real Smart is an Australian agency for health practices and small businesses. We help with AI, search, social media, websites, automation and admin, and with the advertising rules that apply to health.
 
-The agency was founded by a Nurse Practitioner. That is why health advertising rules and AI governance sit at the centre of the work rather than at the edges.
+The agency was founded by a Nurse Practitioner, which is why health advertising rules and AI governance are central to how we work.
 
 ## Products we have built
 
-Our own products, named to show the kind of work we do, not as client results:
+Our own products, still early. Named to show the kind of work we do, not as client results:
 
 - **Downscale**: systems for a telehealth clinic, including website, booking, patient portal and front desk.
 - **TeleScribe**: clinical documentation software.
