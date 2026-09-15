@@ -1,24 +1,33 @@
 ---
-title: "Bec and Justin"
-description: "The people behind Not Real Smart."
+title: "About Not Real Smart"
+description: "The agency behind this help centre."
 sidebar_position: 2
-last_verified: "2026-09-14"
+last_verified: "2026-09-15"
 review_status: "reviewed"
 availability: "service"
-review_owner: "Bec and Justin"
-source_files: ["README.md", "ARCHITECTURE.md", "docs/nrs-agency-vision-2026-09-04.md"]
+review_owner: "Not Real Smart"
+source_files: ["docs/nrs-master-services.md", "src/lib/nrs/consultancy/public-copy.ts"]
 feature_ids: ["nrs.about"]
 source_urls: []
 ---
 
-# Bec and Justin
+# About Not Real Smart
 
-Bec and Justin are the cofounders of Not Real Smart. They do search, systems, AI readiness, and Ahpra review for Australian clinics and small businesses.
+Not Real Smart is an Australian agency for health practices and small businesses. We help with AI, search, social media, websites, automation and admin, and with the advertising rules that apply to health.
 
-Bec does first conversations and discovery, client communication, coordination, process mapping, and staff training. Justin is a nurse practitioner. He does product and systems, site and payment wiring, Ahpra and TGA advertising review, and AI readiness.
+The agency was founded by a Nurse Practitioner. That is why health advertising rules and AI governance sit at the centre of the work rather than at the edges.
 
-Work they have already run includes Downscale clinic systems, TeleScribe, ScentSell, EndorseMe and the NRS desk. A quote does not include every product they have touched.
+## Products we have built
 
-AI can draft. Bec or Justin review before work goes out.
+Our own products, named to show the kind of work we do, not as client results:
 
-Read [how we work](how-we-work.md) for the engagement process and [current availability](what-is-available.md) for the distinction between human services and developing software capabilities.
+- **Downscale**: systems for a telehealth clinic, including website, booking, patient portal and front desk.
+- **TeleScribe**: clinical documentation software.
+- **EndorseMe**: a portfolio and evidence app for nurses working towards endorsement.
+- **ScentSell**: an online fragrance marketplace.
+
+## What we don't do
+
+We do not give tax, legal, insurance or clinical advice, and we do not prescribe. When you need that, we point you to the right professional.
+
+Read [how we work](how-we-work.md), the [FAQ](faq.md) and [current availability](what-is-available.md).

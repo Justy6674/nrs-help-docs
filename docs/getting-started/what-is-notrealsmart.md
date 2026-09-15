@@ -2,10 +2,10 @@
 title: "What is Not Real Smart?"
 description: "Understand the agency, the NRS desk and the assistance behind it."
 sidebar_position: 1
-last_verified: "2026-09-14"
+last_verified: "2026-09-15"
 review_status: "reviewed"
 availability: "service"
-review_owner: "Bec and Justin"
+review_owner: "Not Real Smart"
 source_files: ["README.md", "ARCHITECTURE.md"]
 feature_ids: ["nrs.getting-started"]
 source_urls: []
@@ -13,14 +13,14 @@ source_urls: []
 
 # What is Not Real Smart?
 
-Not Real Smart is the agency Bec and Justin run. They do search, systems, AI readiness, and Ahpra review for Australian clinics and small businesses.
+Not Real Smart is an Australian agency for health practices and small businesses: Ahpra and TGA advertising review, AI governance and set-up, search, social media, websites, automation, admin support and training.
 
-The **agency** does the work by hand. The **NRS desk** holds the plan, quote, publish and report. Bec or Justin sign off.
+The agency does the work and a person signs it off. The NRS desk is where plans, quotes, publishing and reports are kept.
 
 ## Where to start
 
-- Looking for help with your business? Read [how we work](../about/how-we-work.md) and the [four jobs and Rate Book](../services/index.md).
+- Looking for help with your business? Read [how we work](../about/how-we-work.md) and the [FAQ](../about/faq.md).
 - Already a client? Use the workspace invitation from NRS. Client portal access and agency staff access are different.
 - Working in the desk? Start with [your first workspace](your-first-conversation.md), then your brand and connected accounts.
 
-The Rate Book is what we quote from after a first chat. It is not a shop, and it is not a claim that every line is a software button. [Current availability](../about/what-is-available.md) explains that distinction.
+[Current availability](../about/what-is-available.md) explains which parts are services and which are software still being built.

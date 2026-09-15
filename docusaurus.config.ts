@@ -84,7 +84,7 @@ const config: Config = {
         {title: 'Start here', items: [
           {label: 'What NRS does', to: '/getting-started/what-is-notrealsmart'},
           {label: 'Our services', to: '/services'},
-          {label: 'Bec and Justin', to: '/about/founders'},
+          {label: 'About', to: '/about/founders'}, {label: 'FAQ', to: '/faq'},
         ]},
         {title: 'Get work done', items: [
           {label: 'Publish and review', to: '/creating-content/write-a-social-post'},

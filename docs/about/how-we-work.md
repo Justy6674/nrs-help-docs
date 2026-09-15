@@ -1,26 +1,26 @@
 ---
 title: "How we work with you"
-description: "Turn a business problem into agreed work and a reviewable result."
+description: "A short chat, a written quote, the work itself, and a proper handover."
 sidebar_position: 1
-last_verified: "2026-09-14"
+last_verified: "2026-09-15"
 review_status: "reviewed"
 availability: "service"
-review_owner: "Bec and Justin"
-source_files: ["README.md", "ARCHITECTURE.md", "docs/nrs-agency-vision-2026-09-04.md", "src/lib/nrs/consultancy/domain-map.ts"]
+review_owner: "Not Real Smart"
+source_files: ["docs/nrs-master-services.md", "src/lib/nrs/consultancy/public-copy.ts"]
 feature_ids: ["nrs.about"]
 source_urls: []
 ---
 
 # How we work with you
 
-We talk. We send a written quote from the Rate Book. We do the agreed work. You keep the accounts.
+A short chat, a written quote, the work itself, and a proper handover.
 
-## From first conversation to delivery
+1. **Book a 15-minute chat.** Tell us what is going on in the business. If we are not the right fit, we will say so.
+2. **We look before we quote.** For bigger jobs we start with the free Reality Check, a Business Scan or a business analysis, so the quote is based on what we found.
+3. **You get a written quote.** It lists exactly what we will do and what is not included. Nothing starts until you accept it.
+4. **A deposit starts the work.** Smaller jobs are paid half up front and half on completion. Larger jobs are paid in three stages.
+5. **Checked before it goes out.** A person reviews anything AI helped write. Content for health practices is checked against the Ahpra and TGA advertising rules.
+6. **Handover and training.** We train your team on what we set up and leave written procedures.
+7. **Monthly care, if you want it.** Care plans run for a three-month minimum, then month to month with 30 days' notice either way.
 
-1. **Talk.** A 15-minute chat about the business and what you need.
-2. **Quote.** A written quote from the Rate Book. Not a shop.
-3. **Do the work.** We do the agreed work. You keep the accounts.
-
-The [Rate Book](../services/index.md) is the priced list we quote from after a first chat. The public site names four jobs: be found, systems, AI integration, and structure and governance. It is not a shop, and it is not a claim that every line is automated.
-
-We keep named human decisions around publishing, client delivery, consequential changes and health work. Where specialist legal, tax or clinical advice is needed, the engagement must involve an appropriately qualified professional.
+Where specialist legal, tax, insurance or clinical advice is needed, we point you to an appropriately qualified professional. See the [FAQ](faq.md).
