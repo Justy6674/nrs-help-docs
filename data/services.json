@@ -745,7 +745,7 @@
       "sectionId": "care",
       "name": "Advisory hour",
       "model": "fixed",
-      "amount": 420
+      "amount": 500
     },
     {
       "sku": "NRS-108",

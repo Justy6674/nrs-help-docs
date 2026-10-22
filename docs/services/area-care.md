@@ -36,7 +36,7 @@ Review completed work against the agreed priorities and actual outcomes. Record 
 | [Growth](service-078.md) | NRS-078 | $1,800 per month |
 | [Partner](service-079.md) | NRS-079 | $3,900 per month |
 | [Advisory day](service-080.md) | NRS-080 | $2,600 |
-| [Advisory hour](service-081.md) | NRS-081 | $420 |
+| [Advisory hour](service-081.md) | NRS-081 | $500 |
 | [Competitor change alerts](service-108.md) | NRS-108 | $120 per month |
 
 All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

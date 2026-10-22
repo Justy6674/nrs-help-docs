@@ -11,14 +11,14 @@ source_urls: []
 slug: "/services/081"
 service_sku: "NRS-081"
 service_section: "care"
-service_amount: 420
+service_amount: 500
 service_model: "fixed"
 sidebar_position: 101
 ---
 
 # Advisory hour
 
-**NRS-081 · $420 · AUD, excluding GST**
+**NRS-081 · $500 · AUD, excluding GST**
 
 This is a service reference for discussing and agreeing the work with NRS. The title and fee come from the approved catalogue; the written engagement defines the deliverables and acceptance.
 
