@@ -6,7 +6,7 @@ last_verified: "2026-10-22"
 review_status: "reviewed"
 availability: "service"
 review_owner: "Bec and Justin"
-source_files: ["README.md", "ARCHITECTURE.md", "src/app/console/quotes/", "src/app/quote/[token]/", "src/app/console/invoices/"]
+source_files: ["README.md", "ARCHITECTURE.md", "src/app/console/clients/leads/[leadId]/", "src/app/scope/[token]/", "src/app/console/quotes/", "src/app/quote/[token]/", "src/app/console/invoices/"]
 feature_ids: ["nrs.account-and-billing"]
 source_urls: []
 ---
@@ -14,6 +14,12 @@ source_urls: []
 # Manage your engagement and invoices
 
 For agency work, Justin sets the scope and each line price after a conversation. Catalogue amounts are reference points, not the amount you agree to pay. Your issued quote lists the work, exclusions, prices, payment stages, any separately offered monthly work and the terms that apply to that version.
+
+## Before the quote
+
+Justin may send a private Not Real Smart questionnaire after the first conversation. Answer only the questions that are relevant; “not sure” is fine. It asks about your goals, website, Google presence, communications and public advertising. It does not set a price, agree to monthly work or certify regulatory compliance.
+
+Keep answers at business level. Do not put patient information, clinical records, passwords or access codes in the form. NRS uses your response to prepare a tailored scope and handles it under the [privacy notice](https://www.notrealsmart.com.au/privacy). Contact NRS if the link has expired or you need to change an answer after submitting.
 
 NRS confirms the agreed scope and payment stages in writing before issuing the quote.
 
