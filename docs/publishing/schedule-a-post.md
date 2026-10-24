@@ -2,7 +2,7 @@
 title: "Schedule a post"
 description: "Choose a queue slot or a specific time and verify the result."
 sidebar_position: 1
-last_verified: "2026-09-15"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -14,6 +14,8 @@ source_urls: []
 # Schedule a post
 
 Open the intended draft in Composer. Confirm the business, accounts, platform versions and media. Resolve blocking release checks and complete the required human review.
+
+NRS checks every connected account with Zernio each morning. If an account has not been confirmed in the last 36 hours, or Zernio says it cannot post, release stops and names the account. Open **Settings → Accounts** and press **Import accounts**, or reconnect the account, then try again.
 
 If release stops with a message about the healthcare advertising setting, open **Brand kit** for that business, choose on or off and save, then try again. See [how NRS checks content](../compliance/how-compliance-works.md).
 
