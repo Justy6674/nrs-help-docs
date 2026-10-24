@@ -4,6 +4,16 @@
       "source": "/markdown-page",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/services/area-care",
+      "destination": "/services/area-support",
+      "permanent": true
+    },
+    {
+      "source": "/services/service-065",
+      "destination": "/services/area-paid",
+      "permanent": true
     }
   ],
   "cleanUrls": true

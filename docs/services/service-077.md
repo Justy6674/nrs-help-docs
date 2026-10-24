@@ -10,7 +10,7 @@ source_files: ["src/lib/nrs/offers/catalogue.ts","docs/offers/rate-book-v1.md"]
 source_urls: []
 slug: "/services/077"
 service_sku: "NRS-077"
-service_section: "care"
+service_section: "support"
 service_amount: 650
 service_model: "monthly"
 sidebar_position: 97
@@ -36,4 +36,4 @@ Review completed work against the agreed priorities and actual outcomes. Record 
 
 ## Next step
 
-[Discuss NRS-077 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [care plans services](area-care.md). [Back to the Rate Book](index.md).
+[Discuss NRS-077 with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [ongoing support and advice services](area-support.md). [Back to the Rate Book](index.md).

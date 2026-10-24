@@ -27,9 +27,9 @@ This page is the priced list we quote from after a first chat. It is not a shop.
 - [Web & build](area-web.md) — 11 lines.
 - [Automation & integrations](area-automation.md) — 11 lines.
 - [Brand & design](area-brand.md) — 5 lines.
-- [Paid media](area-paid.md) — 6 lines.
+- [Paid media](area-paid.md) — 5 lines.
 - [Compliance, governance & safety](area-compliance.md) — 10 lines.
-- [Care plans](area-care.md) — 6 lines.
+- [Ongoing support and advice](area-support.md) — 7 lines.
 - [Full-scale programmes](area-programmes.md) — 5 lines.
 - [Digital guides](area-guides.md) — 8 lines.
 

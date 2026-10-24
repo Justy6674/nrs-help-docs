@@ -66,7 +66,7 @@ const areas = {
     agree: 'Agree the exact obligations and workflows covered, evidence required, responsible reviewer and any need for independent legal or professional advice. Clinical governance and public advertising are related but separate questions.',
     review: 'Check that findings quote the material at issue, cite the applicable source and state what remains uncertain. Keep the decision, reviewer and reviewed version with the resulting policy or change.',
   },
-  care: {
+  support: {
     intro: 'Ongoing support needs a written scope that says what is maintained, how work is prioritised and how the business knows a change helped. A plan name does not define unlimited work.',
     prepare: 'Bring the systems and business areas that need ongoing attention, their current condition, known risks and the person who sets priorities.',
     agree: 'Agree included work, capacity, response arrangements, reporting, exclusions and changes to scope. Confirm notice and cancellation terms in the engagement; a monthly catalogue price does not activate billing.',
@@ -151,7 +151,9 @@ for (const s of data.services) {
     (health ? `## Health and professional responsibilities\n\nKeep personal or clinical records in the approved system. Regulatory assistance needs a responsible person to review the actual facts and current sources. [Ahpra advertising guidance](${ahpra}), [TGA prescription advertising guidance](${tga}) and the [Australian Privacy Principles](${oaic}) are reference points; their applicability depends on the work. Read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).\n\n` : '') +
     `## Next step\n\n[Discuss ${s.sku} with Bec and Justin](https://www.notrealsmart.com.au/enquire), or compare the other [${data.sections.find(x => x.id === s.sectionId).label.toLowerCase()} services](area-${s.sectionId}.md). [Back to the Rate Book](index.md).\n`);
 }
-if (data.services.length !== 108 || new Set(data.services.map(s => s.sku)).size !== 108) throw new Error('Expected 108 unique approved services; review generator when catalogue changes.');
+// 24 Oct 2026: NRS-065 Monthly ad management withdrawn (Justin). Change this count only with the catalogue.
+const APPROVED_COUNT = 108;
+if (data.services.length !== APPROVED_COUNT || new Set(data.services.map(s => s.sku)).size !== APPROVED_COUNT) throw new Error(`Expected ${APPROVED_COUNT} unique approved services; review generator when catalogue changes.`);
 const out = resolve(root, 'docs/services');
 if (!checking) mkdirSync(out, {recursive: true});
 const stale = [];
@@ -161,4 +163,4 @@ for (const [name, content] of files) {
   else writeFileSync(path, content);
 }
 if (stale.length) throw new Error(`Generated service references are missing or stale: ${stale.join(', ')}. Run node scripts/generate-service-docs.mjs after reviewing the source snapshot and area copy.`);
-console.log(`${checking ? 'Verified' : 'Generated'} ${files.size} service reference pages: 108 services, 12 areas and overview.`);
+console.log(`${checking ? 'Verified' : 'Generated'} ${files.size} service reference pages: ${APPROVED_COUNT} services, 12 areas and overview.`);

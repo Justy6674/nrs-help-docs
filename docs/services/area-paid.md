@@ -36,7 +36,6 @@ Review the advertisement, targeting and landing page together. Platform approval
 | [Google Ads — setup + first campaign](service-062.md) | NRS-062 | $1,600 |
 | [Ad creative pack — 3 variations](service-063.md) | NRS-063 | $680 |
 | [Tracking & measurement setup](service-064.md) | NRS-064 | $1,200 |
-| [Monthly ad management](service-065.md) | NRS-065 | $1,100 per month |
 | [Paid media audit](service-066.md) | NRS-066 | $750 |
 
 All listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).

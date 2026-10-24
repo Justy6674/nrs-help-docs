@@ -26,9 +26,9 @@ We quote in writing after the first chat, because the right work depends on the 
 
 A deposit starts the work. Smaller jobs are paid half up front and half on completion. Larger jobs are paid in three stages. Each stage has its own tax invoice.
 
-## What is a care plan?
+## What is ongoing tech support?
 
-Ongoing monthly help after the first job: maintenance, fixes, updates and reporting. Care plans run for a three-month minimum, then month to month with 30 days' notice either way.
+Ongoing monthly help after the first job: maintenance, fixes, updates and reporting. It runs month to month, and you can cancel at any time.
 
 ## Do you work with health practices?
 

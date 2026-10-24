@@ -21,6 +21,6 @@ From the first chat to handover, this is how a job runs.
 4. **A deposit starts the work.** Smaller jobs are paid half up front and half on completion. Larger jobs are paid in three stages.
 5. **Checked before it goes out:** a person reviews anything AI helped write. Content for health practices is checked against the Ahpra and TGA advertising rules.
 6. **Handover and training:** we train your team on what we set up and leave written procedures.
-7. **Monthly care, if you want it:** care plans run for a three-month minimum, then month to month with 30 days' notice either way.
+7. **Ongoing tech support, if you want it:** it runs month to month, and you can cancel at any time.
 
 Where specialist legal, tax, insurance or clinical advice is needed, we point you to an appropriately qualified professional. See the [FAQ](faq.md).

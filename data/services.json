@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "NotRealSmartAgency-V2/src/lib/nrs/offers/catalogue.ts",
-  "sourceSha256": "c2a6ac415c60c2cabb98dfc567dc4ee227959a85cfcbe7f8a954808d649eed1c",
+  "sourceSha256": "3b81451ec08b5c6e9b1aaa8fe2673e1c3f320366333bd98e4193497b402b4079",
   "verifiedAt": "2026-09-08",
   "sections": [
     {
@@ -49,9 +49,9 @@
       "note": "The part almost nobody else can deliver: a nurse practitioner who has built and operated compliant systems inside AHPRA-regulated businesses."
     },
     {
-      "id": "care",
-      "label": "Care plans",
-      "note": "Ongoing. Cancel with 30 days notice, no lock-in contract."
+      "id": "support",
+      "label": "Ongoing support and advice",
+      "note": "Ongoing. Cancel any time, no lock-in contract."
     },
     {
       "id": "programmes",
@@ -371,7 +371,7 @@
     {
       "sku": "NRS-035",
       "sectionId": "search",
-      "name": "Monthly search care",
+      "name": "Monthly search upkeep",
       "model": "monthly",
       "amount": 890,
       "monthly": true
@@ -615,14 +615,6 @@
       "amount": 1200
     },
     {
-      "sku": "NRS-065",
-      "sectionId": "paid",
-      "name": "Monthly ad management",
-      "model": "monthly",
-      "amount": 1100,
-      "monthly": true
-    },
-    {
       "sku": "NRS-066",
       "sectionId": "paid",
       "name": "Paid media audit",
@@ -710,8 +702,18 @@
       "specialist": true
     },
     {
+      "sku": "NRS-109",
+      "sectionId": "support",
+      "name": "Post Set-up support",
+      "model": "monthly",
+      "amount": 99,
+      "monthly": true,
+      "billingMonths": 3,
+      "setupAddOn": true
+    },
+    {
       "sku": "NRS-077",
-      "sectionId": "care",
+      "sectionId": "support",
       "name": "Essentials",
       "model": "monthly",
       "amount": 650,
@@ -719,7 +721,7 @@
     },
     {
       "sku": "NRS-078",
-      "sectionId": "care",
+      "sectionId": "support",
       "name": "Growth",
       "model": "monthly",
       "amount": 1800,
@@ -727,7 +729,7 @@
     },
     {
       "sku": "NRS-079",
-      "sectionId": "care",
+      "sectionId": "support",
       "name": "Partner",
       "model": "monthly",
       "amount": 3900,
@@ -735,21 +737,21 @@
     },
     {
       "sku": "NRS-080",
-      "sectionId": "care",
+      "sectionId": "support",
       "name": "Advisory day",
       "model": "fixed",
       "amount": 2600
     },
     {
       "sku": "NRS-081",
-      "sectionId": "care",
+      "sectionId": "support",
       "name": "Advisory hour",
       "model": "fixed",
       "amount": 500
     },
     {
       "sku": "NRS-108",
-      "sectionId": "care",
+      "sectionId": "support",
       "name": "Competitor change alerts",
       "model": "monthly",
       "amount": 120,

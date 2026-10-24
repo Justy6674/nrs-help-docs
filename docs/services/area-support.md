@@ -1,6 +1,6 @@
 ---
-title: "Care plans"
-description: "Choosing and scoping NRS care plans services."
+title: "Ongoing support and advice"
+description: "Choosing and scoping NRS ongoing support and advice services."
 last_verified: "2026-09-08"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
@@ -8,11 +8,11 @@ availability: "service"
 feature_ids: ["nrs.services"]
 source_files: ["src/lib/nrs/offers/catalogue.ts","docs/offers/rate-book-v1.md"]
 source_urls: []
-service_section: "care"
+service_section: "support"
 sidebar_position: 11
 ---
 
-# Care plans
+# Ongoing support and advice
 
 Ongoing support needs a written scope that says what is maintained, how work is prioritised and how the business knows a change helped. A plan name does not define unlimited work.
 
@@ -32,6 +32,7 @@ Review completed work against the agreed priorities and actual outcomes. Record 
 
 | Service | Reference | Listed fee |
 | --- | --- | --- |
+| [Post Set-up support](service-109.md) | NRS-109 | $99 per month |
 | [Essentials](service-077.md) | NRS-077 | $650 per month |
 | [Growth](service-078.md) | NRS-078 | $1,800 per month |
 | [Partner](service-079.md) | NRS-079 | $3,900 per month |

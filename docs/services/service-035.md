@@ -1,5 +1,5 @@
 ---
-title: "Monthly search care"
+title: "Monthly search upkeep"
 description: "NRS-035: listed fee, scope questions and review requirements."
 last_verified: "2026-09-08"
 review_owner: "Not Real Smart"
@@ -16,7 +16,7 @@ service_model: "monthly"
 sidebar_position: 55
 ---
 
-# Monthly search care
+# Monthly search upkeep
 
 **NRS-035 · $890 per month · AUD, excluding GST**
 

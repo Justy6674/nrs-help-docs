@@ -38,7 +38,7 @@ Expect clear source links, collection dates and a distinction between observed e
 | [Location page](service-032.md) | NRS-032 | $380 |
 | [AI search readiness audit](service-033.md) | NRS-033 | $850 |
 | [Structured data + llms.txt build](service-034.md) | NRS-034 | $650 |
-| [Monthly search care](service-035.md) | NRS-035 | $890 per month |
+| [Monthly search upkeep](service-035.md) | NRS-035 | $890 per month |
 | [Competitor analysis — up to three competitors, side by side](service-101.md) | NRS-101 | $780 |
 | [Reviews & reputation setup](service-102.md) | NRS-102 | $890 |
 | [Google analysis bundle — Search Console, GA4, Business Profile, Merchant Centre](service-104.md) | NRS-104 | $1,200 |
