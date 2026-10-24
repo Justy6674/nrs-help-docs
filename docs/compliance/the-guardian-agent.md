@@ -2,7 +2,7 @@
 title: "Who is responsible for health review?"
 description: "Replace the retired Guardian promise with a clear review responsibility."
 sidebar_position: 4
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"

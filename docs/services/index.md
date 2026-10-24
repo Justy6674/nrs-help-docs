@@ -1,7 +1,7 @@
 ---
 title: "Rate Book"
 description: "The priced list we quote from after a first chat."
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"

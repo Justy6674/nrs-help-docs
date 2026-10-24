@@ -58,3 +58,11 @@ test('draft pages are excluded but publicly reachable unlisted pages still need 
   assert.ok(errors.some(error => error.includes('require review_status: reviewed')));
   assert.ok(errors.some(error => error.includes('unsupported legacy promise')));
 });
+
+test('warns a week before a regulatory review falls due, without failing', () => {
+  const documents = docs();
+  documents.push({file: 'due.md', data: {...metadata, last_verified: '2026-08-20', source_urls: ['https://www.ahpra.gov.au/x']}, content: 'Discuss and agree the work before it starts.'});
+  const result = checkDocuments(documents, snapshot, {today: '2026-09-15'});
+  assert.ok(result.warnings.some(w => w.includes('due.md: editorial review due in 4 days')), JSON.stringify(result.warnings));
+  assert.deepEqual(result.errors.filter(e => e.startsWith('due.md')), []);
+});

@@ -9,6 +9,9 @@ import {fileURLToPath, pathToFileURL} from 'node:url';
 import matter from 'gray-matter';
 
 export const REVIEW_DAYS = {general: 90, regulatory: 30};
+// Overdue pages failed every production build from 22 to 24 Oct 2026 and nobody
+// saw it until a release did not appear. Warn a week ahead so review happens first.
+export const REVIEW_WARNING_DAYS = 7;
 const DAY = 86_400_000;
 const string = value => typeof value === 'string' && value.trim().length > 0;
 const isoDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
@@ -26,7 +29,7 @@ const excludedPromiseContext = /\b(?:not|never|no longer|earlier|outdated|incorr
 
 export function checkDocuments(documents, snapshot, {today = new Date().toISOString().slice(0, 10)} = {}) {
   if (!isoDate(today)) throw new Error('today must be an actual YYYY-MM-DD date');
-  const errors = [], ids = new Map(), slugs = new Map(), serviceDocs = new Map();
+  const errors = [], warnings = [], ids = new Map(), slugs = new Map(), serviceDocs = new Map();
   let published = 0;
   const add = (file, message) => errors.push(`${file}: ${message}`);
   const identity = (seen, key, file, label) => {
@@ -58,6 +61,7 @@ export function checkDocuments(documents, snapshot, {today = new Date().toISOStr
       const interval = hasAhpra || hasTga ? REVIEW_DAYS.regulatory : REVIEW_DAYS.general;
       if (age < 0) add(file, 'last_verified cannot be in the future');
       if (age > interval) add(file, `editorial review overdue (${age} days; interval ${interval} days)`);
+      else if (age > interval - REVIEW_WARNING_DAYS) warnings.push(`${file}: editorial review due in ${interval - age} days`);
     }
     const stem = file.replace(/\.(md|mdx)$/i, '');
     // Docusaurus prefixes a custom id with the containing folder.
@@ -95,7 +99,7 @@ export function checkDocuments(documents, snapshot, {today = new Date().toISOStr
   if (!published) errors.push('No published articles found');
   if (!snapshot || snapshot.schemaVersion !== 1 || snapshot.services?.length !== 108 || new Set(snapshot.services?.map(item => item.sku)).size !== 108) errors.push('Service snapshot must contain all 108 unique authoritative SKUs');
   else for (const item of snapshot.services) if (!serviceDocs.has(item.sku)) errors.push(`Missing published service reference: ${item.sku}`);
-  return {errors, published, services: serviceDocs.size};
+  return {errors, warnings, published, services: serviceDocs.size};
 }
 
 function walk(dir) {
@@ -110,6 +114,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
     const snapshot = JSON.parse(readFileSync(resolve(root, 'data/services.json'), 'utf8'));
     const todayArg = process.argv.indexOf('--today');
     const result = checkDocuments(documents, snapshot, todayArg === -1 ? {} : {today: process.argv[todayArg + 1]});
+    if (result.warnings.length) console.warn(result.warnings.join('\n'));
     if (result.errors.length) {console.error(result.errors.join('\n')); process.exitCode = 1;}
     else console.log(`Help release checks passed: ${result.published} published articles, ${result.services} service references. Review dates are editorial records, not proof of production behaviour or legal compliance.`);
   } catch (error) {console.error(`Help release check failed: ${error.message}`); process.exitCode = 1;}

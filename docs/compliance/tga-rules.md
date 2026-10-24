@@ -2,7 +2,7 @@
 title: "TGA and therapeutic goods advertising"
 description: "Separate a service description from promotion of a therapeutic good."
 sidebar_position: 3
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "reference"
 review_owner: "Bec and Justin"
@@ -21,4 +21,4 @@ For products near the cosmetic boundary, a claim about appearance and a claim ab
 
 Testimonials for therapeutic goods have their own conditions; they are not all governed by an identical blanket ban. See [testimonials and images](../health-and-abe/testimonials-and-images.md).
 
-NRS can flag material for review and help organise sources. The responsible person must establish which rules apply before release. Source review: 8 September 2026.
+NRS can flag material for review and help organise sources. The responsible person must establish which rules apply before release. Source review: 24 October 2026.

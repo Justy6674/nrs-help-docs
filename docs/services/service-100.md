@@ -1,7 +1,7 @@
 ---
 title: "Business Scan — site, Google, AI-findability and compliance report with fixes"
 description: "NRS-100: listed fee, scope questions and review requirements."
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "limited"

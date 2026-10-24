@@ -2,7 +2,7 @@
 title: "Review health advertising in context"
 description: "Check the actual message, evidence and audience before release."
 sidebar_position: 2
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "reference"
 review_owner: "Bec and Justin"
@@ -28,4 +28,4 @@ NRS's automated screen can miss an issue or flag acceptable context. A negated c
 
 Abe may supply generic rule context, but that is not confirmation of a client-specific finding. Healthcare report findings require human review even after retrieval; unreviewed findings stay held. A low scan score is not a legal verdict, and a high score is not clearance.
 
-Use [Ahpra's requirements](https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx) for regulated service advertising and [TGA's prescription guidance](https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public) where medicine promotion is involved. Image-only claims and uncollected pages can fall outside a text scan. Source review: 8 September 2026.
+Use [Ahpra's requirements](https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx) for regulated service advertising and [TGA's prescription guidance](https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public) where medicine promotion is involved. Image-only claims and uncollected pages can fall outside a text scan. Source review: 24 October 2026.

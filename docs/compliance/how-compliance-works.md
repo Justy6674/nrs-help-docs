@@ -2,7 +2,7 @@
 title: "How NRS checks content"
 description: "Understand automated screening, human review and the release gate."
 sidebar_position: 1
-last_verified: "2026-09-15"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"

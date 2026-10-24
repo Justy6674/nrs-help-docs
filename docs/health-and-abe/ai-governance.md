@@ -2,7 +2,7 @@
 title: "Plan practical AI governance work"
 description: "Define the workflow, information boundary and human responsibility."
 sidebar_position: 5
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "service"
 review_owner: "Bec and Justin"

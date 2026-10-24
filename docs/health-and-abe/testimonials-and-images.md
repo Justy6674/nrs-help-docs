@@ -2,7 +2,7 @@
 title: "Testimonials, reviews and images"
 description: "Apply the relevant context instead of blanket rules."
 sidebar_position: 4
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "reference"
 review_owner: "Bec and Justin"
@@ -27,4 +27,4 @@ TGA has separate conditions for testimonials and endorsements. Some may be allow
 
 In NRS, keep the original review or image and the proposed use together. Check the caption, crop, overlays, source permissions and any implied outcome. Do not turn a client comment into a clinical success claim or use a synthetic person as evidence of a real experience.
 
-A text checker may not read every visual implication. Have the responsible reviewer inspect the full asset and retain the decision. Source review: 8 September 2026.
+A text checker may not read every visual implication. Have the responsible reviewer inspect the full asset and retain the decision. Source review: 24 October 2026.

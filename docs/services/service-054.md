@@ -1,7 +1,7 @@
 ---
 title: "Meta & Google platform integration"
 description: "NRS-054: listed fee, scope questions and review requirements."
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"

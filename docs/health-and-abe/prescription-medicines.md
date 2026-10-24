@@ -2,7 +2,7 @@
 title: "Prescription medicines and public promotion"
 description: "Review direct and indirect references instead of substituting an ingredient name."
 sidebar_position: 3
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "reference"
 review_owner: "Bec and Justin"
@@ -23,4 +23,4 @@ Keep the draft or finding for review. Record the exact passage and any associate
 
 If a rewrite is proposed, check its meaning again in the complete advertisement. A generic rule retrieved through Abe does not approve the replacement. Unresolved blocking checks remain a release barrier.
 
-The public reporting workflow is not a place for patient records or prescribing discussions. This guide supports advertising review; it does not assess an individual's treatment or advise which medicine to use. Source review: 8 September 2026.
+The public reporting workflow is not a place for patient records or prescribing discussions. This guide supports advertising review; it does not assess an individual's treatment or advise which medicine to use. Source review: 24 October 2026.

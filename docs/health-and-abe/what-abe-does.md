@@ -2,7 +2,7 @@
 title: "What Abe does in NRS"
 description: "Understand the narrow implemented connection and the wider healthcare work."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -35,9 +35,9 @@ The capability register separates what has been built from what has been proven 
 | Accreditation preparation | Organise evidence, identify gaps and assign follow-up tasks. | Abe accreditation roles are **Beta**. They do not award accreditation, and this is not an activated NRS accreditation workflow. |
 | Privacy and information handling | Review information flows, approved tools and data risks. | Abe privacy/data roles are **Beta**. Client-specific work needs an agreed information boundary; no patient-record access is implied. |
 | Public website and social review | Examine websites, deeper technical issues, search visibility and social presence. | Abe has four reconnaissance pipelines in **Beta**. NRS has its own scan/report workflow; an automatic connection to those Abe pipelines is not established. |
-| Staff learning and professional development | Find learning options and prepare evidence for review. | The Finder and separate Agent 9 are **In build**, not production-ready or active NRS integrations. Wider workforce functions remain planned. |
+| Staff learning and professional development | Find learning options and prepare evidence for review. | The Professional Development Finder is **Beta**: course search works and links to the provider. The separate Agent 9 is **In build**. Neither is an active NRS integration. Wider workforce functions remain planned. |
 | Monitoring and operational improvement | Follow rule changes and improve risk, workplace, meeting and other operational processes. | Wider roles remain **Planned**. Starter monitoring code is not proof of a monitored service or a chosen client automation. |
 
-Clinical decision support remains behind a **Regulatory gate** and is not an active NRS clinical service. The register does not label these areas production-ready. Status reviewed against the Abe capability register and runtime definitions on 8 September 2026.
+Clinical decision support remains behind a **Regulatory gate** and is not an active NRS clinical service. The register does not label these areas production-ready. Status reviewed against the Abe capability register and runtime definitions on 24 October 2026.
 
 Related catalogue services may be human-delivered. Agree the deliverable, reviewer and evidence rather than assuming an automated Abe-to-NRS workflow exists. [AI governance work](ai-governance.md) explains the practical engagement.

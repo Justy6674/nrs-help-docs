@@ -1,7 +1,7 @@
 ---
 title: "Search — Google and AI"
 description: "Choosing and scoping NRS search — google and ai services."
-last_verified: "2026-09-08"
+last_verified: "2026-10-24"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"
