@@ -2,18 +2,29 @@
 title: "Connect your social accounts"
 description: "Connect the intended profiles and check their current access."
 sidebar_position: 4
-last_verified: "2026-09-08"
+last_verified: "2026-11-09"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/components/nrs/ConnectAccounts.tsx", "src/app/console/settings/accounts/connect.ts", "src/app/console/settings/accounts/page.tsx"]
+source_files: ["src/components/nrs/AccountsHub.tsx", "src/lib/nrs/accounts-overview.ts", "src/components/nrs/ConnectAccounts.tsx", "src/app/console/settings/accounts/connect.ts", "src/app/console/settings/accounts/page.tsx"]
 feature_ids: ["nrs.getting-started"]
 source_urls: []
 ---
 
 # Connect your social accounts
 
-Open **Settings → Accounts** and choose the intended business. Use the connection controls for the network you need, then complete that network's authorisation. You must have permission to manage the account being connected.
+Open **Settings → Accounts**. The first tab, **All accounts**, shows every account across every business you can reach in one place:
+
+- each account once, with every business it posts for (one LinkedIn can post for several businesses);
+- its current status, checked with the publisher when the page opens: **Can post**, **Sign in again**, or **Not checked** if the publisher did not answer;
+- a **Sign in again** button only on an account that needs it;
+- filters by business and by platform;
+- **Add an account**: choose the business, then the platform, then sign in on that platform;
+- a table of which business has which platform, with **Connect** in each gap. A gap is not a fault; connect only where the business wants to post.
+
+The second tab, **By business**, keeps one card per business with its connection controls, Import, Share and Remove. You must have permission to manage the account being connected.
+
+AI assistants connected to NRS can do the same checks without the browser: they read each account's status and can hand you a sign-in link for a platform. Signing in on the platform is always done by a person.
 
 ## Check the result
 
