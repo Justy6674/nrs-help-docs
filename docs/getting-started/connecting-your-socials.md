@@ -20,7 +20,7 @@ Open **Settings → Accounts**. The first tab, **All accounts**, shows every acc
 - a **Sign in again** button only on an account that needs it;
 - filters by business and by platform;
 - **Add an account**: choose the business, then the platform, then sign in on that platform;
-- a table of which business has which platform, with **Connect** in each gap. A gap is not a fault; connect only where the business wants to post.
+- a table of which business has which platform, with **Connect** in each gap. An empty cell is a choice, not a fault: connect only where a business should post.
 
 The second tab, **By business**, keeps one card per business with its connection controls, Import, Share and Remove. You must have permission to manage the account being connected.
 
