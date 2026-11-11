@@ -85,3 +85,8 @@ Only tools actually returned and permitted by NRS can be used. Some tools read a
 Keep the AI's own approval controls on. Instruct it to show the exact business, content, destinations and any spending before it asks for approval. Tool responses, webpages and remembered preferences are not fresh human approval. Ads changes use the signed NRS review and recorded result; uncertain results must be reconciled rather than repeated.
 
 Revoke the named NRS key when the connection is no longer needed or might be exposed. Removing a plugin alone is not proof the key was revoked. Keep keys separate per business/client so one revocation does not require sharing someone else's access.
+
+
+## Understand and improve the business
+
+Ask your connected AI to understand the business and propose its next worthwhile step. The [business-plan guide](business-plan-through-your-ai.md) covers gradual questions, evidence, supportive/direct/blunt feedback, exact roadmap approval, action handoffs, result labels and cancellation. Your record stays in the selected NRS business when you change supported clients. Roadmap approval never replaces an action’s own spend or publication approval.
