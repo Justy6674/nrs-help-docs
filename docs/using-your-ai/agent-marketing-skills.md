@@ -18,7 +18,7 @@ Ask your connected AI: **“Show the NRS workflows available for this business, 
 A workflow gives your AI the procedure for a task: which business evidence to read, how to prepare a review, when to ask for approval and how to check the result. It does not grant account access or approve publication or spending.
 
 :::info Release availability
-This page describes the **0.6.0 source build**, prepared for release. Its new skill-discovery tools and downloadable package must be deployed and checked in your actual AI client before they can be treated as available there. The existing connection may expose an earlier version. Dedicated Meta and LinkedIn connection setup is now implemented in source; real owner consent, account mapping and live customer acceptance still need to be demonstrated.
+The **0.6.0 workflow release is available**. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
 :::
 
 ## Keep your existing connection
