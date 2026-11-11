@@ -17,6 +17,8 @@ You can use your connected NRS AI to manage account limits, choose and save outc
 
 The same tools are available to supported external clients, including a connected Grok client, and NRS's in-app AI. Access is checked for the selected business on every call. Account settings require the workspace owner or an authorised manager and a suitably permitted connection; paid-feature eligibility still applies. Possessing somebody else's account number is not permission to manage it.
 
+For the versioned workflow menu, client compatibility and the difference between instructions, permissions and execution, read [Use marketing workflows through your AI](../using-your-ai/agent-marketing-skills.md). Its 0.6.0 discovery features have a separate release status from the existing Google controls described here.
+
 ## If your AI can prepare a change but cannot apply it
 
 Your connection needs permission to execute changes as well as read and propose them. The workspace owner can authorise that permission for the intended AI connection. This does not replace your approval for an actual spending or publishing change, and the AI cannot grant itself permission.

@@ -8,7 +8,7 @@ availability: "limited"
 review_owner: "Bec and Justin"
 feature_ids: ["nrs.google-ads"]
 source_files: ["src/app/console/ads/page.tsx", "src/app/console/ads/actions.ts", "src/lib/nrs/google-ads/workflow.ts", "src/lib/nrs/google-ads/store.ts"]
-source_urls: ["https://support.google.com/google-ads/answer/6327680?hl=en-AU", "https://support.google.com/google-ads/answer/6372672?hl=en-AU"]
+source_urls: ["https://support.google.com/google-ads/answer/6327680?hl=en-AU", "https://support.google.com/google-ads/answer/6372672?hl=en-AU", "https://github.com/googleads/google-ads-python/blob/main/examples/basic_operations/get_campaigns.py", "https://github.com/googleads/google-ads-python/blob/main/examples/campaign_management/get_all_disapproved_ads.py"]
 ---
 
 # Google Ads troubleshooting and unclear results
@@ -48,9 +48,21 @@ Reconciliation reads Google and compares the result with the saved review. It do
 | Applied and verified / succeeded | NRS recorded Google's receipt and checked the relevant result |
 | Failed | The attempt is retained as failed; any retry needs a fresh review and approval |
 
+## Google accepted a change but NRS cannot confirm it
+
+Keep the original operation number and ask your connected AI to check and reconcile that operation. There is no safe shortcut that simply marks an unverified change done. NRS must read the relevant Google records and compare them with the approved change. Do not rename or recreate the campaign, switch bots to repeat it, or clear its reservation by hand.
+
+A confirmation failure can be an NRS query or comparison defect even when creation succeeded. Google supplies device settings on new campaigns; NRS must check their actual values rather than reject them merely because they exist or ignore changed bid adjustments. If the result remains uncertain, retain its exact diagnostics and request ID for investigation. The owner should not have to repair a database.
+
+## A new paused campaign is missing from a results report
+
+A performance report and an account inventory answer different questions. A new or inactive campaign can be absent from a metric query for the selected dates. Ask the AI for the date-free inventory, then check the exact account, campaign number, filters and all pages. An empty results table is not evidence that the account or campaign was deleted.
+
+The current-source Google report tools also support date-free ad-policy observations, including review and approval status, policy topics and primary status reasons. Your AI must first check that its connected server advertises those report options. Read the returned limitations: policy approval, configured enabled status, actual delivery and conversions are separate.
+
 ## Campaign is enabled but no ad appears
 
-Campaign status, ad approval and delivery are different. Open Google Ads to inspect the ad's status and full **Policy details**. Google says most ad reviews finish within one working day, with longer cases possible. **Disapproved** means the ad cannot run; **Eligible (limited)** indicates restrictions. [Google's status guide](https://support.google.com/google-ads/answer/6327680?hl=en-AU) explains its current labels and review guidance.
+Campaign status, ad approval and delivery are different. Ask your connected AI for the supported ad-policy report. If the required detail is not available through the current API workflow, inspect the ad's status and full **Policy details** in Google Ads; the AI must identify the exact missing detail instead of guessing. Google says most ad reviews finish within one working day, with longer cases possible. **Disapproved** means the ad cannot run; **Eligible (limited)** indicates restrictions. [Google's status guide](https://support.google.com/google-ads/answer/6327680?hl=en-AU) explains its current labels and review guidance.
 
 Do not activate a paused campaign just to test whether Google will review it unless you have approved the resulting spend. Check account and billing status, destination, targeting, search volume and bid constraints with NRS staff. Do not repeatedly edit an ad while it is under review.
 
