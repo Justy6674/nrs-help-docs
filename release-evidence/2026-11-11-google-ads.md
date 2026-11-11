@@ -36,3 +36,8 @@ The guides distinguish official Google product behaviour from the narrower NRS i
 - Live Google account binding, a real Grok connection, campaign creation/activation and advertising performance are not established by this documentation. No advertising amount or campaign was approved by this help request.
 
 Documentation ownership metadata names Bec and Justin as the existing responsible owners; the editorial verification does not claim their personal release review.
+
+
+## Same-key LLM execution troubleshooting, 18:29 Brisbane
+
+The actual ScentSell pending proposal caller had read/propose only. Direct owner instruction authorised adding write/send on that existing business key; post-write live delegation check returned can_execute=true. Its stored display label does not prove AI runtime identity. Exact NRS AUD15 ceiling operation 0356d05d-b5eb-44ad-bd36-a688f7128dbc succeeded and separate settings read returned1500cents; no campaign budget/activation changed. User guide now distinguishes missing execution permission, exact conversation approval, expired same-caller review and real Google sign-in requirements. No secrets, account-specific private identifiers or new provider capability were added to the public guide. Tracking remains unconfigured and unverified.

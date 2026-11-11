@@ -17,6 +17,14 @@ You can use your connected NRS AI to manage account limits, choose and save outc
 
 The same tools are available to supported external clients, including a connected Grok client, and NRS's in-app AI. Access is checked for the selected business on every call. Account settings require the workspace owner or an authorised manager and a suitably permitted connection; paid-feature eligibility still applies. Possessing somebody else's account number is not permission to manage it.
 
+## If your AI can prepare a change but cannot apply it
+
+Your connection needs permission to execute changes as well as read and propose them. The workspace owner can authorise that permission for the intended AI connection. This does not replace your approval for an actual spending or publishing change, and the AI cannot grant itself permission.
+
+A pending proposal should stay with the AI connection that prepared it. If it expires, that AI prepares a fresh review. Asking another developer to approve it is not the normal workflow. NRS should retain your existing key when its authorised permissions are corrected. A connection’s saved name does not identify which AI app is using it.
+
+After you approve, the AI applies the exact change and reads back the receipt. It must report an access or sign-in failure clearly rather than claiming success. Google may require you to complete account security or consent yourself; the AI continues the supported setup after that step.
+
 ## Change the NRS campaign limit
 
 Say: **“Show my Google Ads limits and current campaign budgets.”**
