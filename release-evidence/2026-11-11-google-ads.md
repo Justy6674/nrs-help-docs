@@ -41,3 +41,8 @@ Documentation ownership metadata names Bec and Justin as the existing responsibl
 ## Same-key LLM execution troubleshooting, 18:29 Brisbane
 
 The actual ScentSell pending proposal caller had read/propose only. Direct owner instruction authorised adding write/send on that existing business key; post-write live delegation check returned can_execute=true. Its stored display label does not prove AI runtime identity. Exact NRS AUD15 ceiling operation 0356d05d-b5eb-44ad-bd36-a688f7128dbc succeeded and separate settings read returned1500cents; no campaign budget/activation changed. User guide now distinguishes missing execution permission, exact conversation approval, expired same-caller review and real Google sign-in requirements. No secrets, account-specific private identifiers or new provider capability were added to the public guide. Tracking remains unconfigured and unverified.
+
+
+## Action-specific advertising review correction
+
+Owner clarified ScentSell is non-clinical and health status should affect applicable AHPRA/TGA gates only. Source regression reproduces then fixes canonical none profile rejection; next policy regression permits ordinary authorised controls for known ahpra_tga while regulated creation/activation requires applicable advertising review. All tenant, permission, spend and exact-approval guards remain. Public AI-controls guide now distinguishes these boundaries without claiming regulatory clearance.

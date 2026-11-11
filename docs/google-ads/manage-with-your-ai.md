@@ -25,6 +25,10 @@ A pending proposal should stay with the AI connection that prepared it. If it ex
 
 After you approve, the AI applies the exact change and reads back the receipt. It must report an access or sign-in failure clearly rather than claiming success. Google may require you to complete account security or consent yourself; the AI continues the supported setup after that step.
 
+## Business type and advertising review
+
+ScentSell is a fragrance business. It does not require health-business classification. For a health business, applicable AHPRA/TGA review applies to creating or activating regulated advertising; it does not disable unrelated authorised controls such as pausing campaigns. Budgets, exclusions and other supported controls keep their ordinary permission, spending and approval checks. This does not itself provide regulatory clearance.
+
 ## Change the NRS campaign limit
 
 Say: **“Show my Google Ads limits and current campaign budgets.”**
