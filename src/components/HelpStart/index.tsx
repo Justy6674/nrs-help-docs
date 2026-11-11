@@ -8,6 +8,8 @@ const guides = [
   {number: '04', title: 'Understand your reports', description: 'Sources, findings, review, delivery and the limits of the evidence.', to: '/reports/prepare-a-full-report'},
   {number: '05', title: 'Health advertising and Abe', description: 'Australian advertising rules, grounded checks and human review.', to: '/health-and-abe/what-abe-does'},
   {number: '06', title: 'Get help from a person', description: 'A problem, a connection or a question about your next step.', to: '/troubleshooting/contact-support'},
+  {number: '07', title: 'Google Ads, step by step', description: 'Account setup, a paused first campaign, spending and results. Availability depends on your workspace.', to: '/google-ads/start-here'},
+  {number: '08', title: 'Connect Grok or another AI', description: 'Choose the right connection, protect your key and check what the AI can do.', to: '/connecting-devices/grok-and-nrs'},
 ];
 
 export default function HelpStart() {

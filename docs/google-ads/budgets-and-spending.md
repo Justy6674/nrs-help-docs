@@ -1,0 +1,48 @@
+---
+title: "Budgets, bids and what you can be charged"
+description: "Understand Google's average daily budgets and what the NRS limit does and does not control."
+sidebar_position: 3
+last_verified: "2026-11-11"
+review_status: "reviewed"
+availability: "limited"
+review_owner: "Bec and Justin"
+feature_ids: ["nrs.google-ads"]
+source_files: ["src/components/nrs/GoogleAdsForms.tsx", "src/lib/nrs/google-ads/contracts.ts", "src/lib/nrs/google-ads/workflow.ts"]
+source_urls: ["https://support.google.com/google-ads/answer/10486637?hl=en-AU", "https://support.google.com/google-ads/answer/10487143?hl=en-AU", "https://support.google.com/google-ads/answer/6385083?hl=en-AU"]
+---
+
+# Budgets, bids and what you can be charged
+
+**The NRS budget setting is not a hard daily spending cap for your whole Google Ads account.** Understand these controls before approving activation or a budget change.
+
+## Three different amounts
+
+| Setting | Meaning in NRS |
+|---|---|
+| Maximum permitted average daily campaign budget | The largest configured average daily budget NRS will permit for an individual campaign in this business |
+| Average daily campaign budget | The setting assigned to one campaign; Google can spend unevenly across days |
+| Maximum cost per click | The manual bid used when NRS creates the Search ad group; it does not reserve a number of clicks or guarantee customers |
+
+Setting a permitted amount does not allocate a total across every campaign. Several active campaigns can each spend. Existing campaigns, changes made directly in Google and other account activity need review in Google Ads as well.
+
+## Google's spending limits
+
+For most average-daily-budget campaigns, Google describes a billed daily limit of up to **twice** that average and a monthly limit normally based on **30.4 times** it. For example, an unchanged A$10 average daily budget generally corresponds to up to A$20 on a day and A$304 over a full month. This is an illustration, not a recommended budget. Starting partway through a month or changing the budget changes the calculation; check Google's budget report. [Google: spending limits](https://support.google.com/google-ads/answer/10486637?hl=en-AU).
+
+Lowering a budget later in the same day does not necessarily lower that day's maximum: Google uses the highest average daily budget selected that day for the daily calculation. The remaining monthly calculation responds differently. [Google: how budget changes take effect](https://support.google.com/google-ads/answer/10487143?hl=en-AU).
+
+## Review before approving
+
+1. Check the exact account and campaign. A similar campaign name is not enough.
+2. Check the proposed average daily amount. For edits, compare the old and new values. For activation, inspect the existing amount being enabled.
+3. Consider all other active campaigns in the account and the total commitment you are comfortable with.
+4. Check whether anyone is also changing settings directly in Google. NRS cannot lock Google's own interface.
+5. Read the spend notice before approving. A new paused campaign and its later activation are separate approvals.
+
+Do not ask a bot to raise a budget just because a recommendation says it could get more traffic. First check the offer, tracking, search terms and actual business outcome. A forecast is not an instruction to spend.
+
+## If spend looks unexpected
+
+Compare the same campaign, account currency, reporting timezone and dates in NRS and Google Ads. Use Google's billing and budget views to distinguish reported advertising cost from the amount and timing of a charge. Stop approving further changes until the difference is understood. If needed, prepare a reviewed pause, then check its result.
+
+Keep the campaign and operation numbers, dates and relevant amounts for NRS support. Do not include payment-card details or access keys in a screenshot. See [tracking and results](tracking-and-results.md) and [troubleshooting](troubleshooting.md).
