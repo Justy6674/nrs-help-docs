@@ -23,7 +23,7 @@ For ScentSell, distinguish completed marketplace activity from a product-page vi
 
 ## Verify tracking before using it to make spending decisions
 
-NRS's current Ads tools read supported reports; they do not install tags or configure conversion actions.
+NRS’s Ads tools read supported reports. The separate [agent tracking workflow](./set-up-tracking-with-your-agent.md) can prepare and apply reviewed Google configuration for eligible connected workspaces. It produces an installation artifact; an authorised website developer or agent must still apply it to the actual website and prove delivery.
 
 The person responsible for the website should confirm the intended conversion action in Google Ads and complete an authorised test of that action. [Google's conversion measurement guide](https://support.google.com/google-ads/answer/1722022?hl=en-AU) explains the available sources. Use the business's approved privacy and consent setup for tracking; do not add tags to sensitive or clinical journeys as a casual test.
 
