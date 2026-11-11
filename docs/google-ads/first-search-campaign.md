@@ -15,6 +15,10 @@ source_urls: ["https://support.google.com/google-ads/answer/9510373?hl=en-AU", "
 
 Before starting, finish [account setup](start-here.md) and read [budgets and spending](budgets-and-spending.md). This workflow creates a campaign **paused**. Activation is a second decision that can start spending.
 
+## Use your connected AI
+
+Ask your agent to prepare a paused Search campaign with your actual offer, destination, keywords and proposed AUD budget. It reads `google_account_settings` and `google_ads_status`, prepares any needed permission-ceiling change separately, and uses `google_ads_propose`. Review the exact returned details and approve before `google_ads_execute`. If you later want activation, approve that separate proposal. See [manage through your AI](manage-with-your-ai.md). The screen steps below remain an optional alternative.
+
 ## 1. Prepare the offer
 
 Choose one clear offer and a landing page that delivers it. For a marketplace, verify the actual listing and current availability rather than advertising an item from a reference catalogue. Do not invent savings, stock, authenticity claims or product names.

@@ -19,6 +19,10 @@ NRS provides one secured tool connection for supported work across your business
 Grok Bot, Grok Build and Grok on the web have different setup controls. NRS has a downloadable package, not a published marketplace listing. A client is connected only after it can discover and successfully call the intended NRS tools. An actual Grok connection has not yet been demonstrated for this release.
 :::
 
+## Manage Google settings in the conversation
+
+Your connected AI can read the current NRS limit, prepare a new amount in AUD, save approved outcome goals, request a Google consent link and bind verified assets through the account-control tools. You do not need to ask Codex to edit internal database fields. Use [manage limits, goals and setup through your AI](../google-ads/manage-with-your-ai.md). Real Google authorisation and any required initial Cloud app provisioning still apply.
+
 ## Prepare the NRS connection
 
 An authorised manager creates a named business connection under **Settings → Agents → External AI**, with only the permissions needed and an expiry. See [external AI access keys](api-keys.md). Start with reads for the connection check; an Ads proposal needs proposal permission and execution needs send permission plus approval of the exact change.

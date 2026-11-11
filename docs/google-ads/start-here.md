@@ -13,6 +13,8 @@ source_urls: ["https://support.google.com/google-ads/answer/9510373?hl=en-AU", "
 
 # Google Ads: start here
 
+**Prefer to work through your AI?** Use [manage limits, goals and setup through your AI](manage-with-your-ai.md). Your agent can inspect settings, prepare limits in AUD, request Google consent and save reviewed bindings. The console instructions below are an optional alternative, not a requirement for routine settings changes.
+
 Use NRS to prepare a Google Search campaign, inspect the exact change and approve it when you are ready. A bot uses the same NRS account connection and approval records as the console.
 
 :::info Limited first release
@@ -46,7 +48,7 @@ Google offers more campaign types and settings than this release exposes. [Googl
 
 Open **Paid ads** in the [NRS console](https://www.notrealsmart.com.au/console/ads) and select the correct business. Under account settings, NRS shows its Google service identity when configured. The Google account owner grants the appropriate access to that displayed identity; never send a password to a bot. [Google's access guide](https://support.google.com/google-ads/answer/6372672?hl=en-AU) describes its **Admin → Access and security** controls.
 
-NRS staff must independently confirm ownership and make the initial account binding. Enter the **Google Ads account number**, and **Manager account number (if used)** only when access is through that manager. **Verify account and save** checks the account and AUD currency. An authorised business owner can then manage the permitted campaign budget and reviewed-change setting for the existing binding.
+For the legacy house-identity connection, NRS staff independently confirm ownership and make the initial binding. For customer-owned OAuth access, the authorised owner can use the agent setup/asset-binding tools after Google consent and successful access verification. Enter the **Google Ads account number**, and **Manager account number (if used)** only when access is through that manager. **Verify account and save** checks the account and AUD currency. An authorised business owner can then manage the permitted campaign budget and reviewed-change setting for the existing binding.
 
 Leave **Allow reviewed campaign changes** off until setup is checked. Turning it on permits the approval workflow; it does not approve a campaign or start one.
 

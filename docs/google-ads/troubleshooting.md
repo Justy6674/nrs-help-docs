@@ -15,6 +15,10 @@ source_urls: ["https://support.google.com/google-ads/answer/6327680?hl=en-AU", "
 
 Start with the exact business, Google account number, campaign number and NRS operation number. Keep keys, passwords and payment details out of support messages.
 
+## Start with the agent’s actual tools
+
+Ask the agent to inspect `google_account_settings` and `google_tracking_setup`. A permitted owner connection can propose and apply limits, goal definitions and verified asset bindings without database edits or a separate coding assistant. If it cannot discover these tools, refresh its existing NRS tool discovery once. Missing provider credentials, Google consent, ownership permission and a stale tool list are different problems.
+
 ## Setup or preparation fails
 
 | What you see | Next check |
@@ -22,7 +26,7 @@ Start with the exact business, Google account number, campaign number and NRS op
 | Google Ads is not enabled in NRS yet | NRS staff need to finish setup; reinstalling the plugin will not enable it |
 | No business or wrong business | Check the login or business-bound connection; do not use another business's key |
 | Account cannot be verified | Confirm the correct Ads account and manager, Google's granted access and AUD currency with NRS staff |
-| Account settings cannot be changed | Initial binding and a different account/manager require NRS staff; the ordinary owner controls the existing binding's limits |
+| Account settings cannot be changed | Use google_account_settings/propose/execute for the owner’s reviewed limit. Use google_tracking_setup and verified customer-owned OAuth asset binding for account changes; legacy house-identity initial binding still needs NRS staff |
 | No **Prepare a change** form | The business owner needs the verified account, website and reviewed-change setting in place |
 | Google rejects the proposal | Read the returned reason; correct the proposed fields rather than repeatedly submit it |
 | Review expired or state changed | Prepare and inspect a fresh review; the old approval does not transfer |

@@ -15,6 +15,8 @@ source_urls: ["https://developers.google.com/google-ads/api/docs/conversions/get
 
 NRS has a tracking workflow for eligible paid workspaces and the NRS owner. It lets a connected agent inspect Google tracking, prepare configuration for your review, apply an approved change and read the result back. Customer Google authorisation, website installation and a real outcome test are still required. This guide does not mean your website is already tracked or Google has approved your business's proposed use.
 
+Use [manage through your AI](manage-with-your-ai.md) for the owner-controlled limits, saved goals, one-use Google consent link and reviewed asset binding workflow. Ask the agent to call `google_tracking_setup`; do not assume you must find manual NRS controls.
+
 ## 1. Decide what counts
 
 Choose the business outcome before installing anything: a completed paid order, a successful enquiry or a confirmed booking. Decide which business record proves success, what value and currency to send, and how to recognise duplicate, cancelled and refunded orders.
@@ -29,7 +31,7 @@ NRS attaches paid access to a settled membership invoice for that exact workspac
 
 ## 3. Authorise your own Google marketing account
 
-Use your business's Google Cloud marketing project and OAuth web app, separate from clinical systems. NRS stores the app details through the protected settings form. Never paste the client secret, developer token or refresh token into Grok or another agent chat.
+Use your business's Google Cloud marketing project and OAuth web app, separate from clinical systems. NRS stores the app details through the protected settings form. Never paste the client secret, refresh token into Grok or another agent chat.
 
 Your Google administrator must enable the required Google APIs and configure the exact redirect address shown by NRS. Select **Authorise with Google**, sign into the intended business account and review the requested permissions. Google account roles, API access levels, OAuth verification and any required review of a secondary interface are separate requirements. NRS cannot obtain these by asserting that your app is approved. [Google's programmatic-use policy](https://support.google.com/adspolicy/answer/6169371?hl=en) governs the proposed downstream use.
 

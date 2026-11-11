@@ -15,6 +15,10 @@ source_urls: ["https://support.google.com/google-ads/answer/10486637?hl=en-AU", 
 
 **The NRS budget setting is not a hard daily spending cap for your whole Google Ads account.** Understand these controls before approving activation or a budget change.
 
+## Set the NRS limit through your AI
+
+Ask your connected AI to show the current limit and prepare the exact new amount in AUD. It uses `google_account_settings`, then `google_account_propose` with `ads_limits`, and applies the saved proposal with `google_account_execute` only after your approval. You do not need SQL, internal field names or a separate coding assistant. This changes the allowed ceiling, not existing campaign budgets or activation. See [manage through your AI](manage-with-your-ai.md) for short example instructions and permissions.
+
 ## Three different amounts
 
 | Setting | Meaning in NRS |
