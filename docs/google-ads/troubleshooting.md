@@ -23,7 +23,7 @@ Ask the agent to inspect `google_account_settings` and `google_tracking_setup`. 
 
 | What you see | Next check |
 |---|---|
-| Google Ads is not enabled in NRS yet | NRS staff need to finish setup; reinstalling the plugin will not enable it |
+| Google Ads is not enabled in NRS yet | Ask the AI to inspect google_tracking_setup and finish the supported consent/binding flow; initial app provisioning may need NRS administration. Reinstalling the plugin does not enable provider access |
 | No business or wrong business | Check the login or business-bound connection; do not use another business's key |
 | Account cannot be verified | Confirm the correct Ads account and manager, Google's granted access and AUD currency with NRS staff |
 | Account settings cannot be changed | Use google_account_settings/propose/execute for the owner’s reviewed limit. Use google_tracking_setup and verified customer-owned OAuth asset binding for account changes; legacy house-identity initial binding still needs NRS staff |

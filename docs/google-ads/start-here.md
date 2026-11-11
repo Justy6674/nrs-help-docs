@@ -18,7 +18,7 @@ source_urls: ["https://support.google.com/google-ads/answer/9510373?hl=en-AU", "
 Use NRS to prepare a Google Search campaign, inspect the exact change and approve it when you are ready. A bot uses the same NRS account connection and approval records as the console.
 
 :::info Limited first release
-Google Ads needs NRS staff setup and a verified Google account connection for each business. A downloadable plugin does not complete that connection. Access is limited to setup and acceptance testing; account access and a live campaign still need checking separately. Commercially managed advertising is not established by this release.
+Google Ads needs a verified Google account connection for each business. Use the AI-led setup and consent flow when the customer-owned marketing app is configured; initial app provisioning or a legacy house-identity binding can still require NRS administration. A downloadable plugin does not complete that connection. Access is limited to setup and acceptance testing; account access and a live campaign still need checking separately. Commercially managed advertising is not established by this release.
 :::
 
 ## What NRS supports
@@ -32,7 +32,8 @@ Google Ads needs NRS staff setup and a verified Google account connection for ea
 | Change its average daily budget | Separate reviewed change within the business setting |
 | Exclude unsuitable searches | Reviewed exact or phrase negative keywords |
 | Set up Shopping, Performance Max, Display or YouTube campaigns | Not part of this NRS creation workflow |
-| Install conversion tracking or fix Google's billing | Separate work; not performed by the Ads plugin |
+| Set up conversion tracking | Shared tracking tools and an authorised website agent; see the tracking guide |
+| Fix Google's billing | Google account owner action; no billing mutation tool |
 
 Google offers more campaign types and settings than this release exposes. [Google's Search campaign guide](https://support.google.com/google-ads/answer/9510373?hl=en-AU) explains its own setup; use the NRS steps below when working in NRS.
 
