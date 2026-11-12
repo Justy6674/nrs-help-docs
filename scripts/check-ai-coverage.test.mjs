@@ -9,6 +9,7 @@ export const REQUIRED_COVERAGE = [
   { file: 'docs/google-ads/manage-with-your-ai.md', mustMention: ['pause a keyword', 'add an ad', 'pause an ad', 'end date', 'overall daily limit', 'change history'] },
   { file: 'docs/google-ads/budgets-and-spending.md', mustMention: ['overall daily limit', 'per campaign', 'end date', 'time zone'] },
   { file: 'docs/google-ads/troubleshooting.md', mustMention: ['change history', 'limited', 'appeal'] },
+  { file: 'docs/using-your-ai/agent-marketing-skills.md', mustMention: ['0.7.0', 'how easy it is to find', 'what my marketing did', 'not measured', 'never promises a ranking'] },
 ]
 for (const { file, mustMention } of REQUIRED_COVERAGE) test(`${file} covers what is live`, () => {
   const text = readFileSync(file, 'utf8').toLowerCase()

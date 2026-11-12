@@ -2,7 +2,7 @@
 title: "Use marketing workflows through your AI"
 description: "Ask your connected AI to load the right NRS workflow, show its limits and carry out only the work you approve."
 sidebar_position: 1
-last_verified: "2026-11-11"
+last_verified: "2026-11-12"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -18,7 +18,7 @@ Ask your connected AI: **“Show the NRS workflows available for this business, 
 A workflow gives your AI the procedure for a task: which business evidence to read, how to prepare a review, when to ask for approval and how to check the result. It does not grant account access or approve publication or spending.
 
 :::info Release availability
-The **0.6.0 workflow release is available**. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
+The **0.7.0 workflow release is available** (12 November 2026). It adds two workflows to the seven in 0.6: checking a website and how findable it is, and reporting what your marketing did. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
 :::
 
 ## Keep your existing connection
@@ -38,6 +38,10 @@ Use [Connect Grok or another AI](../connecting-devices/grok-and-nrs.md) if you n
 | “Check whether this business is ready for Meta ads.” | The existing dedicated advertising connection and the limited supported advertising workflow |
 | “Check whether this business is ready for LinkedIn ads.” | The separate advertising account and organisation requirements; organic posting access is different |
 | “Understand my business and help me choose the next worthwhile step.” | Saved discovery, evidence, a reviewed business roadmap and supported follow-through |
+| “Check my website and how easy it is to find.” | The latest Business Scan and how old it is, the basics checklist, speed and page-quality measurements, and watched competitors. Your AI proposes a new scan and waits for you; it does not start one unasked |
+| “Tell me what my marketing did last week.” | Posts published and failed, account health, Google Ads figures and whether tracking is connected, with the period, currency and time zone named |
+
+Two limits apply to the newest workflows. The website workflow reports only what NRS measured, with its date: it gives no overall score, and it never promises a ranking, a position or a mention in an AI answer. The reporting workflow treats anything NRS cannot see as **not measured**, never as zero: without tracking connected, it will not say an ad produced a sale or an enquiry. Both end by listing what was not measured.
 
 Brand voice and private business information remain with the authorised business. A general workflow does not let another business read them. The social workflow also includes guidance for opening lines, captions, tags and adapting the same idea to each network.
 
