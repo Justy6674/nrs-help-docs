@@ -18,7 +18,7 @@ Ask your connected AI: **“Show the NRS workflows available for this business, 
 A workflow gives your AI the procedure for a task: which business evidence to read, how to prepare a review, when to ask for approval and how to check the result. It does not grant account access or approve publication or spending.
 
 :::info Release availability
-The **0.7.1 workflow release is available** (12 November 2026). It adds two workflows to the seven in 0.6: checking a website and how findable it is, and reporting what your marketing did. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
+The **0.7.2 workflow release is available** (12 November 2026). It adds two workflows to the seven in 0.6: checking a website and how findable it is, and reporting what your marketing did. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
 :::
 
 ## Keep your existing connection
@@ -49,8 +49,8 @@ Say "tell me what my marketing did in the last 7 days" (or 30 days). Your AI rea
 
 | Part | What you get |
 |---|---|
-| Posts | Published, failed and sent for review in the period, and how many are waiting to go out |
-| Post figures | What each platform reported for posts published in the period, such as views and likes. This is the latest reading for each post, counted since that post went out |
+| Posts | Published, failed and sent for review in the period, how many are waiting to go out, and any that are overdue (their time has passed and they have not gone out) |
+| Post figures | What each platform reported for posts published in the period, such as views and likes. This is the latest reading for each post on each platform, counted since that post went out. The report says how many went out, how many have a reading, and how old the oldest reading is |
 | Google Ads | Spend, clicks and impressions for each campaign, in the account's own currency |
 | Tracking | Whether tracking is connected |
 
