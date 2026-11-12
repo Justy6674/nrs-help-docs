@@ -60,6 +60,7 @@
   "publish_post",
   "recall_facts",
   "remember_fact",
+  "results_report",
   "save_post_template",
   "search_business_knowledge",
   "zernio_desk"

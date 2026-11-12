@@ -18,7 +18,7 @@ Ask your connected AI: **“Show the NRS workflows available for this business, 
 A workflow gives your AI the procedure for a task: which business evidence to read, how to prepare a review, when to ask for approval and how to check the result. It does not grant account access or approve publication or spending.
 
 :::info Release availability
-The **0.7.0 workflow release is available** (12 November 2026). It adds two workflows to the seven in 0.6: checking a website and how findable it is, and reporting what your marketing did. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
+The **0.7.1 workflow release is available** (12 November 2026). It adds two workflows to the seven in 0.6: checking a website and how findable it is, and reporting what your marketing did. Your AI should check the version and tools advertised by your own NRS connection; a cached or older client may need to refresh its tool list. Workflow instructions and the plugin package do not establish account readiness or successful execution in every AI client. Supported Meta and LinkedIn connection setup can guide you through real owner consent where this business already has the required publishing connection. Account access, exact mapping and actual provider results are checked separately.
 :::
 
 ## Keep your existing connection
@@ -42,6 +42,25 @@ Use [Connect Grok or another AI](../connecting-devices/grok-and-nrs.md) if you n
 | “Tell me what my marketing did last week.” | Posts published and failed, account health, Google Ads figures and whether tracking is connected, with the period, currency and time zone named |
 
 Two limits apply to the newest workflows. The website workflow reports only what NRS measured, with its date: it gives no overall score, and it never promises a ranking, a position or a mention in an AI answer. The reporting workflow treats anything NRS cannot see as **not measured**, never as zero: without tracking connected, it will not say an ad produced a sale or an enquiry. Both end by listing what was not measured.
+
+## Ask for one combined report
+
+Say "tell me what my marketing did in the last 7 days" (or 30 days). Your AI reads one combined report, `results_report`, and nothing is published, spent or changed by reading it. It covers:
+
+| Part | What you get |
+|---|---|
+| Posts | Published, failed and sent for review in the period, and how many are waiting to go out |
+| Post figures | What each platform reported for posts published in the period, such as views and likes. This is the latest reading for each post, counted since that post went out |
+| Google Ads | Spend, clicks and impressions for each campaign, in the account's own currency |
+| Tracking | Whether tracking is connected |
+
+Each part says whether it was measured, is not connected, had no activity or could not be read. Three things to know when you read it:
+
+- **The periods differ.** Posts are counted up to now. Google Ads covers whole days ending yesterday, in the Google account's own time zone, so today's advertising is not included.
+- **Empty is not zero.** A figure that was not sent is left empty. Conversions stay empty unless tracking is connected and Google sent a figure.
+- **Connected is not installed.** A connected tracking account does not prove the tag is working on your website. The report does not check that.
+
+The report ends with a list headed not measured. Ask your AI to read it to you in full.
 
 Brand voice and private business information remain with the authorised business. A general workflow does not let another business read them. The social workflow also includes guidance for opening lines, captions, tags and adapting the same idea to each network.
 
