@@ -2,7 +2,7 @@
 title: "Manage limits, goals and setup through your AI"
 description: "Use your connected AI to manage NRS permissions, Google Ads changes and tracking without database edits."
 sidebar_position: 2
-last_verified: "2026-11-11"
+last_verified: "2026-11-12"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -51,6 +51,36 @@ The AI prepares a settings proposal showing your business, current ceiling, prop
 
 If the AI can read but cannot change settings, the owner must authorise the connection with the necessary proposal/send permissions. The AI should explain the missing permission; it must not borrow another account's key or ask you to paste a secret into chat.
 
+## Set an overall daily limit
+
+The campaign limit above applies to one campaign. You can also set an overall daily limit: a ceiling for the combined average daily budgets of every campaign that is switched on in the account. Ask your AI to set it in the same conversation. It uses the same `google_account_propose` change with the overall amount, shows you both figures, and applies them only after your approval.
+
+With an overall daily limit set, switching on another campaign, or raising the budget of one that is on, is refused if it would take the combined budgets past the limit. Pausing a campaign or lowering a budget is never refused. To remove the overall limit, ask your AI to clear it. It cannot be lower than the per-campaign limit.
+
+## Set, change or remove an end date
+
+Tell your AI the last day you want a campaign to run, for example "run it for two weeks". Give the day in your own business's time zone. Your AI works out the date, shows you the exact day and time the campaign will stop, and sets it after your approval. You can move the end date or remove it the same way.
+
+A Google Ads account keeps the time zone it was opened with, and Google does not allow that to be changed. When your Google account is on a different time zone from your business, Google can only stop a campaign at the end of one of its own days. NRS then chooses the latest moment that does not run past the day you named, so the campaign may stop some hours before midnight on your last day. The approval always states the stop time in your own time zone.
+
+Letting a campaign that is switched on run longer is treated like switching it on: your limits still apply, and a health business needs its advertising review first. Shortening a run is never held up.
+
+## Change keywords and ads in an existing campaign
+
+Your AI can make these changes inside a campaign that already exists. Each one is shown to you exactly and waits for your approval.
+
+| You ask for | What your AI does |
+|---|---|
+| Pause a keyword, or switch one back on | Names the keyword by its exact wording and match type |
+| Add an ad with new wording | Adds a new ad with the exact headlines, descriptions and landing page you approve |
+| Pause an ad, or switch one back on | Names the ad by its number from the ad review report |
+
+NRS does not remove keywords, ads or campaigns. To take one out, your AI pauses it, which you can undo. To change an ad's wording, your AI adds the new ad, confirms Google has it, then pauses the old one.
+
+## See who changed what
+
+Ask your AI for the change history. It reads Google's own log of changes to your account for up to 30 days: when each change was made, by which login, and whether it came from NRS or from the Google Ads website. Use it when a campaign has disappeared from a report or looks different from what you approved. The log shows the email address of each login that made a change.
+
 ## Choose outcomes for your ads
 
 Tell your AI what a successful business outcome means. For example:
@@ -89,6 +119,8 @@ Ask the AI to prepare a tracking disconnection. Review and approve it in the con
 | Read the settings receipt | `google_account_operation` |
 | Diagnose setup or request Google consent | `google_tracking_setup` |
 | Prepare/apply an actual campaign budget or activation | `google_ads_propose` → owner approval → `google_ads_execute` |
+| Pause or switch on keywords and ads, add an ad, set or remove an end date | `google_ads_propose` → owner approval → `google_ads_execute` |
+| Read Google's change history, campaign list or ad review status | `google_ads_report` |
 | Configure and verify supported Google tracking | `google_tracking_*` tools |
 
 Keep using your existing NRS connection. If the client caches an old tool list, refresh that connection's discovery once; reinstalling the app or issuing a new key is not the default fix. A pending or uncertain Google operation must be reconciled before rebinding accounts or changing its execution settings. The AI must report what it actually read, saved, submitted and verified as separate states.

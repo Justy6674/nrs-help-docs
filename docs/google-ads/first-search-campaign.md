@@ -2,7 +2,7 @@
 title: "Prepare and approve your first Search campaign"
 description: "Create a paused campaign, review its contents and approve activation separately."
 sidebar_position: 2
-last_verified: "2026-11-11"
+last_verified: "2026-11-12"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -58,6 +58,8 @@ Look for **Applied and verified** and the campaign's **PAUSED** status. Keep the
 If NRS shows **executing** or **uncertain**, do not create another campaign. Follow [reconciliation](troubleshooting.md#an-operation-is-executing-or-uncertain).
 
 ## 5. Activate only when ready
+
+Before you switch a campaign on, decide how it stops. Ask your AI to set an end date and, if you run more than one campaign, an overall daily limit. See [budgets, bids and what you can be charged](budgets-and-spending.md).
 
 Choose **Pause or activate a campaign**, enter its campaign number from the table and choose **Active — starts or resumes spending**. Prepare the change. Expand **Review existing ads and targeting before activation** and inspect the current contents, destination, targeting, bid and budget, including the business limit. Confirm tracking, billing and any required advertising review separately.
 

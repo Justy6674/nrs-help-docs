@@ -2,7 +2,7 @@
 title: "External AI access keys"
 description: "Issue a scoped key for an approved external AI connection."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-11-12"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -16,6 +16,10 @@ source_urls: []
 Where external AI access is enabled, an authorised manager uses **Settings → Agents → External AI** to create a named connection for one business. Choose only the permissions that connection needs and set an appropriate expiry.
 
 The token is shown once when created. Store it in the approved client's secret settings. It is not an ordinary user password and should not be pasted into a chat, public document or support screenshot.
+
+## Apps that sign in instead of holding a key
+
+Some AI apps cannot store a key. ChatGPT is one. They connect by sending you to a Not Real Smart page to log in and approve, and no key is created by hand. See [connect ChatGPT to NRS](chatgpt-and-nrs.md).
 
 ## What the permissions mean
 

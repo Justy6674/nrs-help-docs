@@ -15,7 +15,7 @@
     "typecheck": "tsc",
     "check:services": "node scripts/generate-service-docs.mjs --check",
     "check:content": "node scripts/check-content.mjs",
-    "test:docs": "node --test plugins/content-index.test.cjs scripts/check-content.test.mjs",
+    "test:docs": "node --test plugins/content-index.test.cjs scripts/check-content.test.mjs scripts/check-ai-coverage.test.mjs",
     "check": "npm run check:services && npm run check:content && npm run test:docs && npm run typecheck",
     "prebuild": "npm run check"
   },

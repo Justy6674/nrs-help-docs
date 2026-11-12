@@ -2,7 +2,7 @@
 title: "Google Ads troubleshooting and unclear results"
 description: "Know what to check when setup fails, an ad does not run or an operation has an uncertain outcome."
 sidebar_position: 5
-last_verified: "2026-11-11"
+last_verified: "2026-11-12"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -59,6 +59,17 @@ A confirmation failure can be an NRS query or comparison defect even when creati
 A performance report and an account inventory answer different questions. A new or inactive campaign can be absent from a metric query for the selected dates. Ask the AI for the date-free inventory, then check the exact account, campaign number, filters and all pages. An empty results table is not evidence that the account or campaign was deleted.
 
 The current-source Google report tools also support date-free ad-policy observations, including review and approval status, policy topics and primary status reasons. Your AI must first check that its connected server advertises those report options. Read the returned limitations: policy approval, configured enabled status, actual delivery and conversions are separate.
+
+## A campaign has disappeared or changed and you do not know why
+
+Ask your AI for the change history. It reads Google's own log for up to 30 days and shows when each change was made, by which login, and whether it came from NRS or the Google Ads website. Reports leave out campaigns that were removed in Google, so a campaign removed on the Google Ads website will be missing from them. NRS itself never removes a campaign.
+
+## Google marks an ad as limited
+
+An ad can be approved but limited, which means Google restricts where it can show. Ask your AI for the ad review report to see the reason Google gives. Google sometimes files an ad under a policy that does not fit the business. Two routes are available:
+
+- Ask your AI to add a new ad with different wording, confirm Google has it, then pause the limited ad. Each step waits for your approval.
+- Appeal Google's decision in the Google Ads website, under Policy manager. Google allows a limited number of appeals for each ad. NRS cannot lodge an appeal for you.
 
 ## Campaign is enabled but no ad appears
 

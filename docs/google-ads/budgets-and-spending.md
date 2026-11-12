@@ -2,7 +2,7 @@
 title: "Budgets, bids and what you can be charged"
 description: "Understand Google's average daily budgets and what the NRS limit does and does not control."
 sidebar_position: 3
-last_verified: "2026-11-11"
+last_verified: "2026-11-12"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -13,21 +13,28 @@ source_urls: ["https://support.google.com/google-ads/answer/10486637?hl=en-AU", 
 
 # Budgets, bids and what you can be charged
 
-**The NRS budget setting is not a hard daily spending cap for your whole Google Ads account.** Understand these controls before approving activation or a budget change.
+**NRS limits cap the budgets you set through NRS. They are not a guaranteed cap on what Google charges.** Understand these controls before approving activation or a budget change.
 
 ## Set the NRS limit through your AI
 
 Ask your connected AI to show the current limit and prepare the exact new amount in AUD. It uses `google_account_settings`, then `google_account_propose` with `ads_limits`, and applies the saved proposal with `google_account_execute` only after your approval. You do not need SQL, internal field names or a separate coding assistant. This changes the allowed ceiling, not existing campaign budgets or activation. See [manage through your AI](manage-with-your-ai.md) for short example instructions and permissions.
 
-## Three different amounts
+## Four different amounts
 
 | Setting | Meaning in NRS |
 |---|---|
 | Maximum permitted average daily campaign budget | The largest configured average daily budget NRS will permit for an individual campaign in this business |
 | Average daily campaign budget | The setting assigned to one campaign; Google can spend unevenly across days |
+| Overall daily limit (optional) | The largest combined average daily budget NRS will permit across every campaign that is switched on. Empty unless you set it |
 | Maximum cost per click | The manual bid used when NRS creates the Search ad group; it does not reserve a number of clicks or guarantee customers |
 
-Setting a permitted amount does not allocate a total across every campaign. Several active campaigns can each spend. Existing campaigns, changes made directly in Google and other account activity need review in Google Ads as well.
+The first limit applies per campaign: without an overall daily limit, several active campaigns can each spend up to it. Set the overall daily limit when you want one ceiling across all of them. With it set, NRS refuses to switch on a campaign or raise a budget that would take the combined budgets past it; pausing and lowering are never refused. Existing campaigns, changes made directly in Google and other account activity need review in Google Ads as well.
+
+## Stop on a date
+
+NRS cannot stop a campaign when total spend reaches a figure. To cap a run, set an end date: tell your AI the last day, in your own time zone, and approve the stop time it shows you. As a guide, four campaigns at A$10 a day each have combined budgets of A$40 a day, so seven days is about A$280.
+
+Your Google Ads account keeps the time zone it was opened with. If that differs from your business's time zone, the campaign stops at the latest moment Google allows that is not after the end of your last day. See [manage with your AI](manage-with-your-ai.md).
 
 ## Google's spending limits
 
