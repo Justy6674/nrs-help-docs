@@ -71,6 +71,16 @@ An ad can be approved but limited, which means Google restricts where it can sho
 - Ask your AI to add a new ad with different wording, confirm Google has it, then pause the limited ad. Each step waits for your approval.
 - Appeal Google's decision in the Google Ads website, under Policy manager. Google allows a limited number of appeals for each ad. NRS cannot lodge an appeal for you.
 
+## Your AI says NRS will not switch a campaign on
+
+From 15 November 2026, NRS refuses to switch a campaign on while Google is counting no result for the account. A campaign that spends with nothing measuring what it achieves cannot tell you whether it is working.
+
+Ask your AI to run the Google Ads **setup** check and read you the **results counted** part. It lists each switched-on conversion action and says whether Google has seen its tag fire, or counted a result, in the last 30 days. YouTube-only actions do not count, and an action that merely exists does not count.
+
+To fix it, set up a real result (a sale, a sign-up, a booking, an enquiry) with the Google tracking guide, complete one test so Google sees it, then ask your AI to prepare the switch-on again.
+
+Pausing, budgets, end dates and campaigns that are already on are not affected. This check is NRS's own safeguard; it does not change what you can do on the Google Ads website.
+
 ## Campaign is enabled but no ad appears
 
 Campaign status, ad approval and delivery are different. Ask your connected AI for the supported ad-policy report. If the required detail is not available through the current API workflow, inspect the ad's status and full **Policy details** in Google Ads; the AI must identify the exact missing detail instead of guessing. Google says most ad reviews finish within one working day, with longer cases possible. **Disapproved** means the ad cannot run; **Eligible (limited)** indicates restrictions. [Google's status guide](https://support.google.com/google-ads/answer/6327680?hl=en-AU) explains its current labels and review guidance.
