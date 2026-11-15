@@ -16,7 +16,7 @@ source_urls: []
 Open **Settings → Accounts**. The first tab, **All accounts**, shows every account across every business you can reach in one place:
 
 - each account once, with every business it posts for (one LinkedIn can post for several businesses);
-- its current status, checked with the publisher when the page opens: **Can post**, **Sign in again**, or **Not checked** if the publisher did not answer;
+- its current status, checked with the publisher when the page opens: **Can post**, **Cannot schedule** (signed in, but a post cannot be scheduled yet; the reason is shown on the card), **Sign in again**, or **Not checked** if the publisher did not answer;
 - a **Sign in again** button only on an account that needs it;
 - filters by business and by platform;
 - **Add an account**: choose the business, then the platform, then sign in on that platform;
