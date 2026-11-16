@@ -21,7 +21,7 @@ If release stops with a message about the healthcare advertising setting, open *
 
 ## Choose the time
 
-**Next free slot** uses the business's configured queue availability. If there is no usable slot, review **Settings → Queue slots** rather than repeatedly clicking the button.
+**Next free slot** uses the business's configured queue availability. If there is no usable slot, review **Settings → Posting times** rather than repeatedly clicking the button. (Not Real Smart staff see the same screen named **Queue slots**.)
 
 **Schedule** opens the time selector. The current Composer labels it **Brisbane time**. Choose a valid future time and confirm the displayed schedule.
 
