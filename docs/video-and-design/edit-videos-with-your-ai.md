@@ -1,10 +1,9 @@
 ---
 title: Edit your videos with your AI
 description: What your own AI (Claude, ChatGPT, Grok and others) and Eve can do with your videos in NRS, and what they cannot do.
-draft: true
 sidebar_position: 12
 last_verified: "2026-11-17"
-review_status: "draft"
+review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
 source_files: ["src/lib/nrs/media-agent/", "src/lib/nrs/media-reel-from-page/", "src/lib/nrs/media-typography.ts", "src/components/nrs/ReelAgentPanel.tsx", "src/components/nrs/ReelListenButton.tsx", "src/components/nrs/ReelFromPage.tsx", "src/components/nrs/ReelEditor.tsx"]
@@ -12,10 +11,7 @@ feature_ids: ["nrs.video-and-design", "nrs.eve"]
 source_urls: []
 ---
 
-> Draft for the video release, checked against the implementation on 17 Nov 2026. Reading transcripts, saving edits,
-> suggestions, history, undo, frame previews and rendering are already implemented in the live video loop. Starting
-> **Listen** through an AI, the new text styles and **From a web page** are release additions. Their code, database and
-> render-machine checks must be completed before this draft is published as an available-workflow guide.
+Listening, text styles and making a draft reel from your own website are available through your connected AI. Availability depends on your business’s media, connected services and your access. A saved reel or frame preview is ready for review; it is not a finished video or a published post.
 
 ## What your AI can do with your videos
 

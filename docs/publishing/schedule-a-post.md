@@ -13,9 +13,9 @@ source_urls: []
 
 # Schedule a post
 
-Open the intended draft in Composer. Confirm the business, accounts, platform versions and media. Resolve blocking release checks and complete the required human review. Read any advice NRS shows. Advice is there to help you decide and does not stop the post.
+Open the intended draft in Composer. Confirm the business, accounts, platform versions and media. Resolve blocking release checks and complete the required human review. Read any advice NRS shows. Where Ahpra or TGA findings require acknowledgement, the person must accept responsibility for that exact post before it can proceed; other blocking release checks still apply.
 
-If the business has no healthcare advertising setting saved, NRS does not stop the post. Composer shows a note saying where to set it, and NRS runs the Ahpra and TGA checks as advice, showing each finding. Open **Brand kit**, choose on or off and save to settle it. If the business has no Brand kit at all, release still stops until one is created. NRS shows advice and is not legal advice. See [how NRS checks content](../compliance/how-compliance-works.md).
+If the business has no healthcare advertising setting saved, NRS does not stop the post. Composer shows a note saying where to set it, and NRS runs the Ahpra and TGA checks as advice, showing each finding. Open **Brand kit**, choose on or off and save to settle it. A missing Brand kit is also reported as advice; a failed settings read still stops release. NRS shows advice and is not legal advice. See [how NRS checks content](../compliance/how-compliance-works.md).
 
 ## Choose the time
 

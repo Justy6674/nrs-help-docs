@@ -6,7 +6,7 @@ last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/publish-gate-policy.ts", "src/app/console/settings/accounts/actions.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
+source_files: ["src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/publish-gate-policy.ts", "src/lib/nrs/health-acknowledgement.ts", "src/app/console/settings/accounts/actions.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
 feature_ids: ["nrs.compliance"]
 source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public"]
 ---
@@ -15,7 +15,11 @@ source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-gu
 
 NRS runs deterministic checks against the selected business's content and rules. Composer shows findings while work is prepared; the server checks again when release is requested. Unresolved blocking findings prevent release. A general administrator override is not the documented workflow.
 
-Every business should have its healthcare advertising setting saved, on or off. If a business has no setting, or one NRS does not recognise, NRS does not stop the post. It runs the full Ahpra and TGA checks as advice: every finding is shown with its source, nothing is refused, and NRS reminds you to open **Brand kit**, choose the setting and save. If the business has chosen a setting, a blocking finding still stops release until the words are changed. If NRS cannot read the business's settings at all, or the business has no Brand kit, release stops, because NRS cannot say what it does not know. Turning healthcare advertising on is limited to a person labelled Admin.
+Every business should have its healthcare advertising setting saved, on or off. If the setting is missing or unrecognised, NRS runs the full Ahpra and TGA checks as advice and reminds you to open **Brand kit**, choose the setting and save. A missing setting or Brand kit does not by itself refuse the post. If NRS cannot read the settings because the request fails, release stops with an explanation.
+
+With healthcare advertising on, Ahpra and TGA findings are shown as advice with their sources. Findings that require acknowledgement do not automatically refuse the post: the person must read them and tick **I've read this advice and accept responsibility** for that specific action before it can proceed. The tick covers the exact advice and post; changed wording or findings need a fresh tick. Through your own AI, the acknowledgement must also carry your own words accepting responsibility. Your AI cannot accept for you.
+
+Other release checks still apply, including business ownership, required review, available accounts, media readiness and blocking findings outside Ahpra and TGA. Accepting health advice does not bypass those checks.
 
 When the image and video checks for a post cannot be read, NRS tells you and the post can still go, unless the business has healthcare advertising on. Then NRS stops it, because those checks are the Ahpra and TGA checks. The release check uses the most recent image or video check.
 
