@@ -6,7 +6,7 @@ last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/lib/nrs/reporting/runner.ts", "src/app/console/reports/[business]/analysis/ReportingSettingsForm.tsx", "src/lib/nrs/scan/report-queries.ts", "src/app/console/analytics/page.tsx", "src/app/console/reports/[business]/page.tsx", "src/lib/nrs/monthly-results/contracts.ts", "src/lib/nrs/monthly-results/month.ts", "src/lib/nrs/monthly-results/collect.ts", "src/lib/nrs/monthly-results/document.ts", "src/app/console/results/MonthlyPreview.tsx"]
+source_files: ["src/lib/nrs/reporting/runner.ts", "src/app/console/reports/[business]/analysis/ReportingSettingsForm.tsx", "src/lib/nrs/scan/report-queries.ts", "src/app/console/analytics/page.tsx", "src/app/console/reports/[business]/page.tsx", "src/lib/nrs/monthly-results/contracts.ts", "src/lib/nrs/monthly-results/month.ts", "src/lib/nrs/monthly-results/collect.ts", "src/lib/nrs/monthly-results/document.ts", "src/app/console/results/MonthlyPreview.tsx", "src/lib/nrs/monthly-results/permanent.ts", "src/lib/nrs/monthly-results/pdf.ts", "src/app/console/results/MonthlyReports.tsx"]
 feature_ids: ["nrs.understanding-reports"]
 source_urls: []
 ---
@@ -37,3 +37,16 @@ The preview separates two kinds of retained evidence:
 Check each source's coverage and the oldest and newest readings used. Missing, partial or unavailable evidence is not a measured zero. Keep platform counters separate, and do not turn a partial observed sum into the whole month's engagement or a commercial result.
 
 This is an **unsaved preview with partial evidence**. It creates no PDF, permanent report, stable download or delivery, and nothing is sent. Reloading or preparing it later may use different retained readings. For a dated assessment that can be reviewed and delivered, use the separate [full-report workflow](../reports/prepare-a-full-report.md); this preview does not perform those steps.
+
+
+## Keep a private monthly report
+
+Where **Private monthly reports** is available in **Results**, choose the business and a completed month, then **Save private monthly report**. Leaving the month blank uses the previous completed month in the business's saved timezone. This saves the retained evidence and its report together. It does not send anything or make a provider call to collect fresh measurements.
+
+Open a saved report to download its **HTML** or **evidence**. The report keeps the facts available when it was saved; it does not silently change when later readings arrive. Its reference and document hashes identify that saved version. Current access to that business's Results is required for every view and download.
+
+Choose **Prepare PDF** when a PDF is needed. PDF preparation is separate from saving or reading the report. Until it succeeds, the saved HTML and evidence remain available. **Download PDF** retrieves the already prepared file; opening a download does not start another print.
+
+Missing readings remain missing. Captured counters are not engagement proven to have been earned only during the month. A saved report is not proof of return on investment, profit, a complete accounting record or delivery to an accountant. Nothing is sent by saving or preparing it.
+
+If saving returns an uncertain result, check the saved reports before trying again. A connected AI keeps the original creation reference for an identical retry. Do not replace an uncertain saved report by creating several new reports.

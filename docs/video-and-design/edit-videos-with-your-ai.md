@@ -72,3 +72,12 @@ writes over your work.
 Your AI reads the words in your own videos like any other business's. Before anything is posted, NRS gives Ahpra and
 TGA advice on the words in the post and burned into the video, with the source of each line, and asks you to tick that
 you accept responsibility.
+
+
+## When frame information cannot be read
+
+An unreadable worker status does not prove the render machine is offline. An unreadable frame does not prove it is missing. NRS keeps the frame reference when a request has been accepted, even if its current status or image link cannot be read.
+
+Use **Check this frame again** to read the same frame. It does not save the reel or request another frame. The image keeps the time and shape originally requested, even when the playhead moves. A frame from a different business or reel is not shown under the new selection.
+
+If a previous image remains visible after a failed check, NRS marks it **Last known** with the current warning. It is not presented as a newly checked result. A ready frame with an unavailable image link remains ready; it does not need to be rendered again just to repair a status read.
