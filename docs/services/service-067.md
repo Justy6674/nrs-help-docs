@@ -1,7 +1,7 @@
 ---
 title: "AI use policy for your business"
 description: "NRS-067: listed fee, scope questions and review requirements."
-last_verified: "2026-10-24"
+last_verified: "2026-11-17"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"

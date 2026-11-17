@@ -2,7 +2,7 @@
 title: "How NRS checks content"
 description: "Understand automated screening, human review and the release gate."
 sidebar_position: 1
-last_verified: "2026-10-24"
+last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
@@ -15,7 +15,9 @@ source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-gu
 
 NRS runs deterministic checks against the selected business's content and rules. Composer shows findings while work is prepared; the server checks again when release is requested. Unresolved blocking findings prevent release. A general administrator override is not the documented workflow.
 
-Every business needs its healthcare advertising setting saved, on or off, before anything can be released. If a business has no setting, the setting cannot be read, or it holds a value NRS does not recognise, release stops with a message pointing to **Brand kit**. Open Brand kit, choose the setting and save. Turning healthcare advertising on is limited to a person labelled Admin. The same stop applies when the image and video checks for a post cannot be read, and the release check uses the most recent image or video check.
+Every business should have its healthcare advertising setting saved, on or off. If a business has no setting, or one NRS does not recognise, NRS does not stop the post. It runs the full Ahpra and TGA checks as advice: every finding is shown with its source, nothing is refused, and NRS reminds you to open **Brand kit**, choose the setting and save. If the business has chosen a setting, a blocking finding still stops release until the words are changed. If NRS cannot read the business's settings at all, or the business has no Brand kit, release stops, because NRS cannot say what it does not know. Turning healthcare advertising on is limited to a person labelled Admin.
+
+When the image and video checks for a post cannot be read, NRS tells you and the post can still go, unless the business has healthcare advertising on. Then NRS stops it, because those checks are the Ahpra and TGA checks. The release check uses the most recent image or video check.
 
 A checker can miss an issue or flag acceptable wording. Read the actual sentence, context, image and destination. Correct the work or refer the finding for appropriate review. A rewrite suggestion does not itself clear a flag or establish legal acceptability.
 

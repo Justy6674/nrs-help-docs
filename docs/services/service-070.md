@@ -1,13 +1,13 @@
 ---
 title: "TPB AI obligations review"
 description: "NRS-070: listed fee, scope questions and review requirements."
-last_verified: "2026-10-24"
+last_verified: "2026-11-17"
 review_owner: "Not Real Smart"
 review_status: "reviewed"
 availability: "service"
 feature_ids: ["nrs.services"]
 source_files: ["src/lib/nrs/offers/catalogue.ts","docs/offers/rate-book-v1.md"]
-source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Advertising-guidelines.aspx","https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public","https://www.oaic.gov.au/privacy/australian-privacy-principles"]
+source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Advertising-guidelines.aspx","https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public","https://www.oaic.gov.au/privacy/australian-privacy-principles","https://www.tpb.gov.au/tpbgs-552026-use-artificial-intelligence-and-code-professional-conduct"]
 slug: "/services/070"
 service_sku: "NRS-070"
 service_section: "compliance"

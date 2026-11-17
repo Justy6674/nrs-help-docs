@@ -3,6 +3,7 @@ import {resolve} from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
 const data = JSON.parse(readFileSync(resolve(root, 'data/services.json'), 'utf8'));
+const sourceReviews = JSON.parse(readFileSync(resolve(root, 'data/source-reviews.json'), 'utf8'));
 const checking = process.argv.includes('--check');
 const q = JSON.stringify;
 const ahpra = 'https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Advertising-guidelines.aspx';
@@ -112,14 +113,20 @@ function price(service) {
   if (service.model === 'free') return 'Free';
   if (service.model === 'poa') return 'Price on application';
   const dollars = '$' + service.amount.toLocaleString('en-AU');
-  return service.model === 'from' ? 'From ' + dollars : service.model === 'monthly' ? dollars + ' per month' : dollars;
+  return service.model === 'from' ? 'From ' + dollars : service.model === 'monthly' ? dollars + ' per month' + (service.billingMonths === 3 ? ', billed three months at a time' : '') : dollars;
 }
-function metadata(title, description, extra = {}, health = false) {
+function metadata(title, description, extra = {}, health = false, page = '') {
+  const review = sourceReviews.pages[page];
+  const reviewedSources = (review?.sourceIds ?? []).map(id => {
+    const source = sourceReviews.sources[id];
+    if (!source || source.checkedAt !== review.reviewedAt) throw new Error(`Missing dated source review for ${page}: ${id}`);
+    return source.url;
+  });
   const fields = {
-    title, description, last_verified: data.verifiedAt, review_owner: 'Not Real Smart',
+    title, description, last_verified: review?.reviewedAt ?? data.verifiedAt, review_owner: 'Not Real Smart',
     review_status: 'reviewed', availability: 'service', feature_ids: ['nrs.services'],
     source_files: ['src/lib/nrs/offers/catalogue.ts', 'docs/offers/rate-book-v1.md'],
-    source_urls: health ? [ahpra, tga, oaic] : [], ...extra,
+    source_urls: health ? [...new Set([ahpra, tga, oaic, ...reviewedSources])] : reviewedSources, ...extra,
   };
   return '---\n' + Object.entries(fields).map(([k, v]) => `${k}: ${q(v)}`).join('\n') + '\n---\n\n';
 }
@@ -134,7 +141,7 @@ for (const section of data.sections) {
   const a = areas[section.id];
   if (!a) throw new Error('Missing reviewed area copy: ' + section.id);
   const services = data.services.filter(s => s.sectionId === section.id);
-  files.set(`area-${section.id}.md`, metadata(section.label, `Choosing and scoping NRS ${section.label.toLowerCase()} services.`, {service_section: section.id, sidebar_position: data.sections.indexOf(section) + 2}, section.id === 'compliance') +
+  files.set(`area-${section.id}.md`, metadata(section.label, `Choosing and scoping NRS ${section.label.toLowerCase()} services.`, {service_section: section.id, sidebar_position: data.sections.indexOf(section) + 2}, section.id === 'compliance', `services/area-${section.id}.md`) +
     `# ${section.label}\n\n${a.intro}\n\n## Before you start\n\n${a.prepare}\n\n## Agree the work\n\n${a.agree}\n\n## Review the result\n\n${a.review}\n\n## Options and fees\n\n${table(services)}\n\nAll listed fees are AUD excluding GST. The written scope confirms inclusions and any third-party costs. [Back to the Rate Book](index.md).\n`);
 }
 for (const s of data.services) {
@@ -145,7 +152,8 @@ for (const s of data.services) {
     slug: `/services/${s.sku.slice(4)}`, service_sku: s.sku, service_section: s.sectionId,
     service_amount: s.amount, service_model: s.model, sidebar_position: Number(s.sku.slice(4)) + 20,
     availability: limited ? 'limited' : 'service',
-  }, health) + `# ${s.name}\n\n**${s.sku} · ${price(s)} · AUD, excluding GST**\n\nThis is a service reference for discussing and agreeing the work with NRS. The title and fee come from the approved catalogue; the written engagement defines the deliverables and acceptance.\n\n` +
+  }, health, `services/service-${s.sku.slice(4)}.md`) + `# ${s.name}\n\n**${s.sku} · ${price(s)} · AUD, excluding GST**\n\nThis is a service reference for discussing and agreeing the work with NRS. The title and fee come from the approved catalogue; the written engagement defines the deliverables and acceptance.\n\n` +
+    (s.setupAddOn ? 'Sold only alongside a set-up NRS built, never on its own.\n\n' : '') +
     (special[s.sku] ? `## What to know\n\n${special[s.sku]}\n\n` : '') +
     `## Prepare for the conversation\n\n${a.prepare}\n\n## Confirm the scope\n\n${a.agree}\n\n## Review and accept\n\n${a.review}\n\n` +
     (health ? `## Health and professional responsibilities\n\nKeep personal or clinical records in the approved system. Regulatory assistance needs a responsible person to review the actual facts and current sources. [Ahpra advertising guidance](${ahpra}), [TGA prescription advertising guidance](${tga}) and the [Australian Privacy Principles](${oaic}) are reference points; their applicability depends on the work. Read [health advertising review](../health-and-abe/health-advertising-review.md) and [Abe’s role](../health-and-abe/what-abe-does.md).\n\n` : '') +

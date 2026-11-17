@@ -18,9 +18,11 @@ sidebar_position: 129
 
 # Post Set-up support
 
-**NRS-109 · $99 per month · AUD, excluding GST**
+**NRS-109 · $99 per month, billed three months at a time · AUD, excluding GST**
 
 This is a service reference for discussing and agreeing the work with NRS. The title and fee come from the approved catalogue; the written engagement defines the deliverables and acceptance.
+
+Sold only alongside a set-up NRS built, never on its own.
 
 ## Prepare for the conversation
 

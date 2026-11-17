@@ -2,13 +2,13 @@
 title: "Plan practical AI governance work"
 description: "Define the workflow, information boundary and human responsibility."
 sidebar_position: 5
-last_verified: "2026-10-24"
+last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "service"
 review_owner: "Bec and Justin"
 source_files: ["README.md", "ARCHITECTURE.md", "src/lib/nrs/compliance.ts", "src/lib/nrs/publish-gate.ts", "src/lib/nrs/scan/report.ts", "src/lib/nrs/abeai/regulatory-corpus.ts"]
 feature_ids: ["nrs.health-and-abe"]
-source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public"]
+source_urls: ["https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx", "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public", "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"]
 ---
 
 # Plan practical AI governance work

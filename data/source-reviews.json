@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "reviewPreparedBy": "Codex source review",
+  "reviewMeaning": "Editorial comparison with the cited primary sources and current implementation. Not legal approval, approval of a particular advertisement or proof of production availability. Catalogue approval dates remain separate.",
+  "evidence": "reviews/2026-11-17-help-regulatory-source-review.md",
+  "sources": {
+    "ahpra_guidelines": {
+      "url": "https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Advertising-guidelines.aspx",
+      "version": "Guidelines effective 14 December 2020; current linked material read 17 November 2026",
+      "checkedAt": "2026-11-17"
+    },
+    "ahpra_summary": {
+      "url": "https://www.ahpra.gov.au/Resources/Advertising-hub/Advertising-guidelines-and-other-guidance/Summary-of-the-advertising-requirements.aspx",
+      "version": "Page reviewed 2 September 2025; current page read 17 November 2026",
+      "checkedAt": "2026-11-17"
+    },
+    "ahpra_cosmetic": {
+      "url": "https://www.ahpra.gov.au/Resources/Cosmetic-surgery-hub/Cosmetic-procedure-advertising-guidelines/Resources-for-advertising-higher-risk-non-surgical-cosmetic-procedures",
+      "version": "Current procedure-specific resource read 17 November 2026",
+      "checkedAt": "2026-11-17"
+    },
+    "tga_prescription": {
+      "url": "https://www.tga.gov.au/resources/guidance/complying-restrictions-advertising-prescription-medicines-public",
+      "version": "Last updated 23 June 2026",
+      "checkedAt": "2026-11-17"
+    },
+    "tga_testimonials": {
+      "url": "https://www.tga.gov.au/products/regulations-all-products/advertising/applying-advertising-code/testimonials-and-endorsements-advertising",
+      "version": "Last updated 11 March 2025",
+      "checkedAt": "2026-11-17"
+    },
+    "tga_cosmetic": {
+      "url": "https://www.tga.gov.au/resources/guidance/determining-if-your-product-cosmetic-or-therapeutic-good",
+      "version": "Last updated 3 July 2026",
+      "checkedAt": "2026-11-17"
+    },
+    "oaic_apps": {
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles",
+      "version": "Current APP overview read 17 November 2026; no updated date shown",
+      "checkedAt": "2026-11-17"
+    },
+    "oaic_ai": {
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products",
+      "version": "Published 21 October 2024, updated 17 January 2025",
+      "checkedAt": "2026-11-17"
+    },
+    "tpb_ai": {
+      "url": "https://www.tpb.gov.au/tpbgs-552026-use-artificial-intelligence-and-code-professional-conduct",
+      "version": "Issued and last modified 22 July 2026",
+      "checkedAt": "2026-11-17"
+    }
+  },
+  "pages": {
+    "compliance/ahpra-rules.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "ahpra_summary",
+        "tga_prescription"
+      ]
+    },
+    "compliance/tga-rules.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "tga_prescription",
+        "tga_testimonials",
+        "tga_cosmetic"
+      ]
+    },
+    "compliance/the-guardian-agent.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_summary",
+        "tga_prescription"
+      ]
+    },
+    "health-and-abe/ai-governance.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_summary",
+        "tga_prescription",
+        "oaic_ai"
+      ]
+    },
+    "health-and-abe/health-advertising-review.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_summary",
+        "tga_prescription"
+      ]
+    },
+    "health-and-abe/prescription-medicines.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_summary",
+        "tga_prescription"
+      ]
+    },
+    "health-and-abe/testimonials-and-images.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "ahpra_cosmetic",
+        "tga_testimonials"
+      ]
+    },
+    "health-and-abe/what-abe-does.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_summary",
+        "tga_prescription"
+      ]
+    },
+    "services/area-compliance.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-042.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-048.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-052.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-067.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-068.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-069.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-070.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps",
+        "tpb_ai"
+      ]
+    },
+    "services/service-071.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-072.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-073.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-074.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-075.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-076.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    },
+    "services/service-102.md": {
+      "reviewedAt": "2026-11-17",
+      "sourceIds": [
+        "ahpra_guidelines",
+        "tga_prescription",
+        "oaic_apps"
+      ]
+    }
+  },
+  "implementationSources": {
+    "abeRegistry": {
+      "path": "ABEAIconsulting/src/lib/capabilities/registry.ts",
+      "sha256": "3b5e21d561b249f0bfc7c7492a6d2467cf091cbcdc00e7c451e9524d31151951",
+      "checkedAt": "2026-11-17"
+    }
+  }
+}

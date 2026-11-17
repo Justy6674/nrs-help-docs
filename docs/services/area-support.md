@@ -32,7 +32,7 @@ Review completed work against the agreed priorities and actual outcomes. Record 
 
 | Service | Reference | Listed fee |
 | --- | --- | --- |
-| [Post Set-up support](service-109.md) | NRS-109 | $99 per month |
+| [Post Set-up support](service-109.md) | NRS-109 | $99 per month, billed three months at a time |
 | [Essentials](service-077.md) | NRS-077 | $650 per month |
 | [Growth](service-078.md) | NRS-078 | $1,800 per month |
 | [Partner](service-079.md) | NRS-079 | $3,900 per month |
