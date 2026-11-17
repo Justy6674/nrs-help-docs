@@ -44,3 +44,10 @@ Enter the numeric **Google Analytics property ID** and select Google reporting. 
 Key events reflect the property's configuration; they are not automatically verified enquiries or bookings. Sampling, thresholding and restrictions require review. Recent completed-day totals may change during processing. [Google's reporting reference](https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1beta/properties/runReport) explains the underlying API.
 
 Search Console uses its own reporting window and timezone; Bing can include different search verticals. Read the stated period and definition instead of comparing unlike totals. If permission is missing, the report says so without inventing a value.
+
+
+### Using an existing Search Console connection
+
+Where NRS already has a verified Search Console connection for this business, the explicit query/index reads can use that property's existing read access. They do not choose from another client's properties or create a new sharing grant. If more than one saved property fits and there is no explicit selection, NRS withholds the read rather than guessing.
+
+An explicit reporting selection keeps its own connection path. A missing or invalid configuration is not permission to switch silently to another account. If access is unavailable, ask NRS support to check this business's selected property and existing Google sharing. Search Console access is separate from Ads, Analytics and website-speed checks; reconnecting one does not establish another. New Google sharing or consent still needs the property's owner to approve it.
