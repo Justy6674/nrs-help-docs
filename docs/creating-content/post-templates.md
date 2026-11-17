@@ -25,7 +25,7 @@ When creating or updating a template, give it a useful name and retain only word
 
 ## Use a saved template through your AI
 
-If your connected AI offers the saved-template tools, ask it to list templates for the intended business. Choose the exact saved template and keep the NRS template ID from that result. Ask the AI to fill that template using the verified values you provide.
+If your connected AI offers the saved-template tools, ask it to list templates for the intended business. Choose the saved template from those results, then ask the AI to fill it using the verified values you provide.
 
 The selected business's name fills `{brand}` automatically. The date fields `{date}`, `{month}`, `{year}`, and `{day_of_week}` use **Brisbane time**. Give the AI the real product, approved offer, correct link, and any other requested details. It must not invent them or replace the automatic business and date values.
 
