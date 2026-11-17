@@ -1,24 +1,28 @@
 ---
 title: "Using a terminal AI client"
-description: "Understand the supported access boundary before connecting another AI client."
+description: "Connect a terminal client by browser sign-in or a protected key and verify a read first."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+source_files: ["src/app/api/nrs/mcp/route.ts", "src/lib/nrs/harness/sign-in.ts", "src/lib/nrs/harness/oauth-client.ts", "src/lib/nrs/harness/oauth-grants.ts", "src/app/oauth/consent/page.tsx", "src/app/console/settings/agents/page.tsx"]
 feature_ids: ["nrs.connecting-devices"]
 source_urls: []
 ---
 
 # Using a terminal AI client
 
-This is an optional technical integration, not a requirement for using NRS.
+This is an optional connection. You can keep using the NRS desk in your browser.
 
-Ask the workspace manager to issue an external-AI key for the intended business and minimum required permissions. The current NRS endpoint is `https://www.notrealsmart.com.au/api/nrs/mcp`, using an `Authorization` bearer token with the supported HTTP MCP transport.
+The current server address is `https://www.notrealsmart.com.au/api/nrs/mcp`. The retired `/api/mcp` address returns 404.
 
-Configure the client using its current official instructions. Keep the key in the client's protected settings rather than a shared project file or command history. Do not reuse the retired `/api/mcp` instructions.
+If the client offers browser sign-in, add the server using its current official instructions. NRS supports public-client PKCE sign-in, including a local callback for an app on your device. Check the exact local return address and port on the consent page. An unfamiliar app is labelled unverified; its supplied name proves nothing.
 
-Verify a read-only call first. Check the business and returned scope, then test proposals before enabling consequential actions. NRS still checks permissions, approval and release requirements when tools execute.
+If the client requires a bearer token instead, ask the workspace manager for a named key with the minimum permissions for the intended business. Keep it in the client's protected settings, outside shared project files and command history.
 
-If a call fails, retain the safe error and operation details without exposing the token. A connected terminal client does not become an unrestricted agency operator. Use [key management](api-keys.md) to revoke or replace its access.
+Start with a read-only call. Check the returned business, then review proposals before consequential work. NRS still checks permissions, approvals and publication requirements on every operation. This guide does not certify every terminal client or its current version.
+
+Sign-in access passes last up to 15 minutes and can renew for up to 90 days when ongoing access was requested. Manual keys keep their configured expiry. To stop a sign-in connection, use **Settings → Agents → AI apps signed in as you → Disconnect**. See [key management and sign-in](api-keys.md).
+
+If a call fails, retain the safe error and affected operation. Do not include a token, authorisation code, return URL query or private credential in a support message.

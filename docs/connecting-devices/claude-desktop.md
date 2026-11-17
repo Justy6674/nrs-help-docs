@@ -1,22 +1,33 @@
 ---
 title: "Using Claude Desktop with NRS"
-description: "Understand the supported access boundary before connecting another AI client."
+description: "Connect Claude through an available sign-in method, then verify the intended business."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+source_files: ["src/app/api/nrs/mcp/route.ts", "src/lib/nrs/harness/sign-in.ts", "src/lib/nrs/harness/oauth-client.ts", "src/lib/nrs/harness/oauth-grants.ts", "src/app/oauth/consent/page.tsx", "src/app/console/settings/agents/page.tsx"]
 feature_ids: ["nrs.connecting-devices"]
-source_urls: []
+source_urls: ["https://claude.com/docs/connectors/building/authentication.md"]
 ---
 
 # Using Claude Desktop with NRS
 
-Use NRS in the browser unless an external Claude connection has been configured and verified for your workspace. The old automatic NRS OAuth connector walkthrough is not the current access contract.
+Use `https://www.notrealsmart.com.au/api/nrs/mcp` when Claude offers a remote MCP connection. The retired `/api/mcp` address returns 404.
 
-An authorised NRS manager can issue a scoped external-AI key. The current connection uses the NRS MCP endpoint with a bearer token. Whether a particular desktop client supports that configuration depends on its current transport and authentication capabilities; do not assume an “Add connector” screen accepts it.
+NRS supports public-client sign-in with PKCE, including documented Claude callback addresses and validated client metadata URLs. A particular Claude account or organisation still needs its own successful connection test. The available menus and static-header options depend on Claude.
 
-Agree the business, allowed tools and approval path before connecting. Start with a read-only operation and verify that it returns only the intended business's information. A successful connection is not authorisation to send or publish.
+## Connect through NRS sign-in
 
-Use [external access keys](api-keys.md) for the NRS side of the setup. If the client cannot support it, keep the workflow in the NRS desk rather than improvising a public proxy or sharing a staff session.
+1. Add the server address through Claude's available connector settings.
+2. Sign in on the NRS page with your own login.
+3. Check the app, return address, businesses and lifetime before approving a request you started.
+4. Ask Claude to list your businesses and make a read-only check for the intended business.
+
+A supplied name is not identity proof. Check the warning and origin if NRS labels an app unverified. If Claude does not offer a compatible connection, ask NRS to check your setup or keep using the NRS desk.
+
+Access passes last up to 15 minutes. Ongoing access, when requested, can renew for up to 90 days. Disconnect your app in **Settings → Agents → AI apps signed in as you**. NRS checks current business access on each tool call.
+
+If your organisation uses a supported static-header connection instead, an authorised manager can issue a scoped key. Keep it in Claude's protected credential settings. Never share a staff session or create a public proxy to work around missing client support.
+
+Use [external AI access keys and sign-in](api-keys.md) for the full NRS-side setup. A working connection does not approve a send, publication or expense.

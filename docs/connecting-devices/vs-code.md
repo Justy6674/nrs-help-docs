@@ -1,24 +1,28 @@
 ---
 title: "Using an editor-based AI client"
-description: "Understand the supported access boundary before connecting another AI client."
+description: "Check an editor client supports NRS sign-in or protected keys before using business tools."
 sidebar_position: 1
-last_verified: "2026-09-08"
+last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/app/console/settings/agents/page.tsx", "src/app/console/settings/agents/principal-actions.ts", "src/app/api/nrs/mcp/route.ts"]
+source_files: ["src/app/api/nrs/mcp/route.ts", "src/lib/nrs/harness/sign-in.ts", "src/lib/nrs/harness/oauth-client.ts", "src/lib/nrs/harness/oauth-grants.ts", "src/app/oauth/consent/page.tsx", "src/app/console/settings/agents/page.tsx"]
 feature_ids: ["nrs.connecting-devices"]
 source_urls: []
 ---
 
 # Using an editor-based AI client
 
-An editor-based AI connection is optional. The current NRS product does not require a particular VS Code extension or the retired Cowork setup described by the earlier help page.
+An editor connection is optional. NRS does not require a particular VS Code extension.
 
-If your team wants this integration, confirm that its chosen client supports the current HTTP MCP endpoint and bearer-token authentication. An authorised NRS manager issues a business-scoped key through Settings → Agents → External AI.
+Use `https://www.notrealsmart.com.au/api/nrs/mcp` in a client that supports remote MCP. NRS supports public-client sign-in with PKCE. It recognises documented hosted callback addresses, local app callbacks and validated client metadata URLs. These server capabilities do not prove that every editor or extension offers a compatible connection.
 
-Keep the key outside source-controlled files and give it only the required permissions. Begin with a read-only task, check the business returned and verify the proposal/approval workflow before enabling writes or sends.
+If your client opens an NRS consent page, use your own login. Check the app, return address, businesses and lifetime before approving a request you started yourself. NRS labels an unverified app; a supplied name alone is not identity proof.
 
-Do not treat a model-selected business name as permission to access a workspace. NRS authorisation remains the boundary. The setup is complete only after the actual client workflow works with the intended permissions; a configuration snippet alone is not proof.
+If the client uses a bearer token instead, an authorised manager can issue a named business key in **Settings → Agents → External AI**. Keep it outside source-controlled files and give it only the permissions it needs.
 
-For everyday content and report work, the NRS desk remains the direct route. See [external access keys](api-keys.md) for the maintained NRS-side contract.
+Begin with a read-only task and check the business returned. Review the normal proposal and approval steps before any write or send. A model-selected business name does not grant access to that business.
+
+Sign-in passes last up to 15 minutes. Apps that requested ongoing access can renew for up to 90 days. Disconnect a sign-in in **Settings → Agents → AI apps signed in as you**. See [external AI access keys and sign-in](api-keys.md) for the maintained NRS-side setup.
+
+The retired `/api/mcp` address returns 404. If the client cannot use the current endpoint or supported sign-in method, ask NRS to check compatibility or keep using the NRS desk.
