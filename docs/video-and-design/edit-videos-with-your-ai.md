@@ -6,7 +6,7 @@ last_verified: "2026-11-17"
 review_status: "reviewed"
 availability: "limited"
 review_owner: "Bec and Justin"
-source_files: ["src/lib/nrs/media-agent/", "src/lib/nrs/media-reel-from-page/", "src/lib/nrs/media-typography.ts", "src/components/nrs/ReelAgentPanel.tsx", "src/components/nrs/ReelListenButton.tsx", "src/components/nrs/ReelFromPage.tsx", "src/components/nrs/ReelEditor.tsx"]
+source_files: ["src/lib/nrs/media-agent/", "src/lib/nrs/media-reel-from-page/", "src/lib/nrs/media-typography.ts", "src/components/nrs/ReelAgentPanel.tsx", "src/components/nrs/ReelListenButton.tsx", "src/components/nrs/ReelFromPage.tsx", "src/components/nrs/ReelEditor.tsx", "src/lib/nrs/harness/draft-tools.ts", "src/lib/nrs/harness/publication-presentation.ts", "src/lib/nrs/harness/publish-tools-live.ts"]
 feature_ids: ["nrs.video-and-design", "nrs.eve"]
 source_urls: []
 ---
@@ -49,6 +49,16 @@ your reels the same way you can on the reel screen:
 - It cannot see or change another business's videos.
 - Only an owner or approver of the business can have finished videos made, by hand or through their AI. An AI can make
   up to 15 finished videos an hour for each business.
+
+## Review saved YouTube settings and a cover
+
+Where these draft options are available, tell your connected AI the YouTube **title**, **visibility** (public, unlisted or private), whether it is **made for kids**, whether it **contains synthetic media**, and any **first comment** you want saved. These choices are optional; do not assume an omitted choice was confirmed. The AI handles the draft fields and account references for the business you chose.
+
+Choose a cover image already in that business's NRS library and attach it alongside the video on the YouTube version. A cover is a still image, not another playable video. If one post targets several YouTube accounts, they must use the same YouTube settings and cover; use separate posts when you need different versions.
+
+In the publication preview, check the **saved platform settings and selected YouTube cover** before approving anything. If NRS says it cannot safely read the saved settings, ask your AI to repeat that warning and open the draft to check it. Do not treat unreadable settings as verified defaults.
+
+Saving these choices does not schedule or publish the post. A saved cover, or seeing it in NRS's preview, does not prove that YouTube accepted a custom Shorts thumbnail or that it will be delivered on that channel. The actual provider result needs its own later check after an authorised release. Continue through the normal [post review](../creating-content/approve-posts.md).
 
 ## Seeing and undoing your AI's changes
 
